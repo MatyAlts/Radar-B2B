@@ -7,6 +7,7 @@ import {
   DrawerTitle,
   DrawerDescription,
 } from '@/components/ui/drawer'
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { Company } from '@/lib/api/types'
 import { ScoreBadge } from './ScoreBadge'
 import { TemperatureBadge } from './TemperatureBadge'
@@ -14,6 +15,8 @@ import { SignalBreakdown } from './details/SignalBreakdown'
 import { JustificationSection } from './details/JustificationSection'
 import { ContactsList } from './details/ContactsList'
 import { TendersList } from './details/TendersList'
+import { ContactList } from '@/components/leads/ContactList'
+import { EnrichAction } from '@/components/leads/EnrichAction'
 
 interface CompanyDetailDrawerProps {
   company: Company | null
@@ -38,25 +41,40 @@ export function CompanyDetailDrawer({
           </DrawerDescription>
         </DrawerHeader>
 
-        <div className="space-y-6 overflow-y-auto px-4 pb-6">
-          {/* Score Section */}
-          <div className="flex gap-3">
-            <ScoreBadge score={company.score} />
-            <TemperatureBadge temperature={company.temperature} />
-          </div>
+        <Tabs defaultValue="resumen" className="overflow-y-auto px-4 pb-6">
+          <TabsList className="mb-4">
+            <TabsTrigger value="resumen">Resumen</TabsTrigger>
+            <TabsTrigger value="contactos">Contactos</TabsTrigger>
+          </TabsList>
 
-          {/* Signals Breakdown */}
-          <SignalBreakdown signals={company.signals} />
+          <TabsContent value="resumen" className="space-y-6">
+            {/* Score Section */}
+            <div className="flex gap-3">
+              <ScoreBadge score={company.score} />
+              <TemperatureBadge temperature={company.temperature} />
+            </div>
 
-          {/* Justification */}
-          <JustificationSection justification={company.score_justification} />
+            {/* Signals Breakdown */}
+            <SignalBreakdown signals={company.signals} />
 
-          {/* Contacts */}
-          {company.contacts.length > 0 && <ContactsList contacts={company.contacts} />}
+            {/* Justification */}
+            <JustificationSection justification={company.score_justification} />
 
-          {/* Tenders */}
-          {company.tenders.length > 0 && <TendersList tenders={company.tenders} />}
-        </div>
+            {/* Contacts from initial payload */}
+            {company.contacts.length > 0 && <ContactsList contacts={company.contacts} />}
+
+            {/* Tenders */}
+            {company.tenders.length > 0 && <TendersList tenders={company.tenders} />}
+          </TabsContent>
+
+          <TabsContent value="contactos" className="space-y-4">
+            <div className="flex items-center justify-between">
+              <h3 className="font-semibold text-base">Decisores de la empresa</h3>
+              <EnrichAction company={company} />
+            </div>
+            <ContactList companyId={company.id} />
+          </TabsContent>
+        </Tabs>
       </DrawerContent>
     </Drawer>
   )

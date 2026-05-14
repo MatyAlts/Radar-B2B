@@ -18,8 +18,9 @@ const mockCompanies: Company[] = [
       total_points: 55,
     },
     contacts: [
-      { id: 'c1', name: 'Jorge Mendez', title: 'Gerente General', email: 'jorge@minera.bo', phone: '+591-1234567' },
-      { id: 'c2', name: 'Patricia Ruiz', title: 'Jefe de Compras', email: 'patricia@minera.bo' },
+      { id: 'c1', company_id: '1', name: 'Jorge Mendez', title: 'Gerente General', email: 'jorge@minera.bo', linkedin_url: 'https://linkedin.com/in/jorgemendez', phone: '+591-1234567', reliability: 'high', last_updated_at: '2024-05-14' },
+      { id: 'c2', company_id: '1', name: 'Patricia Ruiz', title: 'Jefe de Compras', email: 'patricia@minera.bo', linkedin_url: 'https://linkedin.com/in/patriciaru', phone: '+591-1234568', reliability: 'high', last_updated_at: '2024-05-14' },
+      { id: 'c3', company_id: '1', name: 'Marco Condori', title: 'Supervisor de Operaciones', email: 'marco@minera.bo', reliability: 'medium', last_updated_at: '2024-05-10' },
     ],
     tenders: [
       { id: 't1', title: 'Suministro de equipos mineros', description: 'Búsqueda de proveedores', date: '2024-05-10', status: 'pending' },
@@ -43,7 +44,8 @@ const mockCompanies: Company[] = [
       total_points: 40,
     },
     contacts: [
-      { id: 'c1', name: 'Carlos López', title: 'Gerente General', email: 'carlos@logisticenter.bo' },
+      { id: 'c1', company_id: '2', name: 'Carlos López', title: 'Gerente General', email: 'carlos@logisticenter.bo', linkedin_url: 'https://linkedin.com/in/carloslopez', phone: '+591-2234567', reliability: 'high', last_updated_at: '2024-05-12' },
+      { id: 'c2', company_id: '2', name: 'Débora Fernández', title: 'Gerente de Logística', email: 'debora@logisticenter.bo', linkedin_url: 'https://linkedin.com/in/deboraf', reliability: 'high', last_updated_at: '2024-05-12' },
     ],
     tenders: [],
     score_justification: 'Empresa de logística con crecimiento reciente. Posicionada en región de alta demanda comercial.',
@@ -64,7 +66,8 @@ const mockCompanies: Company[] = [
       total_points: 15,
     },
     contacts: [
-      { id: 'c1', name: 'Fernando Díaz', title: 'Director Comercial', email: 'fernando@agroindustria.bo' },
+      { id: 'c1', company_id: '3', name: 'Fernando Díaz', title: 'Director Comercial', email: 'fernando@agroindustria.bo', linkedin_url: 'https://linkedin.com/in/fernandodiaz', reliability: 'medium', last_updated_at: '2024-05-11' },
+      { id: 'c2', company_id: '3', name: 'Elena Pacta', title: 'Jefe de Operaciones', phone: '+591-3234567', reliability: 'medium', last_updated_at: '2024-05-08' },
     ],
     tenders: [],
     score_justification: 'Empresa agroindustrial con señales moderadas de crecimiento. Sector estratégico pero tamaño mediano.',
@@ -85,7 +88,7 @@ const mockCompanies: Company[] = [
       total_points: 20,
     },
     contacts: [
-      { id: 'c1', name: 'Roberto Silva', title: 'Gerente de Operaciones', email: 'roberto@industrialmetals.bo' },
+      { id: 'c1', company_id: '4', name: 'Roberto Silva', title: 'Gerente de Operaciones', email: 'roberto@industrialmetals.bo', linkedin_url: 'https://linkedin.com/in/robertosilva', reliability: 'medium', last_updated_at: '2024-05-13' },
     ],
     tenders: [],
     score_justification: null,
@@ -107,7 +110,8 @@ const mockCompanies: Company[] = [
       total_points: 35,
     },
     contacts: [
-      { id: 'c1', name: 'Mariana Gómez', title: 'Gerente General' },
+      { id: 'c1', company_id: '5', name: 'Mariana Gómez', title: 'Gerente General', email: 'mariana@mercosur.bo', linkedin_url: 'https://linkedin.com/in/marianagomez', phone: '+591-4234567', reliability: 'high', last_updated_at: '2024-05-14' },
+      { id: 'c2', company_id: '5', name: 'Gustavo Aramayo', title: 'Gerente de Compras', email: 'gustavo@mercosur.bo', reliability: 'high', last_updated_at: '2024-05-14' },
     ],
     tenders: [
       { id: 't1', title: 'Sistema de gestión de almacenes', description: 'Software de logística', date: '2024-05-08', status: 'pending' },
@@ -130,7 +134,7 @@ const mockCompanies: Company[] = [
       total_points: 15,
     },
     contacts: [
-      { id: 'c1', name: 'Luis Quispe', title: 'Gerente Comercial' },
+      { id: 'c1', company_id: '6', name: 'Luis Quispe', title: 'Gerente Comercial', email: 'luis@transportesint.bo', phone: '+591-5234567', reliability: 'low', last_updated_at: '2024-05-10' },
     ],
     tenders: [],
     score_justification: 'Empresa de transporte con señales moderadas. Oportunidad para soluciones de logística.',
@@ -168,7 +172,7 @@ const mockCompanies: Company[] = [
       total_points: 20,
     },
     contacts: [
-      { id: 'c1', name: 'Javier Toledo', title: 'Director de Producción' },
+      { id: 'c1', company_id: '8', name: 'Javier Toledo', title: 'Director de Producción', email: 'javier@textilmanu.bo', linkedin_url: 'https://linkedin.com/in/javiertoledo', reliability: 'medium', last_updated_at: '2024-05-09' },
     ],
     tenders: [],
     score_justification: 'Empresa manufacturera con señales moderadas de inversión en infraestructura.',
@@ -191,8 +195,9 @@ const mockCompanies: Company[] = [
       total_points: 55,
     },
     contacts: [
-      { id: 'c1', name: 'Andrés Morales', title: 'Gerente General' },
-      { id: 'c2', name: 'Susana Gutiérrez', title: 'Gerente de Operaciones' },
+      { id: 'c1', company_id: '9', name: 'Andrés Morales', title: 'Gerente General', email: 'andres@mineriapplus.bo', linkedin_url: 'https://linkedin.com/in/andresmorales', phone: '+591-6234567', reliability: 'high', last_updated_at: '2024-05-14' },
+      { id: 'c2', company_id: '9', name: 'Susana Gutiérrez', title: 'Gerente de Operaciones', email: 'susana@mineriapplus.bo', linkedin_url: 'https://linkedin.com/in/susanag', reliability: 'high', last_updated_at: '2024-05-14' },
+      { id: 'c3', company_id: '9', name: 'Rodrigo Ayllón', title: 'Jefe de Compras', phone: '+591-6234568', reliability: 'medium', last_updated_at: '2024-05-12' },
     ],
     tenders: [
       { id: 't1', title: 'Equipos de perforación', description: 'Búsqueda de proveedores internacionales', date: '2024-05-15', status: 'pending' },
@@ -215,7 +220,7 @@ const mockCompanies: Company[] = [
       total_points: 20,
     },
     contacts: [
-      { id: 'c1', name: 'Daniela Ruiz', title: 'Gerente de Operaciones' },
+      { id: 'c1', company_id: '10', name: 'Daniela Ruiz', title: 'Gerente de Operaciones', email: 'daniela@centrologistico.bo', linkedin_url: 'https://linkedin.com/in/danielaruiz', reliability: 'high', last_updated_at: '2024-05-11' },
     ],
     tenders: [],
     score_justification: 'Centro de distribución con crecimiento en infraestructura. Potencial cliente para soluciones de logística.',

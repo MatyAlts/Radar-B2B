@@ -1,5 +1,5 @@
 import { apiFetch } from './client'
-import { Company, CompanyListParams, PaginatedResponse } from './types'
+import { Company, CompanyListParams, PaginatedResponse, ApiError } from './types'
 import { getMockCompanies } from './mock'
 
 export async function listCompanies(
@@ -121,4 +121,16 @@ function filterMockCompanies(
     page_size: pageSize,
     total_pages: Math.ceil(filtered.length / pageSize),
   }
+}
+
+export async function enrichCompany(companyId: string): Promise<void> {
+  // Mock enrichment if enabled
+  if (process.env.NEXT_PUBLIC_API_MOCK === 'true') {
+    await new Promise(resolve => setTimeout(resolve, 500)) // Simulate enrich delay
+    return
+  }
+
+  await apiFetch<void>(`/api/v1/companies/${companyId}/enrich`, {
+    method: 'POST',
+  })
 }

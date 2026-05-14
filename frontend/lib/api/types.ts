@@ -16,13 +16,18 @@ export interface CompanySignals {
   total_points: number
 }
 
+export type ContactReliability = 'high' | 'medium' | 'low'
+
 export interface Contact {
   id: string
+  company_id: string
   name: string
   title: string
   email?: string
+  linkedin_url?: string
   phone?: string
-  linkedin?: string
+  reliability: ContactReliability
+  last_updated_at: string
 }
 
 export interface Tender {
