@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(openspec status *)",
+      "Bash(openspec list *)",
+      "Bash(openspec init *)",
+      "Bash(dir openspec *)",
+      "Bash(openspec new *)",
+      "Bash(openspec instructions *)",
+      "Bash(git init *)",
+      "mcp__plugin_engram_engram__mem_session_summary",
+      "Bash(git add *)"
+    ]
+  }
+}

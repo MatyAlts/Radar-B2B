@@ -1,0 +1,42 @@
+schema: spec-driven
+
+context: |
+  Proyecto: Radar B2B Inteligente (Radar Comercial IA)
+  Dominio: Plataforma de detección de empresas con alta probabilidad de compra
+  Sectores objetivo: industria, logística, agro, minería, almacenamiento
+  País: Bolivia
+
+  Tech stack:
+    Backend: Python / FastAPI
+    Frontend: React o Next.js
+    Base de datos: PostgreSQL
+    IA: Claude API (Anthropic) para scoring, resúmenes y justificaciones
+
+  Fuentes de datos:
+    - Apollo.io: búsqueda y enriquecimiento de empresas y contactos (decisores)
+    - SICOES: procesos de contratación pública en Bolivia
+    - Prensa Industrial: scraping/monitoreo de noticias
+
+  Funcionalidades core:
+    1. Detección de empresas (búsqueda por industria, ubicación, tamaño)
+    2. Identificación de decisores (email, LinkedIn, teléfono vía Apollo)
+    3. Scoring híbrido con IA (0-100) con justificación en lenguaje natural
+    4. Dashboard de 5 pantallas (Radar, Leads, Señales, Scoring, Reportes)
+    5. Reportes automáticos por email/PDF
+
+  Scoring breakdown:
+    Sector estratégico: +20
+    Empresa con crecimiento/noticias recientes: +15
+    Participación en licitaciones: +20
+    Tamaño adecuado: +10
+    Decisor encontrado: +15
+    Señal de compra detectada: +20
+
+  Convenciones:
+    - Conventional commits
+    - Clean Architecture (capas: api, domain, infrastructure, services)
+    - Tests con pytest (backend) y Vitest + Testing Library (frontend)
+    - Strict TDD Mode activo
+
+  Variables de entorno clave:
+    APOLLO_API_KEY, DATABASE_URL, ANTHROPIC_API_KEY
