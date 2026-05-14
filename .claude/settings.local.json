@@ -9,7 +9,11 @@
       "Bash(openspec instructions *)",
       "Bash(git init *)",
       "mcp__plugin_engram_engram__mem_session_summary",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(alembic init *)",
+      "Bash(git commit -m 'feat: implement MVP backend with Clean Architecture *)",
+      "mcp__plugin_engram_engram__mem_context"
     ]
   }
 }
