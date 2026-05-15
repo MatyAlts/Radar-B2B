@@ -6,14 +6,14 @@ Plataforma de inteligencia comercial que detecta empresas con alta probabilidad 
 
 | Documento | Descripción |
 |-----------|-------------|
-| [Arquitectura](./architecture.md) | Clean Architecture, capas, decisiones de diseño |
-| [Primeros pasos](./getting-started.md) | Setup local y con Docker |
-| [API Reference](./api-reference.md) | Endpoints REST, parámetros y respuestas |
-| [Motor de Scoring](./scoring-engine.md) | Algoritmo de puntaje (0–100) e IA |
-| [Fuentes de Datos](./data-sources.md) | Apollo.io, SICOES, señales de mercado |
-| [Frontend](./frontend.md) | Next.js 16, componentes, estado y testing |
-| [Deployment](./deployment.md) | Docker Compose, variables de entorno, CI/CD |
-| [Decisiones Técnicas](./adr.md) | Architecture Decision Records |
+| [Arquitectura](./docs/architecture.md) | Clean Architecture, capas, decisiones de diseño |
+| [Primeros pasos](./docs/getting-started.md) | Setup local y con Docker |
+| [API Reference](./docs/api-reference.md) | Endpoints REST, parámetros y respuestas |
+| [Motor de Scoring](./docs/scoring-engine.md) | Algoritmo de puntaje (0–100) e IA |
+| [Fuentes de Datos](./docs/data-sources.md) | Apollo.io, SICOES, señales de mercado |
+| [Frontend](./docs/frontend.md) | Next.js 16, componentes, estado y testing |
+| [Deployment](./docs/deployment.md) | Docker Compose, variables de entorno, CI/CD |
+| [Decisiones Técnicas](./docs/adr.md) | Architecture Decision Records |
 
 ## Resumen del sistema
 
