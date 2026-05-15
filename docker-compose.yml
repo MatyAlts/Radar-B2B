@@ -10,10 +10,13 @@ services:
     volumes:
       - radar_db_data:/var/lib/postgresql/data
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-radar}"]
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-radar} -d ${POSTGRES_DB:-radar_db}"]
       interval: 10s
       timeout: 5s
-      retries: 5
+      retries: 10
+    restart: unless-stopped
+    networks:
+      - radar-net
 
   api:
     build:
@@ -25,11 +28,12 @@ services:
       APOLLO_API_KEY: ${APOLLO_API_KEY:-}
       GEMINI_API_KEY: ${GEMINI_API_KEY:-}
       DEBUG: "false"
-    expose:
-      - "8000"
     depends_on:
       db:
         condition: service_healthy
+    restart: unless-stopped
+    networks:
+      - radar-net
 
   frontend:
     build:
@@ -39,10 +43,15 @@ services:
         NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL}
     environment:
       NODE_ENV: production
-    expose:
-      - "3000"
     depends_on:
       - api
+    restart: unless-stopped
+    networks:
+      - radar-net
+
+networks:
+  radar-net:
+    driver: bridge
 
 volumes:
   radar_db_data:
