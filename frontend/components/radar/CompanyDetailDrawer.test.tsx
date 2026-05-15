@@ -18,7 +18,7 @@ const createMockCompany = (overrides?: Partial<Company>): Company => ({
     total_points: 20,
   },
   contacts: [
-    { id: 'c1', name: 'John Doe', title: 'CEO', email: 'john@test.com' },
+    { id: 'c1', company_id: '1', name: 'John Doe', title: 'CEO', email: 'john@test.com', reliability: 'high', last_updated_at: '2024-05-14' },
   ],
   tenders: [
     { id: 't1', title: 'Test Tender', description: 'Test description', date: '2024-05-14', status: 'pending' },

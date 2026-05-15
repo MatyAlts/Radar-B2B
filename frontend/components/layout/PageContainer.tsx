@@ -27,7 +27,7 @@ const PageContainer = React.forwardRef<HTMLDivElement, PageContainerProps>(
       <div
         ref={ref}
         className={cn(
-          "flex min-h-screen flex-col gap-6 bg-background p-6 md:p-8",
+          "flex flex-col h-full",
           className
         )}
         role="main"
@@ -35,29 +35,31 @@ const PageContainer = React.forwardRef<HTMLDivElement, PageContainerProps>(
         {(title || helpContent) && (
           <div
             className={cn(
-              "flex items-start justify-between gap-4",
+              "flex flex-col gap-1 p-6 md:px-8 lg:px-10 md:flex-row md:items-end md:justify-between flex-none",
               headerClassName
             )}
             role="banner"
           >
-            <div className="flex-1">
+            <div className="flex-1 space-y-1">
               {title && (
-                <h1 className="text-3xl font-semibold tracking-tight">
+                <h1 className="text-2xl font-bold tracking-tight text-foreground">
                   {title}
                 </h1>
               )}
               {subtitle && (
-                <p className="mt-2 text-sm text-muted-foreground" id="page-subtitle">{subtitle}</p>
+                <p className="text-xs font-medium text-muted-foreground" id="page-subtitle">
+                  {subtitle}
+                </p>
               )}
             </div>
             {helpContent && (
-              <div className="flex-shrink-0">
+              <div className="mt-4 flex-shrink-0 md:mt-0">
                 <HelpButton content={helpContent} title={`Ayuda: ${title}`} />
               </div>
             )}
           </div>
         )}
-        <div className="flex-1" role="region" aria-label="Contenido principal">
+        <div className="flex-1 overflow-hidden" role="region" aria-label="Contenido principal">
           {children}
         </div>
       </div>

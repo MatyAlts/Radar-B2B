@@ -22,7 +22,7 @@ import LeadsPage from './page'
 describe('Leads Page Integration', () => {
   beforeEach(() => {
     vi.clearAllMocks()
-    vi.mocked(useSearchParams).mockReturnValue(new URLSearchParams())
+    vi.mocked(useSearchParams).mockReturnValue(new URLSearchParams() as any)
   })
 
   it('should render the leads page with title', () => {
@@ -60,7 +60,7 @@ describe('Leads Page Integration', () => {
     const { container } = render(<LeadsPage />)
     const mainDiv = container.firstChild
 
-    expect(mainDiv?.className).toMatch(/min-h-screen/)
+    expect((mainDiv as HTMLElement)?.className).toMatch(/min-h-screen/)
   })
 
   it('should display content in a centered container', () => {

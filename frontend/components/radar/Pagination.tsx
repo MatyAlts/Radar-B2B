@@ -78,8 +78,8 @@ export function Pagination({ currentPage, totalPages, isLoading }: PaginationPro
 
 function getPaginationNumbers(current: number, total: number): (number | string)[] {
   const delta = 2
-  const range = []
-  const rangeWithDots = []
+  const range: number[] = []
+  const rangeWithDots: (number | string)[] = []
   let l: number
 
   for (let i = 1; i <= total; i++) {

@@ -24,12 +24,14 @@ interface CompanyDetailDrawerProps {
   company: Company | null
   isOpen: boolean
   onClose: () => void
+  onScoreUpdate?: (updatedCompany: Company) => void
 }
 
 export function CompanyDetailDrawer({
   company,
   isOpen,
   onClose,
+  onScoreUpdate,
 }: CompanyDetailDrawerProps) {
   if (!company) return null
 
@@ -65,7 +67,11 @@ export function CompanyDetailDrawer({
             <SignalBreakdown signals={company.signals} />
 
             {/* Justification */}
-            <JustificationSection companyId={company.id} justification={company.score_justification} />
+            <JustificationSection 
+              companyId={company.id} 
+              justification={company.score_justification} 
+              onScoreUpdate={onScoreUpdate}
+            />
 
             {/* Contacts from initial payload */}
             {company.contacts.length > 0 && <ContactsList contacts={company.contacts} />}

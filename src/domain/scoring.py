@@ -54,7 +54,7 @@ def calculate_score(signals: CompanySignals) -> int:
 def determine_temperature(score: int) -> str:
     """Determina la temperatura basada en el score."""
     if score >= 70:
-        return "hot"
+        return "caliente"
     elif score >= 40:
-        return "warm"
-    return "cold"
+        return "tibio"
+    return "frío"

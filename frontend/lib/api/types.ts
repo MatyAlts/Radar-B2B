@@ -1,6 +1,17 @@
 export type Temperature = 'caliente' | 'tibio' | 'frío'
 
-export type Industry = 'industria' | 'logistica' | 'agro' | 'mineria' | 'almacenamiento'
+export type Industry = 
+  | 'industria' 
+  | 'logistica' 
+  | 'agro' 
+  | 'mineria' 
+  | 'almacenamiento'
+  | 'mining & metals'
+  | 'logistics & supply chain'
+  | 'warehousing'
+  | 'chemicals'
+  | 'farming'
+  | 'mechanical or industrial engineering'
 
 export interface Signal {
   id: string

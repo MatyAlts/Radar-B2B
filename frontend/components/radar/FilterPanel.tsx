@@ -1,10 +1,8 @@
 'use client'
 
 import { useRadarFilters } from '@/lib/hooks/use-radar-filters'
-import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
-import { Badge } from '@/components/ui/badge'
-import { X } from 'lucide-react'
+import { X, Search } from 'lucide-react'
 import { TemperatureFilter } from './filters/TemperatureFilter'
 import { IndustryFilter } from './filters/IndustryFilter'
 import { ScoreRangeFilter } from './filters/ScoreRangeFilter'
@@ -18,44 +16,54 @@ export function FilterPanel() {
 
   useEffect(() => {
     filters.setQuery(debouncedQuery)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [debouncedQuery])
 
-  const activeFilterCount =
-    filters.industries.length +
-    (filters.temperature ? 1 : 0) +
-    (filters.query ? 1 : 0) +
-    (filters.scoreRange[0] !== 0 || filters.scoreRange[1] !== 100 ? 1 : 0)
+  const hasActive = filters.hasActiveFilters()
+
+  const handleClear = () => {
+    filters.resetFilters()
+    setQueryInput('')
+  }
 
   return (
-    <div className="rounded-lg border border-gray-200 bg-white p-4 space-y-4">
+    <aside className="flex h-full w-52 shrink-0 flex-col gap-5 overflow-y-auto rounded-xl border border-border bg-card px-4 py-5">
+      {/* Header */}
       <div className="flex items-center justify-between">
-        <h2 className="font-semibold text-gray-900">Filtros</h2>
-        {filters.hasActiveFilters() && (
-          <Badge variant="secondary">{activeFilterCount} activos</Badge>
+        <span className="text-[11px] font-bold uppercase tracking-widest text-muted-foreground">
+          Filtros
+        </span>
+        {hasActive && (
+          <button
+            type="button"
+            onClick={handleClear}
+            className="flex items-center gap-1 text-[10px] font-semibold text-destructive transition-colors hover:text-destructive/80"
+          >
+            <X className="h-3 w-3" />
+            Limpiar
+          </button>
         )}
       </div>
 
-      <Input
-        placeholder="Buscar por nombre, sector o ciudad..."
-        value={queryInput}
-        onChange={e => setQueryInput(e.target.value)}
-        className="w-full"
-      />
+      {/* Search */}
+      <div className="relative">
+        <Search className="pointer-events-none absolute left-2.5 top-1/2 h-3.5 w-3.5 -translate-y-1/2 text-muted-foreground" />
+        <Input
+          placeholder="Buscar empresa..."
+          value={queryInput}
+          onChange={e => setQueryInput(e.target.value)}
+          className="h-8 w-full rounded-lg border-transparent bg-secondary/50 pl-8 pr-3 text-xs focus:border-ring/20 focus:bg-background"
+        />
+      </div>
 
-      <TemperatureFilter />
-      <IndustryFilter />
+      {/* Score */}
       <ScoreRangeFilter />
 
-      {filters.hasActiveFilters() && (
-        <Button
-          onClick={() => filters.resetFilters()}
-          variant="outline"
-          className="w-full"
-        >
-          <X className="mr-2 h-4 w-4" />
-          Limpiar filtros
-        </Button>
-      )}
-    </div>
+      {/* Temperatura */}
+      <TemperatureFilter />
+
+      {/* Sector */}
+      <IndustryFilter />
+    </aside>
   )
 }

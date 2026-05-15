@@ -1,6 +1,6 @@
 'use client'
 
-import { useQuery } from '@tanstack/react-query'
+import { useQuery, keepPreviousData } from '@tanstack/react-query'
 import { listCompanies } from '@/lib/api/companies'
 import { useRadarFilters } from './use-radar-filters'
 
@@ -30,7 +30,7 @@ export function useCompanies() {
         order_by: filters.orderBy,
         order: filters.order,
       }),
-    keepPreviousData: true,
+    placeholderData: keepPreviousData,
   })
 
   return query

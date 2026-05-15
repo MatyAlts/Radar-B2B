@@ -1,3 +1,3 @@
-from src.infrastructure.ai.claude_client import ClaudeClient
+from src.infrastructure.ai.gemini_client import GeminiClient
 
-__all__ = ["ClaudeClient"]
+__all__ = ["GeminiClient"]

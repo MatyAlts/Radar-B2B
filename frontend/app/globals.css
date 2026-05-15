@@ -1,119 +1,65 @@
 @import "tailwindcss";
 
-:root {
-  /* Light mode base colors */
-  --background: oklch(98% 0.01 264);
-  --foreground: oklch(14.5% 0.025 264);
+@theme {
+  /* OKLCH Neutral Design System - Slate/Zinc inspired */
+  --color-background: oklch(99% 0 0);
+  --color-foreground: oklch(15% 0.01 0);
 
-  /* Semantic colors - Light */
-  --primary: oklch(57% 0.2 264);
-  --primary-light: oklch(75% 0.1 264);
-  --primary-dark: oklch(35% 0.25 264);
+  --color-card: oklch(100% 0 0);
+  --color-card-foreground: oklch(15% 0.01 0);
 
-  --secondary: oklch(52% 0.18 200);
-  --secondary-light: oklch(70% 0.1 200);
-  --secondary-dark: oklch(30% 0.22 200);
+  --color-popover: oklch(100% 0 0);
+  --color-popover-foreground: oklch(15% 0.01 0);
 
-  --success: oklch(62% 0.22 142);
-  --success-light: oklch(80% 0.12 142);
-  --success-dark: oklch(40% 0.28 142);
+  --color-primary: oklch(25% 0.02 0); /* Pure Black/Dark Slate for high-end look */
+  --color-primary-foreground: oklch(100% 0 0);
 
-  --warning: oklch(73% 0.23 70);
-  --warning-light: oklch(88% 0.13 70);
-  --warning-dark: oklch(50% 0.3 70);
+  --color-secondary: oklch(96% 0.01 0);
+  --color-secondary-foreground: oklch(20% 0.02 0);
 
-  --error: oklch(62% 0.24 29);
-  --error-light: oklch(80% 0.14 29);
-  --error-dark: oklch(40% 0.3 29);
+  --color-muted: oklch(96% 0.01 0);
+  --color-muted-foreground: oklch(45% 0.02 0);
 
-  --info: oklch(60% 0.21 254);
-  --info-light: oklch(78% 0.11 254);
-  --info-dark: oklch(38% 0.27 254);
+  --color-accent: oklch(96% 0.01 0);
+  --color-accent-foreground: oklch(20% 0.02 0);
 
-  /* Neutral palette */
-  --muted: oklch(45% 0.02 264);
-  --muted-foreground: oklch(64% 0.02 264);
+  --color-destructive: oklch(55% 0.2 25);
+  --color-destructive-foreground: oklch(100% 0 0);
 
-  /* Borders and accents */
-  --border: oklch(88% 0.02 264);
-  --input: oklch(92% 0.02 264);
-  --ring: oklch(57% 0.2 264);
+  --color-warning: oklch(88% 0.15 85);
+  --color-warning-foreground: oklch(25% 0.05 85);
+
+  --color-success: oklch(75% 0.15 145);
+  --color-success-foreground: oklch(20% 0.04 145);
+
+  --color-border: oklch(90% 0.01 0);
+  --color-input: oklch(90% 0.01 0);
+  --color-ring: oklch(25% 0.02 0);
+
+  --radius-lg: 0.5rem; /* More professional, less 'bubbly' */
+  --radius-md: calc(var(--radius-lg) - 2px);
+  --radius-sm: calc(var(--radius-lg) - 4px);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    /* Dark mode base colors */
-    --background: oklch(14.5% 0.025 264);
-    --foreground: oklch(98% 0.01 264);
-
-    /* Semantic colors - Dark */
-    --primary: oklch(60% 0.22 264);
-    --primary-light: oklch(80% 0.15 264);
-    --primary-dark: oklch(40% 0.2 264);
-
-    --secondary: oklch(55% 0.2 200);
-    --secondary-light: oklch(75% 0.15 200);
-    --secondary-dark: oklch(35% 0.18 200);
-
-    --success: oklch(65% 0.24 142);
-    --success-light: oklch(85% 0.18 142);
-    --success-dark: oklch(45% 0.22 142);
-
-    --warning: oklch(75% 0.25 70);
-    --warning-light: oklch(90% 0.18 70);
-    --warning-dark: oklch(55% 0.2 70);
-
-    --error: oklch(65% 0.26 29);
-    --error-light: oklch(85% 0.2 29);
-    --error-dark: oklch(45% 0.24 29);
-
-    --info: oklch(63% 0.23 254);
-    --info-light: oklch(83% 0.17 254);
-    --info-dark: oklch(43% 0.2 254);
-
-    /* Neutral palette */
-    --muted: oklch(64% 0.02 264);
-    --muted-foreground: oklch(46% 0.02 264);
-
-    /* Borders and accents */
-    --border: oklch(26% 0.02 264);
-    --input: oklch(22% 0.02 264);
-    --ring: oklch(60% 0.22 264);
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-inter), sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 }
 
-@theme {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --color-primary: var(--primary);
-  --color-primary-light: var(--primary-light);
-  --color-primary-dark: var(--primary-dark);
-  --color-secondary: var(--secondary);
-  --color-secondary-light: var(--secondary-light);
-  --color-secondary-dark: var(--secondary-dark);
-  --color-success: var(--success);
-  --color-success-light: var(--success-light);
-  --color-success-dark: var(--success-dark);
-  --color-warning: var(--warning);
-  --color-warning-light: var(--warning-light);
-  --color-warning-dark: var(--warning-dark);
-  --color-error: var(--error);
-  --color-error-light: var(--error-light);
-  --color-error-dark: var(--error-dark);
-  --color-info: var(--info);
-  --color-info-light: var(--info-light);
-  --color-info-dark: var(--info-dark);
-  --color-muted: var(--muted);
-  --color-muted-foreground: var(--muted-foreground);
-  --color-border: var(--border);
-  --color-input: var(--input);
-  --color-ring: var(--ring);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Custom Utilities for Premium Look */
+@layer utilities {
+  .glass {
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(12px) saturate(180%);
+    -webkit-backdrop-filter: blur(12px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
 }

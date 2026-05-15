@@ -1,4 +1,3 @@
-import { Badge } from '@/components/ui/badge'
 import { cn } from '@/lib/utils'
 
 interface ScoreBadgeProps {
@@ -7,17 +6,24 @@ interface ScoreBadgeProps {
 }
 
 export function ScoreBadge({ score, className }: ScoreBadgeProps) {
-  const getVariantByScore = (score: number) => {
-    if (score >= 70) return 'destructive' as const
-    if (score >= 40) return 'warning' as const
-    return 'outline' as const
-  }
+  const tier =
+    score >= 70 ? 'high' : score >= 40 ? 'mid' : 'low'
 
-  const variant = getVariantByScore(score)
+  const ringClass = {
+    high: 'border-success text-success bg-success/10',
+    mid: 'border-warning text-warning bg-warning/10',
+    low: 'border-border text-muted-foreground bg-secondary/60',
+  }[tier]
 
   return (
-    <Badge variant={variant} className={cn('px-3 py-1 font-semibold', className)}>
+    <div
+      className={cn(
+        'relative flex h-9 w-9 shrink-0 items-center justify-center rounded-full border-2 font-black text-xs tabular-nums transition-transform hover:scale-110',
+        ringClass,
+        className
+      )}
+    >
       {score}
-    </Badge>
+    </div>
   )
 }

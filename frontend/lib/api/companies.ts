@@ -102,6 +102,7 @@ function filterMockCompanies(
     if (typeof aVal === 'string') aVal = aVal.toLowerCase()
     if (typeof bVal === 'string') bVal = bVal.toLowerCase()
 
+    if (aVal == null || bVal == null) return 0
     if (aVal < bVal) return order === 'asc' ? -1 : 1
     if (aVal > bVal) return order === 'asc' ? 1 : -1
     return 0
@@ -131,6 +132,38 @@ export async function enrichCompany(companyId: string): Promise<void> {
   }
 
   await apiFetch<void>(`/api/v1/companies/${companyId}/enrich`, {
+    method: 'POST',
+  })
+}
+
+export async function syncCompanies(
+  industries?: string[],
+  locations?: string[]
+): Promise<{ synced_count: number }> {
+  if (process.env.NEXT_PUBLIC_API_MOCK === 'true') {
+    await new Promise(resolve => setTimeout(resolve, 1500))
+    return { synced_count: 0 }
+  }
+
+  const body: Record<string, string[]> = {}
+  if (industries?.length) body.industries = industries
+  if (locations?.length) body.locations = locations
+
+  return apiFetch<{ synced_count: number }>('/api/v1/companies/sync', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(body),
+  })
+}
+
+export async function recalculateCompanyScore(companyId: string): Promise<Company> {
+  // Mock score calculation if enabled
+  if (process.env.NEXT_PUBLIC_API_MOCK === 'true') {
+    await new Promise(resolve => setTimeout(resolve, 1000)) // Simulate scoring delay
+    return { id: companyId } as Company
+  }
+
+  return apiFetch<Company>(`/api/v1/companies/${companyId}/score`, {
     method: 'POST',
   })
 }

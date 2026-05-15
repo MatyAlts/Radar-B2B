@@ -20,6 +20,14 @@ class CompanyRepository(ICompanyRepository):
         model = result.scalar_one_or_none()
         return self._model_to_entity(model) if model else None
 
+    async def get_by_apollo_id(self, apollo_id: str) -> Optional[Company]:
+        if not apollo_id:
+            return None
+        stmt = select(CompanyModel).where(CompanyModel.apollo_id == apollo_id)
+        result = await self.session.execute(stmt)
+        model = result.scalar_one_or_none()
+        return self._model_to_entity(model) if model else None
+
     async def create(self, company: Company) -> Company:
         if not company.id:
             company.id = str(uuid.uuid4())
@@ -28,7 +36,8 @@ class CompanyRepository(ICompanyRepository):
             id=company.id,
             name=company.name,
             industry=company.industry,
-            location=company.location,
+            city=company.city,
+            country=company.country,
             employee_count=company.employee_count,
             website=company.website,
             apollo_id=company.apollo_id,
@@ -44,6 +53,7 @@ class CompanyRepository(ICompanyRepository):
         )
         self.session.add(model)
         await self.session.flush()
+        await self.session.refresh(model)
         return self._model_to_entity(model)
 
     async def update(self, company: Company) -> Company:
@@ -53,7 +63,8 @@ class CompanyRepository(ICompanyRepository):
 
         model.name = company.name
         model.industry = company.industry
-        model.location = company.location
+        model.city = company.city
+        model.country = company.country
         model.employee_count = company.employee_count
         model.website = company.website
         model.apollo_id = company.apollo_id
@@ -68,21 +79,50 @@ class CompanyRepository(ICompanyRepository):
         model.score_justification = company.score_justification
 
         await self.session.flush()
+        await self.session.refresh(model)
         return self._model_to_entity(model)
 
     async def list(
-        self, skip: int = 0, limit: int = 10, industry: Optional[str] = None
+        self,
+        skip: int = 0,
+        limit: int = 10,
+        industries: Optional[List[str]] = None,
+        temperature: Optional[str] = None,
+        score_min: Optional[int] = None,
+        score_max: Optional[int] = None,
+        query_str: Optional[str] = None,
     ) -> tuple[List[Company], int]:
         query = select(CompanyModel)
-        if industry:
-            query = query.where(CompanyModel.industry == industry)
-
         count_stmt = select(func.count()).select_from(CompanyModel)
-        if industry:
-            count_stmt = count_stmt.where(CompanyModel.industry == industry)
 
+        filters = []
+        if industries:
+            filters.append(CompanyModel.industry.in_(industries))
+        if temperature:
+            filters.append(CompanyModel.temperature == temperature)
+        if score_min is not None:
+            filters.append(CompanyModel.score >= score_min)
+        if score_max is not None:
+            filters.append(CompanyModel.score <= score_max)
+        if query_str:
+            q = f"%{query_str}%"
+            filters.append(
+                (CompanyModel.name.ilike(q)) |
+                (CompanyModel.industry.ilike(q)) |
+                (CompanyModel.city.ilike(q))
+            )
+
+        if filters:
+            for f in filters:
+                query = query.where(f)
+                count_stmt = count_stmt.where(f)
+
+        # Count total with filters
         count_result = await self.session.execute(count_stmt)
         total = count_result.scalar()
+
+        # Sort by score desc by default for the Radar
+        query = query.order_by(CompanyModel.score.desc())
 
         query = query.offset(skip).limit(limit)
         result = await self.session.execute(query)
@@ -108,7 +148,8 @@ class CompanyRepository(ICompanyRepository):
             id=model.id,
             name=model.name,
             industry=model.industry,
-            location=model.location,
+            city=model.city,
+            country=model.country,
             employee_count=model.employee_count,
             website=model.website,
             apollo_id=model.apollo_id,
@@ -123,5 +164,6 @@ class CompanyRepository(ICompanyRepository):
             score_justification=model.score_justification,
             created_at=model.created_at,
             updated_at=model.updated_at,
+            last_updated=model.updated_at, # Map updated_at to last_updated
             last_enriched_at=model.last_enriched_at,
         )

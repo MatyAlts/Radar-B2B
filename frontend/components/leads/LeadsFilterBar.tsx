@@ -31,7 +31,8 @@ export function LeadsFilterBar() {
   // Update filter when debounced title changes
   useEffect(() => {
     filters.setTitleQuery(debouncedTitle)
-  }, [debouncedTitle, filters])
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [debouncedTitle])
 
   const hasActiveFilters = filters.companyId || filters.titleQuery || filters.reliability
 
@@ -43,12 +44,12 @@ export function LeadsFilterBar() {
         {/* Company Select */}
         <div className="flex flex-col gap-2">
           <label className="text-sm font-medium">Empresa</label>
-          <Select value={filters.companyId || ''} onValueChange={filters.setCompanyId}>
+          <Select value={filters.companyId || 'all'} onValueChange={(val) => filters.setCompanyId(val === 'all' ? undefined : val)}>
             <SelectTrigger>
               <SelectValue placeholder="Seleccionar empresa..." />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="">Todas las empresas</SelectItem>
+              <SelectItem value="all">Todas las empresas</SelectItem>
               {companiesResponse?.data.map((company) => (
                 <SelectItem key={company.id} value={company.id}>
                   {company.name}
@@ -71,12 +72,12 @@ export function LeadsFilterBar() {
         {/* Reliability Filter */}
         <div className="flex flex-col gap-2">
           <label className="text-sm font-medium">Confiabilidad</label>
-          <Select value={filters.reliability || ''} onValueChange={(val) => filters.setReliability(val || undefined)}>
+          <Select value={filters.reliability || 'all'} onValueChange={(val) => filters.setReliability(val === 'all' ? undefined : val as any)}>
             <SelectTrigger>
               <SelectValue placeholder="Todas" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="">Todas</SelectItem>
+              <SelectItem value="all">Todas</SelectItem>
               <SelectItem value="high">Alta</SelectItem>
               <SelectItem value="medium">Media</SelectItem>
               <SelectItem value="low">Baja</SelectItem>

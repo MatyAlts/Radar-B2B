@@ -2,6 +2,7 @@
 
 import { CompanySignals } from '@/lib/api/types'
 import { Checkbox } from '@/components/ui/checkbox'
+import { cn } from '@/lib/utils'
 
 interface SignalBreakdownProps {
   signals: CompanySignals
@@ -9,34 +10,57 @@ interface SignalBreakdownProps {
 
 export function SignalBreakdown({ signals }: SignalBreakdownProps) {
   return (
-    <div className="space-y-3">
-      <h3 className="font-semibold text-gray-900">Desglose de Señales</h3>
-      <div className="space-y-2">
+    <div className="space-y-4">
+      <div className="flex items-center justify-between">
+        <h3 className="text-lg font-bold text-foreground">Desglose de Señales</h3>
+        <div className="rounded-full bg-primary/10 px-3 py-1 text-xs font-bold text-primary">
+          {signals.total_points} puntos totales
+        </div>
+      </div>
+      
+      <div className="grid gap-3">
         {signals.signals.length === 0 ? (
-          <p className="text-sm text-gray-500">Sin señales</p>
+          <div className="rounded-xl border border-dashed border-border p-6 text-center">
+            <p className="text-sm text-muted-foreground">Sin señales detectadas</p>
+          </div>
         ) : (
           signals.signals.map(signal => (
-            <div key={signal.id} className="flex items-start gap-3 rounded-lg bg-gray-50 p-3">
-              <Checkbox checked={signal.active} disabled className="mt-1" />
-              <div className="flex-1">
-                <p className="font-medium text-sm text-gray-900">{signal.name}</p>
-                <p className="text-xs text-gray-500">{signal.description}</p>
+            <div 
+              key={signal.id} 
+              className={cn(
+                "group relative flex items-start gap-4 rounded-xl border p-4 transition-all hover:shadow-md",
+                signal.active 
+                  ? "border-success/20 bg-success/5" 
+                  : "border-border bg-secondary/30 opacity-60"
+              )}
+            >
+              <div className={cn(
+                "mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full border",
+                signal.active ? "border-success bg-success text-white" : "border-muted bg-muted/20"
+              )}>
+                {signal.active && (
+                  <svg className="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                  </svg>
+                )}
               </div>
-              <span className={`ml-2 whitespace-nowrap rounded px-2 py-1 text-xs font-semibold ${
+              
+              <div className="flex-1 space-y-1">
+                <p className="text-sm font-bold leading-none text-foreground">{signal.name}</p>
+                <p className="text-xs text-muted-foreground">{signal.description}</p>
+              </div>
+
+              <div className={cn(
+                "rounded-lg px-2.5 py-1 text-xs font-black tracking-wider",
                 signal.active
-                  ? 'bg-green-100 text-green-800'
-                  : 'bg-gray-200 text-gray-600'
-              }`}>
+                  ? "bg-success text-success-foreground shadow-sm"
+                  : "bg-muted text-muted-foreground"
+              )}>
                 +{signal.points}
-              </span>
+              </div>
             </div>
           ))
         )}
-      </div>
-      <div className="border-t border-gray-200 pt-2">
-        <p className="text-sm font-semibold text-gray-900">
-          Total: <span className="text-lg text-blue-600">{signals.total_points}</span> puntos
-        </p>
       </div>
     </div>
   )

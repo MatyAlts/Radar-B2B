@@ -1,38 +1,63 @@
 'use client'
 
+import { Flame, Thermometer, Snowflake } from 'lucide-react'
 import { useRadarFilters } from '@/lib/hooks/use-radar-filters'
-import { Label } from '@/components/ui/label'
 import { Temperature } from '@/lib/api/types'
+import { cn } from '@/lib/utils'
+
+const OPTIONS: Array<{
+  value: Temperature
+  label: string
+  Icon: typeof Flame
+  activeClass: string
+}> = [
+  {
+    value: 'caliente',
+    label: 'Caliente',
+    Icon: Flame,
+    activeClass: 'bg-destructive/12 border-destructive/30 text-destructive font-semibold',
+  },
+  {
+    value: 'tibio',
+    label: 'Tibio',
+    Icon: Thermometer,
+    activeClass: 'bg-warning/15 border-warning/30 text-warning-foreground font-semibold',
+  },
+  {
+    value: 'frío',
+    label: 'Frío',
+    Icon: Snowflake,
+    activeClass: 'bg-secondary border-border text-secondary-foreground font-semibold',
+  },
+]
 
 export function TemperatureFilter() {
   const filters = useRadarFilters()
 
-  const options: Array<{ value: Temperature | undefined; label: string }> = [
-    { value: undefined, label: 'Todos' },
-    { value: 'caliente', label: 'Caliente' },
-    { value: 'tibio', label: 'Tibio' },
-    { value: 'frío', label: 'Frío' },
-  ]
+  const toggle = (value: Temperature) =>
+    filters.setTemperature(filters.temperature === value ? undefined : value)
 
   return (
     <div className="space-y-2">
-      <Label className="font-semibold text-gray-900">Temperatura</Label>
-      <div className="space-y-2">
-        {options.map(option => (
-          <div key={option.label} className="flex items-center">
-            <input
-              type="radio"
-              id={`temp-${option.label}`}
-              name="temperature"
-              value={option.label}
-              checked={filters.temperature === option.value}
-              onChange={() => filters.setTemperature(option.value)}
-              className="h-4 w-4 cursor-pointer"
-            />
-            <label htmlFor={`temp-${option.label}`} className="ml-2 cursor-pointer text-sm">
-              {option.label}
-            </label>
-          </div>
+      <p className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground">
+        Temperatura
+      </p>
+      <div className="flex flex-col gap-1.5">
+        {OPTIONS.map(({ value, label, Icon, activeClass }) => (
+          <button
+            key={value}
+            type="button"
+            onClick={() => toggle(value)}
+            className={cn(
+              'flex w-full items-center gap-2 rounded-lg border px-3 py-2 text-sm transition-all',
+              filters.temperature === value
+                ? activeClass
+                : 'border-transparent bg-secondary/40 text-muted-foreground hover:bg-secondary hover:text-foreground'
+            )}
+          >
+            <Icon className="h-3.5 w-3.5 shrink-0" />
+            {label}
+          </button>
         ))}
       </div>
     </div>

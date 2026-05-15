@@ -34,13 +34,27 @@ function ContactListSkeleton() {
 }
 
 export function ContactList({ companyId }: ContactListProps) {
-  const { contacts, isLoading, isError, error, refetch } = useContacts(companyId)
+  const { contacts, isLoading, isError, error, is403Error, errorMessage, refetch } = useContacts(companyId)
 
   if (isLoading) {
     return (
       <div>
         <h3 className="font-semibold text-lg mb-4">Cargando contactos...</h3>
         <ContactListSkeleton />
+      </div>
+    )
+  }
+
+  if (is403Error && errorMessage) {
+    return (
+      <div className="border border-amber-200 bg-amber-50 rounded-lg p-4">
+        <div className="flex items-center gap-3 mb-3">
+          <AlertCircle className="w-5 h-5 text-amber-600" />
+          <h3 className="font-semibold text-amber-800">Permiso limitado</h3>
+        </div>
+        <p className="text-sm text-amber-700 mb-4">
+          {errorMessage}
+        </p>
       </div>
     )
   }

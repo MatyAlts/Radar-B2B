@@ -4,7 +4,7 @@ import React from 'react'
 import { Contact } from '@/lib/api/types'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
-import { Mail, Linkedin, Phone, Copy, Check } from 'lucide-react'
+import { Mail, ExternalLink, Phone, Copy, Check } from 'lucide-react'
 import { useState } from 'react'
 import { toast } from 'sonner'
 
@@ -132,7 +132,7 @@ export function ContactCard({ contact }: ContactCardProps) {
               rel="noopener noreferrer"
               className="text-sm text-blue-600 hover:text-blue-800 flex items-center gap-1"
             >
-              <Linkedin className="w-4 h-4" />
+              <ExternalLink className="w-4 h-4" />
               LinkedIn
             </a>
           </div>

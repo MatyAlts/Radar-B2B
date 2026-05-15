@@ -1,5 +1,4 @@
 import { useEffect } from 'react'
-import { useSearchParams } from 'next/navigation'
 import { useQueryState, parseAsString, parseAsInteger } from 'nuqs'
 import { useLeadsFiltersStore } from '@/lib/store/leads-filters'
 
@@ -11,13 +10,15 @@ export function useLeadsFiltersSync() {
 
   const store = useLeadsFiltersStore()
 
-  // Sync from URL to store on mount
+  // Sync from URL to store on mount only
   useEffect(() => {
-    if (company) store.setFilter('companyId', company)
-    if (title) store.setFilter('titleQuery', title)
-    if (reliability) store.setFilter('reliability', reliability)
-    if (page && page !== 1) store.setPage(page)
-  }, [company, title, reliability, page, store])
+    const { setFilter, setPage: setStorePage } = useLeadsFiltersStore.getState()
+    if (company) setFilter('companyId', company)
+    if (title) setFilter('titleQuery', title)
+    if (reliability) setFilter('reliability', reliability)
+    if (page && page !== 1) setStorePage(page)
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
 
   // Sync from store to URL
   const syncToUrl = {

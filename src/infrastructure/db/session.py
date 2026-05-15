@@ -21,7 +21,12 @@ AsyncSessionLocal = async_sessionmaker(
 async def get_session() -> AsyncSession:
     """Dependency para obtener la sesión de base de datos."""
     async with AsyncSessionLocal() as session:
-        yield session
+        try:
+            yield session
+            await session.commit()
+        except Exception:
+            await session.rollback()
+            raise
 
 
 async def init_db():

@@ -4,21 +4,21 @@ import { cva, type VariantProps } from "class-variance-authority"
 import { cn } from "@/lib/utils"
 
 const badgeVariants = cva(
-  "inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2",
+  "inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2",
   {
     variants: {
       variant: {
         default:
-          "border-transparent bg-primary text-white hover:bg-primary-dark focus:ring-primary focus:ring-offset-background",
+          "border-transparent bg-primary text-primary-foreground hover:bg-primary/80",
         secondary:
-          "border-transparent bg-secondary text-white hover:bg-secondary-dark focus:ring-secondary focus:ring-offset-background",
+          "border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80",
         destructive:
-          "border-transparent bg-error text-white hover:bg-error-dark focus:ring-error focus:ring-offset-background",
+          "border-transparent bg-destructive text-destructive-foreground hover:bg-destructive/80",
         success:
-          "border-transparent bg-success text-white hover:bg-success-dark focus:ring-success focus:ring-offset-background",
+          "border-transparent bg-success text-success-foreground hover:bg-success/80",
         warning:
-          "border-transparent bg-warning text-foreground hover:bg-warning-dark focus:ring-warning focus:ring-offset-background",
-        outline: "border-border text-foreground hover:bg-input focus:ring-primary",
+          "border-transparent bg-warning text-warning-foreground hover:bg-warning/80",
+        outline: "text-foreground",
       },
     },
     defaultVariants: {

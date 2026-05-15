@@ -8,11 +8,11 @@ import { Temperature, Industry } from '@/lib/api/types'
 export function useUrlFilters() {
   const [industriesParam, setIndustriesParam] = useQueryState(
     'industries',
-    parseAsJson<Industry[]>().withDefault([])
+    parseAsJson<Industry[]>((v) => v as Industry[]).withDefault([])
   )
-  const [temperatureParam, setTemperatureParam] = useQueryState(
+  const [temperatureParam, setTemperatureParam] = useQueryState<Temperature>(
     'temperature',
-    parseAsStringLiteral<Temperature | undefined>().withDefault(undefined)
+    parseAsStringLiteral<Temperature>(['caliente', 'tibio', 'frío'])
   )
   const [queryParam, setQueryParam] = useQueryState('query', { defaultValue: '' })
   const [scoreMinParam, setScoreMinParam] = useQueryState('scoreMin', {
@@ -32,11 +32,11 @@ export function useUrlFilters() {
   })
   const [orderByParam, setOrderByParam] = useQueryState(
     'orderBy',
-    parseAsStringLiteral<'name' | 'score' | 'industry'>().withDefault('score')
+    parseAsStringLiteral<'name' | 'score' | 'industry'>(['name', 'score', 'industry']).withDefault('score')
   )
   const [orderParam, setOrderParam] = useQueryState(
     'order',
-    parseAsStringLiteral<'asc' | 'desc'>().withDefault('desc')
+    parseAsStringLiteral<'asc' | 'desc'>(['asc', 'desc']).withDefault('desc')
   )
 
   const store = useRadarFiltersStore()
@@ -44,7 +44,7 @@ export function useUrlFilters() {
   // Sync URL params to store on mount
   useEffect(() => {
     store.setIndustries(industriesParam)
-    store.setTemperature(temperatureParam)
+    store.setTemperature(temperatureParam ?? undefined)
     store.setQuery(queryParam)
     store.setScoreRange([parseInt(scoreMinParam), parseInt(scoreMaxParam)])
     store.setPage(parseInt(pageParam))
@@ -55,7 +55,7 @@ export function useUrlFilters() {
   // Sync store changes to URL
   const syncToUrl = () => {
     setIndustriesParam(store.industries)
-    setTemperatureParam(store.temperature)
+    setTemperatureParam(store.temperature ?? null)
     setQueryParam(store.query)
     setScoreMinParam(String(store.scoreRange[0]))
     setScoreMaxParam(String(store.scoreRange[1]))

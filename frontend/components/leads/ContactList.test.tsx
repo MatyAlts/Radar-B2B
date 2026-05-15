@@ -37,6 +37,8 @@ describe('ContactList', () => {
       isLoading: true,
       isError: false,
       error: null,
+      is403Error: false,
+      errorMessage: null,
       refetch: vi.fn(),
     })
 
@@ -51,6 +53,8 @@ describe('ContactList', () => {
       isLoading: false,
       isError: false,
       error: null,
+      is403Error: false,
+      errorMessage: null,
       refetch: vi.fn(),
     })
 
@@ -68,6 +72,8 @@ describe('ContactList', () => {
       isLoading: false,
       isError: false,
       error: null,
+      is403Error: false,
+      errorMessage: null,
       refetch: vi.fn(),
     })
 
@@ -82,6 +88,8 @@ describe('ContactList', () => {
       isLoading: false,
       isError: false,
       error: null,
+      is403Error: false,
+      errorMessage: null,
       refetch: vi.fn(),
     })
 
@@ -97,6 +105,8 @@ describe('ContactList', () => {
       isLoading: false,
       isError: true,
       error: { message: 'Network error' } as any,
+      is403Error: false,
+      errorMessage: null,
       refetch: mockRefetch,
     })
 
@@ -113,6 +123,8 @@ describe('ContactList', () => {
       isLoading: false,
       isError: false,
       error: null,
+      is403Error: false,
+      errorMessage: null,
       refetch: vi.fn(),
     })
 
@@ -127,6 +139,8 @@ describe('ContactList', () => {
       isLoading: false,
       isError: false,
       error: null,
+      is403Error: false,
+      errorMessage: null,
       refetch: vi.fn(),
     })
 

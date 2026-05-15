@@ -1,31 +1,33 @@
 'use client'
 
-import React from 'react'
+import React, { Suspense } from 'react'
 import { LeadsFilterBar } from '@/components/leads/LeadsFilterBar'
 import { ContactList } from '@/components/leads/ContactList'
+import { PageContainer } from '@/components/layout/PageContainer'
 
-export default function LeadsPage() {
+function LeadsContent() {
   return (
-    <div className="min-h-screen bg-gray-50 py-8 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-5xl mx-auto space-y-6">
-        {/* Header */}
-        <div className="space-y-2">
-          <h1 className="text-3xl font-bold tracking-tight text-gray-900">
-            Leads y Decisores
-          </h1>
-          <p className="text-gray-600">
-            Encuentra y gestiona los contactos clave de todas tus empresas objetivo
-          </p>
+    <PageContainer
+      title="Leads y Decisores"
+      subtitle="Encontrá y gestioná los contactos clave de todas tus empresas objetivo."
+      className="h-full overflow-hidden"
+    >
+      <div className="flex h-full flex-col gap-6 overflow-hidden px-6 md:px-8 lg:px-10 pb-6">
+        <div className="flex-none">
+          <LeadsFilterBar />
         </div>
-
-        {/* Filters */}
-        <LeadsFilterBar />
-
-        {/* Contacts List */}
-        <div className="bg-white rounded-lg border p-6">
+        <div className="flex-1 overflow-y-auto scrollbar-thin">
           <ContactList />
         </div>
       </div>
-    </div>
+    </PageContainer>
+  )
+}
+
+export default function LeadsPage() {
+  return (
+    <Suspense>
+      <LeadsContent />
+    </Suspense>
   )
 }

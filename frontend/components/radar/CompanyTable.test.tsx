@@ -95,7 +95,7 @@ describe('CompanyTable', () => {
       />
     )
 
-    const row = container.querySelector('tbody tr')
+    const row = container.querySelector('tbody tr') as HTMLElement | null
     row?.click()
 
     expect(onRowClick).toHaveBeenCalledWith(company)
