@@ -39,10 +39,9 @@ services:
     build:
       context: ./frontend
       dockerfile: Dockerfile
-      args:
-        NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL}
     environment:
       NODE_ENV: production
+      INTERNAL_API_URL: http://api:8000
     depends_on:
       - api
     restart: unless-stopped
