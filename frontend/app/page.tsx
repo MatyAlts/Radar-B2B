@@ -2,13 +2,16 @@
 
 import { useState, useEffect } from 'react'
 import { useSearchParams } from 'next/navigation'
+import { PageContainer } from '@/components/layout/PageContainer'
 import { FilterPanel } from '@/components/radar/FilterPanel'
 import { CompanyTable } from '@/components/radar/CompanyTable'
 import { Pagination } from '@/components/radar/Pagination'
 import { CompanyDetailDrawer } from '@/components/radar/CompanyDetailDrawer'
 import { useCompanies } from '@/lib/hooks/use-companies'
 import { useRadarFilters } from '@/lib/hooks/use-radar-filters'
+import { usePagination } from '@/lib/hooks/usePagination'
 import { Company } from '@/lib/api/types'
+import { helpContent } from '@/lib/utils/helpContent'
 
 export default function RadarPage() {
   const searchParams = useSearchParams()
@@ -16,6 +19,7 @@ export default function RadarPage() {
   const [selectedCompany, setSelectedCompany] = useState<Company | null>(null)
   const [isDrawerOpen, setIsDrawerOpen] = useState(false)
   const filters = useRadarFilters()
+  const { paginatedItems } = usePagination(data?.data || [], { pageSize: 10 })
 
   // Sync drawer state with URL param
   useEffect(() => {
@@ -43,52 +47,52 @@ export default function RadarPage() {
   }
 
   return (
-    <div className="flex h-screen flex-col">
-      {/* Header */}
-      <header className="border-b border-gray-200 bg-white px-6 py-4">
-        <h1 className="text-2xl font-bold text-gray-900">Radar B2B</h1>
-        <p className="text-sm text-gray-600">Detecta empresas con alta probabilidad de compra</p>
-      </header>
+    <>
+      <PageContainer
+        title="Radar B2B"
+        subtitle="Detecta empresas con alta probabilidad de compra"
+        helpContent={helpContent.radar.page}
+        className="flex-row gap-0 p-0"
+      >
+        <div className="flex flex-1 overflow-hidden">
+          {/* Sidebar - Filters */}
+          <aside className="w-80 border-r border-border bg-background p-4 overflow-y-auto">
+            <FilterPanel />
+          </aside>
 
-      {/* Main Content */}
-      <div className="flex flex-1 overflow-hidden">
-        {/* Sidebar - Filters */}
-        <aside className="w-80 border-r border-gray-200 bg-white p-4 overflow-y-auto">
-          <FilterPanel />
-        </aside>
-
-        {/* Main - Table */}
-        <main className="flex-1 overflow-y-auto p-6">
-          <div className="space-y-4">
-            {/* Results Header */}
-            <div className="flex items-center justify-between">
-              <h2 className="text-lg font-semibold text-gray-900">
-                {data?.total === 0 ? 'Sin resultados' : `${data?.total || 0} empresas encontradas`}
-              </h2>
-            </div>
-
-            {/* Table */}
-            <CompanyTable
-              companies={data?.data || []}
-              isLoading={isLoading}
-              isError={isError}
-              onRefetch={() => refetch()}
-              onRowClick={handleRowClick}
-            />
-
-            {/* Pagination */}
-            {data && (
-              <div className="flex justify-center pt-4">
-                <Pagination
-                  currentPage={filters.page}
-                  totalPages={data.total_pages}
-                  isLoading={isLoading}
-                />
+          {/* Main - Table */}
+          <main className="flex-1 overflow-y-auto p-6">
+            <div className="space-y-4">
+              {/* Results Header */}
+              <div className="flex items-center justify-between">
+                <h2 className="text-lg font-semibold">
+                  {data?.total === 0 ? 'Sin resultados' : `${data?.total || 0} empresas encontradas`}
+                </h2>
               </div>
-            )}
-          </div>
-        </main>
-      </div>
+
+              {/* Table */}
+              <CompanyTable
+                companies={paginatedItems}
+                isLoading={isLoading}
+                isError={isError}
+                onRefetch={() => refetch()}
+                onRowClick={handleRowClick}
+              />
+
+              {/* Pagination */}
+              {data && (
+                <div className="flex justify-center pt-4">
+                  <Pagination
+                    currentPage={filters.page}
+                    totalPages={data.total_pages}
+                    isLoading={isLoading}
+                  />
+                </div>
+              )}
+            </div>
+          </main>
+        </div>
+      </PageContainer>
 
       {/* Drawer */}
       <CompanyDetailDrawer
@@ -96,6 +100,6 @@ export default function RadarPage() {
         isOpen={isDrawerOpen}
         onClose={handleDrawerClose}
       />
-    </div>
+    </>
   )
 }

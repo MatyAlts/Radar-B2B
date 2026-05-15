@@ -8,15 +8,15 @@ interface ScoreBadgeProps {
 
 export function ScoreBadge({ score, className }: ScoreBadgeProps) {
   const getVariantByScore = (score: number) => {
-    if (score >= 70) return { variant: 'default' as const, bgClass: 'bg-red-100 text-red-800' }
-    if (score >= 40) return { variant: 'secondary' as const, bgClass: 'bg-yellow-100 text-yellow-800' }
-    return { variant: 'secondary' as const, bgClass: 'bg-gray-100 text-gray-800' }
+    if (score >= 70) return 'destructive' as const
+    if (score >= 40) return 'warning' as const
+    return 'outline' as const
   }
 
-  const { variant, bgClass } = getVariantByScore(score)
+  const variant = getVariantByScore(score)
 
   return (
-    <Badge variant={variant} className={cn('px-3 py-1 font-semibold', bgClass, className)}>
+    <Badge variant={variant} className={cn('px-3 py-1 font-semibold', className)}>
       {score}
     </Badge>
   )

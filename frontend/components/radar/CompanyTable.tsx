@@ -76,8 +76,8 @@ export function CompanyTable({
 
   if (isError) {
     return (
-      <div className="rounded-lg border border-red-200 bg-red-50 p-8 text-center">
-        <p className="mb-4 text-red-800">Error al cargar las empresas</p>
+      <div className="rounded-lg border border-error bg-error/10 p-8 text-center">
+        <p className="mb-4 text-error">Error al cargar las empresas</p>
         <Button onClick={onRefetch} variant="outline">
           Reintentar
         </Button>
@@ -87,8 +87,8 @@ export function CompanyTable({
 
   if (companies.length === 0) {
     return (
-      <div className="rounded-lg border border-gray-200 bg-gray-50 p-8 text-center">
-        <p className="text-gray-500">No hay empresas que coincidan con los filtros</p>
+      <div className="rounded-lg border border-border bg-input p-8 text-center">
+        <p className="text-muted-foreground">No hay empresas que coincidan con los filtros</p>
       </div>
     )
   }
@@ -135,7 +135,7 @@ export function CompanyTable({
             <TableCell>
               <SignalsDisplay signals={company.signals.signals} />
             </TableCell>
-            <TableCell className="text-sm text-gray-500">
+            <TableCell className="text-sm text-muted-foreground">
               {new Date(company.last_updated).toLocaleDateString('es-ES')}
             </TableCell>
           </TableRow>

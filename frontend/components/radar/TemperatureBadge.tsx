@@ -13,27 +13,24 @@ export function TemperatureBadge({ temperature, className }: TemperatureBadgePro
     caliente: {
       label: 'Caliente',
       icon: Flame,
-      variant: 'default' as const,
-      bgClass: 'bg-red-100 text-red-800',
+      variant: 'destructive' as const,
     },
     tibio: {
       label: 'Tibio',
       icon: Thermometer,
-      variant: 'secondary' as const,
-      bgClass: 'bg-yellow-100 text-yellow-800',
+      variant: 'warning' as const,
     },
     frío: {
       label: 'Frío',
       icon: Snowflake,
-      variant: 'secondary' as const,
-      bgClass: 'bg-blue-100 text-blue-800',
+      variant: 'outline' as const,
     },
   }
 
-  const { label, icon: Icon, variant, bgClass } = variants[temperature]
+  const { label, icon: Icon, variant } = variants[temperature]
 
   return (
-    <Badge variant={variant} className={cn('gap-1 px-3 py-1', bgClass, className)}>
+    <Badge variant={variant} className={cn('gap-1 px-3 py-1', className)}>
       <Icon className="h-3 w-3" />
       {label}
     </Badge>

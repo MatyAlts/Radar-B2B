@@ -5,19 +5,21 @@ import { cva, type VariantProps } from "class-variance-authority"
 import { cn } from "@/lib/utils"
 
 const buttonVariants = cva(
-  "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-950 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 dark:ring-offset-slate-950 dark:focus-visible:ring-slate-300",
+  "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0",
   {
     variants: {
       variant: {
-        default: "bg-slate-900 text-slate-50 hover:bg-slate-800 dark:bg-slate-50 dark:text-slate-900 dark:hover:bg-slate-100",
+        default:
+          "bg-primary text-white hover:bg-primary-dark focus-visible:ring-primary focus-visible:ring-offset-background",
         destructive:
-          "bg-red-500 text-slate-50 hover:bg-red-600 dark:hover:bg-red-600",
+          "bg-error text-white hover:bg-error-dark focus-visible:ring-error focus-visible:ring-offset-background",
         outline:
-          "border border-slate-200 bg-white hover:bg-slate-100 hover:text-slate-900 dark:border-slate-800 dark:bg-slate-950 dark:hover:bg-slate-800 dark:hover:text-slate-50",
+          "border border-border bg-background hover:bg-input text-foreground focus-visible:ring-primary focus-visible:ring-offset-background",
         secondary:
-          "bg-slate-100 text-slate-900 hover:bg-slate-200 dark:bg-slate-800 dark:text-slate-50 dark:hover:bg-slate-700",
-        ghost: "hover:bg-slate-100 hover:text-slate-900 dark:hover:bg-slate-800 dark:hover:text-slate-50",
-        link: "text-slate-900 underline-offset-4 hover:underline dark:text-slate-50",
+          "bg-secondary text-white hover:bg-secondary-dark focus-visible:ring-secondary focus-visible:ring-offset-background",
+        ghost:
+          "hover:bg-input text-foreground focus-visible:ring-primary focus-visible:ring-offset-background",
+        link: "text-primary underline-offset-4 hover:underline focus-visible:ring-primary",
       },
       size: {
         default: "h-10 px-4 py-2",
