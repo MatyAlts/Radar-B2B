@@ -1,0 +1,1 @@
+function proord(A,c,s,w,x){var i=A.length;var B=s;var j=0;if(i%2==0){j=Math.floor(i/2)-1}else{j=Math.floor(i/2)}var y=0;var z=\[\];for(var u=0;u=i){y=y-i}z\[t\]=A\[y\]}for(var t=0;t=0;t=t-1){A\[k\]=z\[t\];k=k+1}}if((i==3&&s==1)\|\|(i==4&&s==1)){for(var u=0;u

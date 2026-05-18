@@ -8,6 +8,7 @@ from src.infrastructure.db.repositories.company_repository import CompanyReposit
 from src.infrastructure.db.repositories.contact_repository import ContactRepository
 from src.infrastructure.apollo.client import ApolloClient
 from src.infrastructure.ai.gemini_client import GeminiClient
+from src.infrastructure.sicoes.scraper import SicoesScraper
 
 DECISION_MAKER_TITLES = [
     "CEO", "CFO", "COO", "CTO", "General Manager", "Gerente General",
@@ -124,13 +125,24 @@ class CompanyService:
             )
             
             created = await self.repo.create(company)
-            synced_companies.append(created)
-        
+            enriched = await self.enrich_sicoes(str(created.id))
+            synced_companies.append(enriched or created)
+
         return synced_companies
 
     async def get_company_score(self, company_id: str) -> Optional[Company]:
         """Obtiene una empresa con su score."""
         return await self.repo.get_by_id(company_id)
+
+    async def enrich_sicoes(self, company_id: str) -> Optional[Company]:
+        """Verifica participación en SICOES, actualiza el flag y recalcula score."""
+        company = await self.repo.get_by_id(company_id)
+        if not company:
+            return None
+
+        scraper = SicoesScraper()
+        company.sicoes_participation = await scraper.check_company_participation(company.name or "")
+        return await self.recalculate_score(company)
 
     async def recalculate_score(self, company: Company) -> Company:
         """Recalcula el score de una empresa."""

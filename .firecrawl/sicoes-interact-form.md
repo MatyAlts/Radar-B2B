@@ -1,0 +1,3311 @@
+✓ Done
+✓ Done
+✓ Done
+- generic
+  - navigation
+    - list
+      - listitem [level=1]
+        - link "Inicio" [ref=e42]
+      - listitem [level=1]
+        - generic [ref=e43] clickable [cursor:pointer]
+          - StaticText "Contrataciones"
+      - listitem [level=1]
+        - link "Destino de Bienes" [ref=e44]
+      - listitem [level=1]
+        - link "RUPE" [ref=e45]
+      - listitem [level=1]
+        - generic [ref=e46] clickable [cursor:pointer]
+          - StaticText "Normativa"
+      - listitem [level=1]
+        - generic [ref=e47] clickable [cursor:pointer]
+          - StaticText "Incumplidos"
+      - listitem [level=1]
+        - generic [ref=e48] clickable [cursor:pointer]
+          - StaticText "Clasificadores"
+      - listitem [level=1]
+        - generic [ref=e49] clickable [cursor:pointer]
+          - StaticText "Compro Hecho en Bolivia"
+  - navigation
+    - StaticText "SISTEMA DE CONTRATACIONES ESTATALES"
+    - generic
+      - link "i" [ref=e16]
+        - StaticText "i"
+      - link "" [ref=e17]
+        - StaticText ""
+  - generic
+    - heading "Contrataciones" [level=6, ref=e1]
+    - link " Mercado Virtual Compro Hecho en Bolivia Productos Hechos en Bolivia" [ref=e2]
+      - generic
+        - generic
+          - StaticText ""
+        - image
+      - heading "Mercado Virtual" [level=4, ref=e18]
+      - heading "Compro Hecho en Bolivia" [level=4, ref=e19]
+      - paragraph
+        - StaticText "Productos Hechos en Bolivia"
+    - link " Mercado Virtual Conoce las ofertas de productos de los proveedores del Estado " [ref=e3]
+      - StaticText ""
+      - heading "Mercado Virtual" [level=4, ref=e20]
+      - paragraph
+        - StaticText "Conoce las ofertas de productos de los proveedores del Estado"
+      - LineBreak "\n"
+    - link " Convocatorias Búsqueda de Procesos de Contratación" [ref=e4]
+      - StaticText ""
+      - heading "Convocatorias" [level=4, ref=e21]
+      - paragraph
+        - StaticText "Búsqueda de Procesos de Contratación"
+    - link " Subasta Electrónica Búsqueda de Procesos a través de Subasta Electrónica" [ref=e5]
+      - StaticText ""
+      - heading "Subasta Electrónica" [level=4, ref=e22]
+      - paragraph
+        - StaticText "Búsqueda de Procesos a través de Subasta Electrónica"
+    - link "Guía de proveedores Vea quienes son los proveedores inscritos" [ref=e6]
+      - heading "Guía de proveedores" [level=4, ref=e23]
+      - paragraph
+        - StaticText "Vea quienes son los proveedores inscritos"
+    - link "Formularios Aquí encontrarás los formularios necesarios para interactuar con ..." [ref=e7]
+      - heading "Formularios" [level=4, ref=e24]
+      - paragraph
+        - StaticText "Aquí encontrarás los formularios necesarios para interactuar con ..."
+    - link "Decretos y Reglamentos Normas Básicas del Sistema de Administración de Bienes y Servicio ..." [ref=e8]
+      - heading "Decretos y Reglamentos" [level=4, ref=e25]
+      - paragraph
+        - StaticText "Normas Básicas del Sistema de Administración de Bienes y Servicio ..."
+    - LineBreak "\n"
+    - heading "Destino de Bienes" [level=6, ref=e9]
+    - link "Destino de Bienes dados de baja Conoce los bienes publicados por las Entidades." [ref=e10]
+      - heading "Destino de Bienes" [level=4, ref=e26]
+      - heading "dados de baja" [level=4, ref=e27]
+      - paragraph
+        - StaticText "Conoce los bienes publicados por las Entidades."
+    - generic
+      - heading "Comunicados" [level=6, ref=e28]
+      - LayoutTable
+        - LayoutTableRow
+          - LayoutTableCell "15/05/2026 Mefp/vpcf/dgsgif/n°16/2026: suspensión del rupe y mercado virtual..."
+            - generic [ref=e53] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "15/05/2026"
+              - heading "Mefp/vpcf/dgsgif/n°16/2026: suspensión del rupe y mercado virtual..." [level=5, ref=e58]
+        - LayoutTableRow
+          - LayoutTableCell "11/05/2026 Mefp/vpcf/dgsgif/n° 15/2026: registro de depósitos bancarios..."
+            - generic [ref=e54] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "11/05/2026"
+              - heading "Mefp/vpcf/dgsgif/n° 15/2026: registro de depósitos bancarios..." [level=5, ref=e59]
+        - LayoutTableRow
+          - LayoutTableCell "11/05/2026 Mefp/vpcf/dgsgif/n° 14/2026: registro de depósitos bancarios..."
+            - generic [ref=e55] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "11/05/2026"
+              - heading "Mefp/vpcf/dgsgif/n° 14/2026: registro de depósitos bancarios..." [level=5, ref=e60]
+        - LayoutTableRow
+          - LayoutTableCell "27/04/2026 Mefp/vpcf/dgngp/n° 003/2026: taller virtual de capacitación decreto supremo n°5597 de ajuste de precios de materiales..."
+            - generic [ref=e56] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "27/04/2026"
+              - heading "Mefp/vpcf/dgngp/n° 003/2026: taller virtual de capacitación decreto supremo n°5597 de ajuste de precios de materiales..." [level=5, ref=e61]
+      - link "Ver más »" [ref=e32]
+  - generic
+    - StaticText ""
+    - heading "RUPE" [level=4, ref=e29]
+      - generic [ref=e33] clickable [cursor:pointer]
+        - StaticText "RUPE"
+      - generic [ref=e34] clickable [cursor:pointer]
+    - StaticText "Ingreso al Registro Único de Proveedores del Estado"
+    - StaticText ""
+    - heading "ENTIDADES" [level=4, ref=e30]
+      - generic [ref=e35] clickable [cursor:pointer]
+        - StaticText "ENTIDADES"
+      - generic [ref=e36] clickable [cursor:pointer]
+    - StaticText "Registro de Usuario para el Ingreso a Entidades"
+    - link "BIBLIOTECA DIGITAL Material didáctico de consulta para los usuarios" [ref=e31]
+      - heading "BIBLIOTECA DIGITAL" [level=4, ref=e37]
+        - generic
+          - StaticText "BIBLIOTECA"
+          - LineBreak "\n"
+          - StaticText "DIGITAL"
+      - StaticText "Material didáctico de consulta para los usuarios"
+    - heading "Contrataciones Vigentes" [level=3, ref=e11]
+    - link "Bienes 1249" [ref=e12]
+      - generic
+        - StaticText "Bienes"
+        - LineBreak "\n"
+        - StaticText "1249"
+    - link "Obras 405" [ref=e13]
+      - generic
+        - StaticText "Obras"
+        - LineBreak "\n"
+        - StaticText "405"
+    - link "Servicios Generales 242" [ref=e14]
+      - generic
+        - StaticText "Servicios Generales"
+        - LineBreak "\n"
+        - StaticText "242"
+    - link "Servicios de Consultoría 159" [ref=e15]
+      - generic
+        - StaticText "Servicios de Consultoría"
+        - LineBreak "\n"
+        - StaticText "159"
+  - generic
+    - button "×" [ref=e38]
+    - heading "COMUNICADOS" [level=4, ref=e39]
+      - StaticText "COMUNICADOS"
+    - image
+    - heading "MEFP/VPCF/DGSGIF/N°16/2026: SUSPENSIÓN DEL RUPE Y MERCADO VIRTUAL" [level=4, ref=e50]
+    - paragraph
+      - StaticText "La Dirección General de Sistemas de Gestión de Información Fiscal (DGSGIF) comunica a los usuarios que operan en el Sistema de Contrataciones Estatales (SICOES), Registro Único de Proveedores del Estado (RUPE) y el Mercado Virtual, que el servicio será suspendido el día 16 de mayo de 2026, a partir de las 08:00 a.m. hasta las 09:00 a.m., con el objeto de realizar actualizaciones para Registro de Productos en el Mercado Virtual y Registro de Propuestas Electrónicas."
+    - paragraph
+      - link "Ver Comunicado" [ref=e57]
+    - image
+    - heading "MEFP/VPCF/DGSGIF/N° 15/2026: REGISTRO DE DEPÓSITOS BANCARIOS" [level=4, ref=e51]
+    - paragraph
+      - StaticText "En el marco del inciso b) del numeral 13.2 del Manual de Operaciones del SICOES, aprobado mediante Resolución Ministerial N° 480 de 23 de octubre de 2023, la Dirección General de Sistemas de Gestión de Información Fiscal (DGSGIF), como administrador del sistema, comunica a sus usuarios que a partir de las 07:30 a las 10:39 horas del día 11 de mayo de 2026, se presentó una dificultad técnica, impidiendo el registro de depósitos por concepto de Garantía de Seriedad de Propuesta."
+    - paragraph
+      - StaticText "De acuerdo al numeral 14.1 del mismo manual “Cuando el periodo de inactividad afecte la presentación de propuestas/ofertas/propuestas de interés, la participación en la Subasta Electrónica o en la Subasta al Alza, las entidades públicas podrán realizar ampliaciones de plazo a través de la reprogramación las actividades afectadas, cuando el periodo de inactividad incluya la fecha y hora límite fijadas para los procesos señalados en el comunicado de inactividad. La ampliación deberá considerar únicamente el comunicado de inactividad publicado en el SICOES para respaldar la ampliación”."
+    - paragraph
+      - StaticText "De acuerdo con lo establecido en el inciso b) del numeral 26.1 del Manual de Operaciones del SICOES, el plazo máximo de registro es de tres (3) días hábiles computables a partir de la emisión del presente comunicado."
+    - paragraph
+      - StaticText "Se detallan los procesos de contratación posiblemente afectados en Anexo adjunto."
+    - paragraph
+      - StaticText "La Paz, 11 de mayo de 2026"
+    - link "Ver Comunicado" [ref=e52]
+  - generic
+    - paragraph
+      - StaticText ""
+      - strong
+        - StaticText "Dirección:"
+      - StaticText " Edif. Contraloría General del Estado, Piso 7, Calle Colón, esq. Indaburo, La Paz, Bolivia"
+    - paragraph
+      - StaticText ""
+      - strong
+        - StaticText "Línea Gratuita:"
+      - StaticText " 800-10-6337"
+    - paragraph
+      - StaticText ""
+      - strong
+        - StaticText " Teléfono:"
+      - StaticText " (591-2) 2177300"
+  - generic
+    - paragraph
+      - strong
+        - StaticText "HORARIOS DE ATENCIÓN"
+        - LineBreak "\n"
+        - StaticText "Lunes a Viernes"
+    - paragraph
+      - StaticText "De 8:30 a 16:30"
+  - generic
+    - paragraph
+      - strong
+        - StaticText "REDES SOCIALES"
+    - generic
+      - link [ref=e40]
+      - link [ref=e41]
+  - strong
+    - StaticText "SICOES 1.5.0.3.0.5"
+  - image "Portada Presidencia"
+- generic
+  - navigation
+    - list
+      - listitem [level=1]
+        - link "Inicio" [ref=e42]
+      - listitem [level=1]
+        - generic [ref=e43] clickable [cursor:pointer]
+          - StaticText "Contrataciones"
+      - listitem [level=1]
+        - link "Destino de Bienes" [ref=e44]
+      - listitem [level=1]
+        - link "RUPE" [ref=e45]
+      - listitem [level=1]
+        - generic [ref=e46] clickable [cursor:pointer]
+          - StaticText "Normativa"
+      - listitem [level=1]
+        - generic [ref=e47] clickable [cursor:pointer]
+          - StaticText "Incumplidos"
+      - listitem [level=1]
+        - generic [ref=e48] clickable [cursor:pointer]
+          - StaticText "Clasificadores"
+      - listitem [level=1]
+        - generic [ref=e49] clickable [cursor:pointer]
+          - StaticText "Compro Hecho en Bolivia"
+  - navigation
+    - StaticText "SISTEMA DE CONTRATACIONES ESTATALES"
+    - generic
+      - link "i" [ref=e16]
+        - StaticText "i"
+      - link "" [ref=e17]
+        - StaticText ""
+  - generic
+    - heading "Contrataciones" [level=6, ref=e1]
+    - link " Mercado Virtual Compro Hecho en Bolivia Productos Hechos en Bolivia" [ref=e2]
+      - generic
+        - generic
+          - StaticText ""
+        - image
+      - heading "Mercado Virtual" [level=4, ref=e18]
+      - heading "Compro Hecho en Bolivia" [level=4, ref=e19]
+      - paragraph
+        - StaticText "Productos Hechos en Bolivia"
+    - link " Mercado Virtual Conoce las ofertas de productos de los proveedores del Estado " [ref=e3]
+      - StaticText ""
+      - heading "Mercado Virtual" [level=4, ref=e20]
+      - paragraph
+        - StaticText "Conoce las ofertas de productos de los proveedores del Estado"
+      - LineBreak "\n"
+    - link " Convocatorias Búsqueda de Procesos de Contratación" [ref=e4]
+      - StaticText ""
+      - heading "Convocatorias" [level=4, ref=e21]
+      - paragraph
+        - StaticText "Búsqueda de Procesos de Contratación"
+    - link " Subasta Electrónica Búsqueda de Procesos a través de Subasta Electrónica" [ref=e5]
+      - StaticText ""
+      - heading "Subasta Electrónica" [level=4, ref=e22]
+      - paragraph
+        - StaticText "Búsqueda de Procesos a través de Subasta Electrónica"
+    - link "Guía de proveedores Vea quienes son los proveedores inscritos" [ref=e6]
+      - heading "Guía de proveedores" [level=4, ref=e23]
+      - paragraph
+        - StaticText "Vea quienes son los proveedores inscritos"
+    - link "Formularios Aquí encontrarás los formularios necesarios para interactuar con ..." [ref=e7]
+      - heading "Formularios" [level=4, ref=e24]
+      - paragraph
+        - StaticText "Aquí encontrarás los formularios necesarios para interactuar con ..."
+    - link "Decretos y Reglamentos Normas Básicas del Sistema de Administración de Bienes y Servicio ..." [ref=e8]
+      - heading "Decretos y Reglamentos" [level=4, ref=e25]
+      - paragraph
+        - StaticText "Normas Básicas del Sistema de Administración de Bienes y Servicio ..."
+    - LineBreak "\n"
+    - heading "Destino de Bienes" [level=6, ref=e9]
+    - link "Destino de Bienes dados de baja Conoce los bienes publicados por las Entidades." [ref=e10]
+      - heading "Destino de Bienes" [level=4, ref=e26]
+      - heading "dados de baja" [level=4, ref=e27]
+      - paragraph
+        - StaticText "Conoce los bienes publicados por las Entidades."
+    - generic
+      - heading "Comunicados" [level=6, ref=e28]
+      - LayoutTable
+        - LayoutTableRow
+          - LayoutTableCell "15/05/2026 Mefp/vpcf/dgsgif/n°16/2026: suspensión del rupe y mercado virtual..."
+            - generic [ref=e53] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "15/05/2026"
+              - heading "Mefp/vpcf/dgsgif/n°16/2026: suspensión del rupe y mercado virtual..." [level=5, ref=e58]
+        - LayoutTableRow
+          - LayoutTableCell "11/05/2026 Mefp/vpcf/dgsgif/n° 15/2026: registro de depósitos bancarios..."
+            - generic [ref=e54] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "11/05/2026"
+              - heading "Mefp/vpcf/dgsgif/n° 15/2026: registro de depósitos bancarios..." [level=5, ref=e59]
+        - LayoutTableRow
+          - LayoutTableCell "11/05/2026 Mefp/vpcf/dgsgif/n° 14/2026: registro de depósitos bancarios..."
+            - generic [ref=e55] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "11/05/2026"
+              - heading "Mefp/vpcf/dgsgif/n° 14/2026: registro de depósitos bancarios..." [level=5, ref=e60]
+        - LayoutTableRow
+          - LayoutTableCell "27/04/2026 Mefp/vpcf/dgngp/n° 003/2026: taller virtual de capacitación decreto supremo n°5597 de ajuste de precios de materiales..."
+            - generic [ref=e56] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "27/04/2026"
+              - heading "Mefp/vpcf/dgngp/n° 003/2026: taller virtual de capacitación decreto supremo n°5597 de ajuste de precios de materiales..." [level=5, ref=e61]
+      - link "Ver más »" [ref=e32]
+  - generic
+    - StaticText ""
+    - heading "RUPE" [level=4, ref=e29]
+      - generic [ref=e33] clickable [cursor:pointer]
+        - StaticText "RUPE"
+      - generic [ref=e34] clickable [cursor:pointer]
+    - StaticText "Ingreso al Registro Único de Proveedores del Estado"
+    - StaticText ""
+    - heading "ENTIDADES" [level=4, ref=e30]
+      - generic [ref=e35] clickable [cursor:pointer]
+        - StaticText "ENTIDADES"
+      - generic [ref=e36] clickable [cursor:pointer]
+    - StaticText "Registro de Usuario para el Ingreso a Entidades"
+    - link "BIBLIOTECA DIGITAL Material didáctico de consulta para los usuarios" [ref=e31]
+      - heading "BIBLIOTECA DIGITAL" [level=4, ref=e37]
+        - generic
+          - StaticText "BIBLIOTECA"
+          - LineBreak "\n"
+          - StaticText "DIGITAL"
+      - StaticText "Material didáctico de consulta para los usuarios"
+    - heading "Contrataciones Vigentes" [level=3, ref=e11]
+    - link "Bienes 1249" [ref=e12]
+      - generic
+        - StaticText "Bienes"
+        - LineBreak "\n"
+        - StaticText "1249"
+    - link "Obras 405" [ref=e13]
+      - generic
+        - StaticText "Obras"
+        - LineBreak "\n"
+        - StaticText "405"
+    - link "Servicios Generales 242" [ref=e14]
+      - generic
+        - StaticText "Servicios Generales"
+        - LineBreak "\n"
+        - StaticText "242"
+    - link "Servicios de Consultoría 159" [ref=e15]
+      - generic
+        - StaticText "Servicios de Consultoría"
+        - LineBreak "\n"
+        - StaticText "159"
+  - generic
+    - button "×" [ref=e38]
+    - heading "COMUNICADOS" [level=4, ref=e39]
+      - StaticText "COMUNICADOS"
+    - image
+    - heading "MEFP/VPCF/DGSGIF/N°16/2026: SUSPENSIÓN DEL RUPE Y MERCADO VIRTUAL" [level=4, ref=e50]
+    - paragraph
+      - StaticText "La Dirección General de Sistemas de Gestión de Información Fiscal (DGSGIF) comunica a los usuarios que operan en el Sistema de Contrataciones Estatales (SICOES), Registro Único de Proveedores del Estado (RUPE) y el Mercado Virtual, que el servicio será suspendido el día 16 de mayo de 2026, a partir de las 08:00 a.m. hasta las 09:00 a.m., con el objeto de realizar actualizaciones para Registro de Productos en el Mercado Virtual y Registro de Propuestas Electrónicas."
+    - paragraph
+      - link "Ver Comunicado" [ref=e57]
+    - image
+    - heading "MEFP/VPCF/DGSGIF/N° 15/2026: REGISTRO DE DEPÓSITOS BANCARIOS" [level=4, ref=e51]
+    - paragraph
+      - StaticText "En el marco del inciso b) del numeral 13.2 del Manual de Operaciones del SICOES, aprobado mediante Resolución Ministerial N° 480 de 23 de octubre de 2023, la Dirección General de Sistemas de Gestión de Información Fiscal (DGSGIF), como administrador del sistema, comunica a sus usuarios que a partir de las 07:30 a las 10:39 horas del día 11 de mayo de 2026, se presentó una dificultad técnica, impidiendo el registro de depósitos por concepto de Garantía de Seriedad de Propuesta."
+    - paragraph
+      - StaticText "De acuerdo al numeral 14.1 del mismo manual “Cuando el periodo de inactividad afecte la presentación de propuestas/ofertas/propuestas de interés, la participación en la Subasta Electrónica o en la Subasta al Alza, las entidades públicas podrán realizar ampliaciones de plazo a través de la reprogramación las actividades afectadas, cuando el periodo de inactividad incluya la fecha y hora límite fijadas para los procesos señalados en el comunicado de inactividad. La ampliación deberá considerar únicamente el comunicado de inactividad publicado en el SICOES para respaldar la ampliación”."
+    - paragraph
+      - StaticText "De acuerdo con lo establecido en el inciso b) del numeral 26.1 del Manual de Operaciones del SICOES, el plazo máximo de registro es de tres (3) días hábiles computables a partir de la emisión del presente comunicado."
+    - paragraph
+      - StaticText "Se detallan los procesos de contratación posiblemente afectados en Anexo adjunto."
+    - paragraph
+      - StaticText "La Paz, 11 de mayo de 2026"
+    - link "Ver Comunicado" [ref=e52]
+  - generic
+    - paragraph
+      - StaticText ""
+      - strong
+        - StaticText "Dirección:"
+      - StaticText " Edif. Contraloría General del Estado, Piso 7, Calle Colón, esq. Indaburo, La Paz, Bolivia"
+    - paragraph
+      - StaticText ""
+      - strong
+        - StaticText "Línea Gratuita:"
+      - StaticText " 800-10-6337"
+    - paragraph
+      - StaticText ""
+      - strong
+        - StaticText " Teléfono:"
+      - StaticText " (591-2) 2177300"
+  - generic
+    - paragraph
+      - strong
+        - StaticText "HORARIOS DE ATENCIÓN"
+        - LineBreak "\n"
+        - StaticText "Lunes a Viernes"
+    - paragraph
+      - StaticText "De 8:30 a 16:30"
+  - generic
+    - paragraph
+      - strong
+        - StaticText "REDES SOCIALES"
+    - generic
+      - link [ref=e40]
+      - link [ref=e41]
+  - strong
+    - StaticText "SICOES 1.5.0.3.0.5"
+  - image "Portada Presidencia"
+✓ Done
+- generic
+  - navigation
+    - list
+      - listitem [level=1]
+        - link "Inicio" [ref=e42]
+      - listitem [level=1]
+        - generic [ref=e43] clickable [cursor:pointer]
+          - StaticText "Contrataciones"
+      - listitem [level=1]
+        - link "Destino de Bienes" [ref=e44]
+      - listitem [level=1]
+        - link "RUPE" [ref=e45]
+      - listitem [level=1]
+        - generic [ref=e46] clickable [cursor:pointer]
+          - StaticText "Normativa"
+      - listitem [level=1]
+        - generic [ref=e47] clickable [cursor:pointer]
+          - StaticText "Incumplidos"
+      - listitem [level=1]
+        - generic [ref=e48] clickable [cursor:pointer]
+          - StaticText "Clasificadores"
+      - listitem [level=1]
+        - generic [ref=e49] clickable [cursor:pointer]
+          - StaticText "Compro Hecho en Bolivia"
+  - navigation
+    - StaticText "SISTEMA DE CONTRATACIONES ESTATALES"
+    - generic
+      - link "i" [ref=e16]
+        - StaticText "i"
+      - link "" [ref=e17]
+        - StaticText ""
+  - generic
+    - heading "Contrataciones" [level=6, ref=e1]
+    - link " Mercado Virtual Compro Hecho en Bolivia Productos Hechos en Bolivia" [ref=e2]
+      - generic
+        - generic
+          - StaticText ""
+        - image
+      - heading "Mercado Virtual" [level=4, ref=e18]
+      - heading "Compro Hecho en Bolivia" [level=4, ref=e19]
+      - paragraph
+        - StaticText "Productos Hechos en Bolivia"
+    - link " Mercado Virtual Conoce las ofertas de productos de los proveedores del Estado " [ref=e3]
+      - StaticText ""
+      - heading "Mercado Virtual" [level=4, ref=e20]
+      - paragraph
+        - StaticText "Conoce las ofertas de productos de los proveedores del Estado"
+      - LineBreak "\n"
+    - link " Convocatorias Búsqueda de Procesos de Contratación" [ref=e4]
+      - StaticText ""
+      - heading "Convocatorias" [level=4, ref=e21]
+      - paragraph
+        - StaticText "Búsqueda de Procesos de Contratación"
+    - link " Subasta Electrónica Búsqueda de Procesos a través de Subasta Electrónica" [ref=e5]
+      - StaticText ""
+      - heading "Subasta Electrónica" [level=4, ref=e22]
+      - paragraph
+        - StaticText "Búsqueda de Procesos a través de Subasta Electrónica"
+    - link "Guía de proveedores Vea quienes son los proveedores inscritos" [ref=e6]
+      - heading "Guía de proveedores" [level=4, ref=e23]
+      - paragraph
+        - StaticText "Vea quienes son los proveedores inscritos"
+    - link "Formularios Aquí encontrarás los formularios necesarios para interactuar con ..." [ref=e7]
+      - heading "Formularios" [level=4, ref=e24]
+      - paragraph
+        - StaticText "Aquí encontrarás los formularios necesarios para interactuar con ..."
+    - link "Decretos y Reglamentos Normas Básicas del Sistema de Administración de Bienes y Servicio ..." [ref=e8]
+      - heading "Decretos y Reglamentos" [level=4, ref=e25]
+      - paragraph
+        - StaticText "Normas Básicas del Sistema de Administración de Bienes y Servicio ..."
+    - LineBreak "\n"
+    - heading "Destino de Bienes" [level=6, ref=e9]
+    - link "Destino de Bienes dados de baja Conoce los bienes publicados por las Entidades." [ref=e10]
+      - heading "Destino de Bienes" [level=4, ref=e26]
+      - heading "dados de baja" [level=4, ref=e27]
+      - paragraph
+        - StaticText "Conoce los bienes publicados por las Entidades."
+    - generic
+      - heading "Comunicados" [level=6, ref=e28]
+      - LayoutTable
+        - LayoutTableRow
+          - LayoutTableCell "15/05/2026 Mefp/vpcf/dgsgif/n°16/2026: suspensión del rupe y mercado virtual..."
+            - generic [ref=e53] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "15/05/2026"
+              - heading "Mefp/vpcf/dgsgif/n°16/2026: suspensión del rupe y mercado virtual..." [level=5, ref=e58]
+        - LayoutTableRow
+          - LayoutTableCell "11/05/2026 Mefp/vpcf/dgsgif/n° 15/2026: registro de depósitos bancarios..."
+            - generic [ref=e54] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "11/05/2026"
+              - heading "Mefp/vpcf/dgsgif/n° 15/2026: registro de depósitos bancarios..." [level=5, ref=e59]
+        - LayoutTableRow
+          - LayoutTableCell "11/05/2026 Mefp/vpcf/dgsgif/n° 14/2026: registro de depósitos bancarios..."
+            - generic [ref=e55] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "11/05/2026"
+              - heading "Mefp/vpcf/dgsgif/n° 14/2026: registro de depósitos bancarios..." [level=5, ref=e60]
+        - LayoutTableRow
+          - LayoutTableCell "27/04/2026 Mefp/vpcf/dgngp/n° 003/2026: taller virtual de capacitación decreto supremo n°5597 de ajuste de precios de materiales..."
+            - generic [ref=e56] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "27/04/2026"
+              - heading "Mefp/vpcf/dgngp/n° 003/2026: taller virtual de capacitación decreto supremo n°5597 de ajuste de precios de materiales..." [level=5, ref=e61]
+      - link "Ver más »" [ref=e32]
+  - generic
+    - StaticText ""
+    - heading "RUPE" [level=4, ref=e29]
+      - generic [ref=e33] clickable [cursor:pointer]
+        - StaticText "RUPE"
+      - generic [ref=e34] clickable [cursor:pointer]
+    - StaticText "Ingreso al Registro Único de Proveedores del Estado"
+    - StaticText ""
+    - heading "ENTIDADES" [level=4, ref=e30]
+      - generic [ref=e35] clickable [cursor:pointer]
+        - StaticText "ENTIDADES"
+      - generic [ref=e36] clickable [cursor:pointer]
+    - StaticText "Registro de Usuario para el Ingreso a Entidades"
+    - link "BIBLIOTECA DIGITAL Material didáctico de consulta para los usuarios" [ref=e31]
+      - heading "BIBLIOTECA DIGITAL" [level=4, ref=e37]
+        - generic
+          - StaticText "BIBLIOTECA"
+          - LineBreak "\n"
+          - StaticText "DIGITAL"
+      - StaticText "Material didáctico de consulta para los usuarios"
+    - heading "Contrataciones Vigentes" [level=3, ref=e11]
+    - link "Bienes 1249" [ref=e12]
+      - generic
+        - StaticText "Bienes"
+        - LineBreak "\n"
+        - StaticText "1249"
+    - link "Obras 405" [ref=e13]
+      - generic
+        - StaticText "Obras"
+        - LineBreak "\n"
+        - StaticText "405"
+    - link "Servicios Generales 242" [ref=e14]
+      - generic
+        - StaticText "Servicios Generales"
+        - LineBreak "\n"
+        - StaticText "242"
+    - link "Servicios de Consultoría 159" [ref=e15]
+      - generic
+        - StaticText "Servicios de Consultoría"
+        - LineBreak "\n"
+        - StaticText "159"
+  - generic
+    - button "×" [ref=e38]
+    - heading "COMUNICADOS" [level=4, ref=e39]
+      - StaticText "COMUNICADOS"
+    - image
+    - heading "MEFP/VPCF/DGSGIF/N°16/2026: SUSPENSIÓN DEL RUPE Y MERCADO VIRTUAL" [level=4, ref=e50]
+    - paragraph
+      - StaticText "La Dirección General de Sistemas de Gestión de Información Fiscal (DGSGIF) comunica a los usuarios que operan en el Sistema de Contrataciones Estatales (SICOES), Registro Único de Proveedores del Estado (RUPE) y el Mercado Virtual, que el servicio será suspendido el día 16 de mayo de 2026, a partir de las 08:00 a.m. hasta las 09:00 a.m., con el objeto de realizar actualizaciones para Registro de Productos en el Mercado Virtual y Registro de Propuestas Electrónicas."
+    - paragraph
+      - link "Ver Comunicado" [ref=e57]
+    - image
+    - heading "MEFP/VPCF/DGSGIF/N° 15/2026: REGISTRO DE DEPÓSITOS BANCARIOS" [level=4, ref=e51]
+    - paragraph
+      - StaticText "En el marco del inciso b) del numeral 13.2 del Manual de Operaciones del SICOES, aprobado mediante Resolución Ministerial N° 480 de 23 de octubre de 2023, la Dirección General de Sistemas de Gestión de Información Fiscal (DGSGIF), como administrador del sistema, comunica a sus usuarios que a partir de las 07:30 a las 10:39 horas del día 11 de mayo de 2026, se presentó una dificultad técnica, impidiendo el registro de depósitos por concepto de Garantía de Seriedad de Propuesta."
+    - paragraph
+      - StaticText "De acuerdo al numeral 14.1 del mismo manual “Cuando el periodo de inactividad afecte la presentación de propuestas/ofertas/propuestas de interés, la participación en la Subasta Electrónica o en la Subasta al Alza, las entidades públicas podrán realizar ampliaciones de plazo a través de la reprogramación las actividades afectadas, cuando el periodo de inactividad incluya la fecha y hora límite fijadas para los procesos señalados en el comunicado de inactividad. La ampliación deberá considerar únicamente el comunicado de inactividad publicado en el SICOES para respaldar la ampliación”."
+    - paragraph
+      - StaticText "De acuerdo con lo establecido en el inciso b) del numeral 26.1 del Manual de Operaciones del SICOES, el plazo máximo de registro es de tres (3) días hábiles computables a partir de la emisión del presente comunicado."
+    - paragraph
+      - StaticText "Se detallan los procesos de contratación posiblemente afectados en Anexo adjunto."
+    - paragraph
+      - StaticText "La Paz, 11 de mayo de 2026"
+    - link "Ver Comunicado" [ref=e52]
+  - generic
+    - paragraph
+      - StaticText ""
+      - strong
+        - StaticText "Dirección:"
+      - StaticText " Edif. Contraloría General del Estado, Piso 7, Calle Colón, esq. Indaburo, La Paz, Bolivia"
+    - paragraph
+      - StaticText ""
+      - strong
+        - StaticText "Línea Gratuita:"
+      - StaticText " 800-10-6337"
+    - paragraph
+      - StaticText ""
+      - strong
+        - StaticText " Teléfono:"
+      - StaticText " (591-2) 2177300"
+  - generic
+    - paragraph
+      - strong
+        - StaticText "HORARIOS DE ATENCIÓN"
+        - LineBreak "\n"
+        - StaticText "Lunes a Viernes"
+    - paragraph
+      - StaticText "De 8:30 a 16:30"
+  - generic
+    - paragraph
+      - strong
+        - StaticText "REDES SOCIALES"
+    - generic
+      - link [ref=e40]
+      - link [ref=e41]
+  - strong
+    - StaticText "SICOES 1.5.0.3.0.5"
+  - image "Portada Presidencia"
+✓ Done
+- generic
+  - navigation
+    - list
+      - listitem [level=1]
+        - link "Inicio" [ref=e42]
+      - listitem [level=1]
+        - generic [ref=e43] clickable [cursor:pointer]
+          - StaticText "Contrataciones"
+      - listitem [level=1]
+        - link "Destino de Bienes" [ref=e44]
+      - listitem [level=1]
+        - link "RUPE" [ref=e45]
+      - listitem [level=1]
+        - generic [ref=e46] clickable [cursor:pointer]
+          - StaticText "Normativa"
+      - listitem [level=1]
+        - generic [ref=e47] clickable [cursor:pointer]
+          - StaticText "Incumplidos"
+      - listitem [level=1]
+        - generic [ref=e48] clickable [cursor:pointer]
+          - StaticText "Clasificadores"
+      - listitem [level=1]
+        - generic [ref=e49] clickable [cursor:pointer]
+          - StaticText "Compro Hecho en Bolivia"
+  - navigation
+    - StaticText "SISTEMA DE CONTRATACIONES ESTATALES"
+    - generic
+      - link "i" [ref=e16]
+        - StaticText "i"
+      - link "" [ref=e17]
+        - StaticText ""
+  - generic
+    - heading "Contrataciones" [level=6, ref=e1]
+    - link " Mercado Virtual Compro Hecho en Bolivia Productos Hechos en Bolivia" [ref=e2]
+      - generic
+        - generic
+          - StaticText ""
+        - image
+      - heading "Mercado Virtual" [level=4, ref=e18]
+      - heading "Compro Hecho en Bolivia" [level=4, ref=e19]
+      - paragraph
+        - StaticText "Productos Hechos en Bolivia"
+    - link " Mercado Virtual Conoce las ofertas de productos de los proveedores del Estado " [ref=e3]
+      - StaticText ""
+      - heading "Mercado Virtual" [level=4, ref=e20]
+      - paragraph
+        - StaticText "Conoce las ofertas de productos de los proveedores del Estado"
+      - LineBreak "\n"
+    - link " Convocatorias Búsqueda de Procesos de Contratación" [ref=e4]
+      - StaticText ""
+      - heading "Convocatorias" [level=4, ref=e21]
+      - paragraph
+        - StaticText "Búsqueda de Procesos de Contratación"
+    - link " Subasta Electrónica Búsqueda de Procesos a través de Subasta Electrónica" [ref=e5]
+      - StaticText ""
+      - heading "Subasta Electrónica" [level=4, ref=e22]
+      - paragraph
+        - StaticText "Búsqueda de Procesos a través de Subasta Electrónica"
+    - link "Guía de proveedores Vea quienes son los proveedores inscritos" [ref=e6]
+      - heading "Guía de proveedores" [level=4, ref=e23]
+      - paragraph
+        - StaticText "Vea quienes son los proveedores inscritos"
+    - link "Formularios Aquí encontrarás los formularios necesarios para interactuar con ..." [ref=e7]
+      - heading "Formularios" [level=4, ref=e24]
+      - paragraph
+        - StaticText "Aquí encontrarás los formularios necesarios para interactuar con ..."
+    - link "Decretos y Reglamentos Normas Básicas del Sistema de Administración de Bienes y Servicio ..." [ref=e8]
+      - heading "Decretos y Reglamentos" [level=4, ref=e25]
+      - paragraph
+        - StaticText "Normas Básicas del Sistema de Administración de Bienes y Servicio ..."
+    - LineBreak "\n"
+    - heading "Destino de Bienes" [level=6, ref=e9]
+    - link "Destino de Bienes dados de baja Conoce los bienes publicados por las Entidades." [ref=e10]
+      - heading "Destino de Bienes" [level=4, ref=e26]
+      - heading "dados de baja" [level=4, ref=e27]
+      - paragraph
+        - StaticText "Conoce los bienes publicados por las Entidades."
+    - generic
+      - heading "Comunicados" [level=6, ref=e28]
+      - LayoutTable
+        - LayoutTableRow
+          - LayoutTableCell "15/05/2026 Mefp/vpcf/dgsgif/n°16/2026: suspensión del rupe y mercado virtual..."
+            - generic [ref=e53] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "15/05/2026"
+              - heading "Mefp/vpcf/dgsgif/n°16/2026: suspensión del rupe y mercado virtual..." [level=5, ref=e58]
+        - LayoutTableRow
+          - LayoutTableCell "11/05/2026 Mefp/vpcf/dgsgif/n° 15/2026: registro de depósitos bancarios..."
+            - generic [ref=e54] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "11/05/2026"
+              - heading "Mefp/vpcf/dgsgif/n° 15/2026: registro de depósitos bancarios..." [level=5, ref=e59]
+        - LayoutTableRow
+          - LayoutTableCell "11/05/2026 Mefp/vpcf/dgsgif/n° 14/2026: registro de depósitos bancarios..."
+            - generic [ref=e55] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "11/05/2026"
+              - heading "Mefp/vpcf/dgsgif/n° 14/2026: registro de depósitos bancarios..." [level=5, ref=e60]
+        - LayoutTableRow
+          - LayoutTableCell "27/04/2026 Mefp/vpcf/dgngp/n° 003/2026: taller virtual de capacitación decreto supremo n°5597 de ajuste de precios de materiales..."
+            - generic [ref=e56] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "27/04/2026"
+              - heading "Mefp/vpcf/dgngp/n° 003/2026: taller virtual de capacitación decreto supremo n°5597 de ajuste de precios de materiales..." [level=5, ref=e61]
+      - link "Ver más »" [ref=e32]
+  - generic
+    - StaticText ""
+    - heading "RUPE" [level=4, ref=e29]
+      - generic [ref=e33] clickable [cursor:pointer]
+        - StaticText "RUPE"
+      - generic [ref=e34] clickable [cursor:pointer]
+    - StaticText "Ingreso al Registro Único de Proveedores del Estado"
+    - StaticText ""
+    - heading "ENTIDADES" [level=4, ref=e30]
+      - generic [ref=e35] clickable [cursor:pointer]
+        - StaticText "ENTIDADES"
+      - generic [ref=e36] clickable [cursor:pointer]
+    - StaticText "Registro de Usuario para el Ingreso a Entidades"
+    - link "BIBLIOTECA DIGITAL Material didáctico de consulta para los usuarios" [ref=e31]
+      - heading "BIBLIOTECA DIGITAL" [level=4, ref=e37]
+        - generic
+          - StaticText "BIBLIOTECA"
+          - LineBreak "\n"
+          - StaticText "DIGITAL"
+      - StaticText "Material didáctico de consulta para los usuarios"
+    - heading "Contrataciones Vigentes" [level=3, ref=e11]
+    - link "Bienes 1249" [ref=e12]
+      - generic
+        - StaticText "Bienes"
+        - LineBreak "\n"
+        - StaticText "1249"
+    - link "Obras 405" [ref=e13]
+      - generic
+        - StaticText "Obras"
+        - LineBreak "\n"
+        - StaticText "405"
+    - link "Servicios Generales 242" [ref=e14]
+      - generic
+        - StaticText "Servicios Generales"
+        - LineBreak "\n"
+        - StaticText "242"
+    - link "Servicios de Consultoría 159" [ref=e15]
+      - generic
+        - StaticText "Servicios de Consultoría"
+        - LineBreak "\n"
+        - StaticText "159"
+  - generic
+    - button "×" [ref=e38]
+    - heading "COMUNICADOS" [level=4, ref=e39]
+      - StaticText "COMUNICADOS"
+    - image
+    - heading "MEFP/VPCF/DGSGIF/N°16/2026: SUSPENSIÓN DEL RUPE Y MERCADO VIRTUAL" [level=4, ref=e50]
+    - paragraph
+      - StaticText "La Dirección General de Sistemas de Gestión de Información Fiscal (DGSGIF) comunica a los usuarios que operan en el Sistema de Contrataciones Estatales (SICOES), Registro Único de Proveedores del Estado (RUPE) y el Mercado Virtual, que el servicio será suspendido el día 16 de mayo de 2026, a partir de las 08:00 a.m. hasta las 09:00 a.m., con el objeto de realizar actualizaciones para Registro de Productos en el Mercado Virtual y Registro de Propuestas Electrónicas."
+    - paragraph
+      - link "Ver Comunicado" [ref=e57]
+    - image
+    - heading "MEFP/VPCF/DGSGIF/N° 15/2026: REGISTRO DE DEPÓSITOS BANCARIOS" [level=4, ref=e51]
+    - paragraph
+      - StaticText "En el marco del inciso b) del numeral 13.2 del Manual de Operaciones del SICOES, aprobado mediante Resolución Ministerial N° 480 de 23 de octubre de 2023, la Dirección General de Sistemas de Gestión de Información Fiscal (DGSGIF), como administrador del sistema, comunica a sus usuarios que a partir de las 07:30 a las 10:39 horas del día 11 de mayo de 2026, se presentó una dificultad técnica, impidiendo el registro de depósitos por concepto de Garantía de Seriedad de Propuesta."
+    - paragraph
+      - StaticText "De acuerdo al numeral 14.1 del mismo manual “Cuando el periodo de inactividad afecte la presentación de propuestas/ofertas/propuestas de interés, la participación en la Subasta Electrónica o en la Subasta al Alza, las entidades públicas podrán realizar ampliaciones de plazo a través de la reprogramación las actividades afectadas, cuando el periodo de inactividad incluya la fecha y hora límite fijadas para los procesos señalados en el comunicado de inactividad. La ampliación deberá considerar únicamente el comunicado de inactividad publicado en el SICOES para respaldar la ampliación”."
+    - paragraph
+      - StaticText "De acuerdo con lo establecido en el inciso b) del numeral 26.1 del Manual de Operaciones del SICOES, el plazo máximo de registro es de tres (3) días hábiles computables a partir de la emisión del presente comunicado."
+    - paragraph
+      - StaticText "Se detallan los procesos de contratación posiblemente afectados en Anexo adjunto."
+    - paragraph
+      - StaticText "La Paz, 11 de mayo de 2026"
+    - link "Ver Comunicado" [ref=e52]
+  - generic
+    - paragraph
+      - StaticText ""
+      - strong
+        - StaticText "Dirección:"
+      - StaticText " Edif. Contraloría General del Estado, Piso 7, Calle Colón, esq. Indaburo, La Paz, Bolivia"
+    - paragraph
+      - StaticText ""
+      - strong
+        - StaticText "Línea Gratuita:"
+      - StaticText " 800-10-6337"
+    - paragraph
+      - StaticText ""
+      - strong
+        - StaticText " Teléfono:"
+      - StaticText " (591-2) 2177300"
+  - generic
+    - paragraph
+      - strong
+        - StaticText "HORARIOS DE ATENCIÓN"
+        - LineBreak "\n"
+        - StaticText "Lunes a Viernes"
+    - paragraph
+      - StaticText "De 8:30 a 16:30"
+  - generic
+    - paragraph
+      - strong
+        - StaticText "REDES SOCIALES"
+    - generic
+      - link [ref=e40]
+      - link [ref=e41]
+  - strong
+    - StaticText "SICOES 1.5.0.3.0.5"
+  - image "Portada Presidencia"
+✓ Done
+- generic
+  - navigation
+    - list
+      - listitem [level=1]
+        - link "Inicio" [ref=e42]
+      - listitem [level=1]
+        - generic [ref=e43] clickable [cursor:pointer]
+          - StaticText "Contrataciones"
+      - listitem [level=1]
+        - link "Destino de Bienes" [ref=e44]
+      - listitem [level=1]
+        - link "RUPE" [ref=e45]
+      - listitem [level=1]
+        - generic [ref=e46] clickable [cursor:pointer]
+          - StaticText "Normativa"
+      - listitem [level=1]
+        - generic [ref=e47] clickable [cursor:pointer]
+          - StaticText "Incumplidos"
+      - listitem [level=1]
+        - generic [ref=e48] clickable [cursor:pointer]
+          - StaticText "Clasificadores"
+      - listitem [level=1]
+        - generic [ref=e49] clickable [cursor:pointer]
+          - StaticText "Compro Hecho en Bolivia"
+  - navigation
+    - StaticText "SISTEMA DE CONTRATACIONES ESTATALES"
+    - generic
+      - link "i" [ref=e16]
+        - StaticText "i"
+      - link "" [ref=e17]
+        - StaticText ""
+  - generic
+    - heading "Contrataciones" [level=6, ref=e1]
+    - link " Mercado Virtual Compro Hecho en Bolivia Productos Hechos en Bolivia" [ref=e2]
+      - generic
+        - generic
+          - StaticText ""
+        - image
+      - heading "Mercado Virtual" [level=4, ref=e18]
+      - heading "Compro Hecho en Bolivia" [level=4, ref=e19]
+      - paragraph
+        - StaticText "Productos Hechos en Bolivia"
+    - link " Mercado Virtual Conoce las ofertas de productos de los proveedores del Estado " [ref=e3]
+      - StaticText ""
+      - heading "Mercado Virtual" [level=4, ref=e20]
+      - paragraph
+        - StaticText "Conoce las ofertas de productos de los proveedores del Estado"
+      - LineBreak "\n"
+    - link " Convocatorias Búsqueda de Procesos de Contratación" [ref=e4]
+      - StaticText ""
+      - heading "Convocatorias" [level=4, ref=e21]
+      - paragraph
+        - StaticText "Búsqueda de Procesos de Contratación"
+    - link " Subasta Electrónica Búsqueda de Procesos a través de Subasta Electrónica" [ref=e5]
+      - StaticText ""
+      - heading "Subasta Electrónica" [level=4, ref=e22]
+      - paragraph
+        - StaticText "Búsqueda de Procesos a través de Subasta Electrónica"
+    - link "Guía de proveedores Vea quienes son los proveedores inscritos" [ref=e6]
+      - heading "Guía de proveedores" [level=4, ref=e23]
+      - paragraph
+        - StaticText "Vea quienes son los proveedores inscritos"
+    - link "Formularios Aquí encontrarás los formularios necesarios para interactuar con ..." [ref=e7]
+      - heading "Formularios" [level=4, ref=e24]
+      - paragraph
+        - StaticText "Aquí encontrarás los formularios necesarios para interactuar con ..."
+    - link "Decretos y Reglamentos Normas Básicas del Sistema de Administración de Bienes y Servicio ..." [ref=e8]
+      - heading "Decretos y Reglamentos" [level=4, ref=e25]
+      - paragraph
+        - StaticText "Normas Básicas del Sistema de Administración de Bienes y Servicio ..."
+    - LineBreak "\n"
+    - heading "Destino de Bienes" [level=6, ref=e9]
+    - link "Destino de Bienes dados de baja Conoce los bienes publicados por las Entidades." [ref=e10]
+      - heading "Destino de Bienes" [level=4, ref=e26]
+      - heading "dados de baja" [level=4, ref=e27]
+      - paragraph
+        - StaticText "Conoce los bienes publicados por las Entidades."
+    - generic
+      - heading "Comunicados" [level=6, ref=e28]
+      - LayoutTable
+        - LayoutTableRow
+          - LayoutTableCell "15/05/2026 Mefp/vpcf/dgsgif/n°16/2026: suspensión del rupe y mercado virtual..."
+            - generic [ref=e53] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "15/05/2026"
+              - heading "Mefp/vpcf/dgsgif/n°16/2026: suspensión del rupe y mercado virtual..." [level=5, ref=e58]
+        - LayoutTableRow
+          - LayoutTableCell "11/05/2026 Mefp/vpcf/dgsgif/n° 15/2026: registro de depósitos bancarios..."
+            - generic [ref=e54] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "11/05/2026"
+              - heading "Mefp/vpcf/dgsgif/n° 15/2026: registro de depósitos bancarios..." [level=5, ref=e59]
+        - LayoutTableRow
+          - LayoutTableCell "11/05/2026 Mefp/vpcf/dgsgif/n° 14/2026: registro de depósitos bancarios..."
+            - generic [ref=e55] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "11/05/2026"
+              - heading "Mefp/vpcf/dgsgif/n° 14/2026: registro de depósitos bancarios..." [level=5, ref=e60]
+        - LayoutTableRow
+          - LayoutTableCell "27/04/2026 Mefp/vpcf/dgngp/n° 003/2026: taller virtual de capacitación decreto supremo n°5597 de ajuste de precios de materiales..."
+            - generic [ref=e56] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "27/04/2026"
+              - heading "Mefp/vpcf/dgngp/n° 003/2026: taller virtual de capacitación decreto supremo n°5597 de ajuste de precios de materiales..." [level=5, ref=e61]
+      - link "Ver más »" [ref=e32]
+  - generic
+    - StaticText ""
+    - heading "RUPE" [level=4, ref=e29]
+      - generic [ref=e33] clickable [cursor:pointer]
+        - StaticText "RUPE"
+      - generic [ref=e34] clickable [cursor:pointer]
+    - StaticText "Ingreso al Registro Único de Proveedores del Estado"
+    - StaticText ""
+    - heading "ENTIDADES" [level=4, ref=e30]
+      - generic [ref=e35] clickable [cursor:pointer]
+        - StaticText "ENTIDADES"
+      - generic [ref=e36] clickable [cursor:pointer]
+    - StaticText "Registro de Usuario para el Ingreso a Entidades"
+    - link "BIBLIOTECA DIGITAL Material didáctico de consulta para los usuarios" [ref=e31]
+      - heading "BIBLIOTECA DIGITAL" [level=4, ref=e37]
+        - generic
+          - StaticText "BIBLIOTECA"
+          - LineBreak "\n"
+          - StaticText "DIGITAL"
+      - StaticText "Material didáctico de consulta para los usuarios"
+    - heading "Contrataciones Vigentes" [level=3, ref=e11]
+    - link "Bienes 1249" [ref=e12]
+      - generic
+        - StaticText "Bienes"
+        - LineBreak "\n"
+        - StaticText "1249"
+    - link "Obras 405" [ref=e13]
+      - generic
+        - StaticText "Obras"
+        - LineBreak "\n"
+        - StaticText "405"
+    - link "Servicios Generales 242" [ref=e14]
+      - generic
+        - StaticText "Servicios Generales"
+        - LineBreak "\n"
+        - StaticText "242"
+    - link "Servicios de Consultoría 159" [ref=e15]
+      - generic
+        - StaticText "Servicios de Consultoría"
+        - LineBreak "\n"
+        - StaticText "159"
+  - generic
+    - button "×" [ref=e38]
+    - heading "COMUNICADOS" [level=4, ref=e39]
+      - StaticText "COMUNICADOS"
+    - image
+    - heading "MEFP/VPCF/DGSGIF/N°16/2026: SUSPENSIÓN DEL RUPE Y MERCADO VIRTUAL" [level=4, ref=e50]
+    - paragraph
+      - StaticText "La Dirección General de Sistemas de Gestión de Información Fiscal (DGSGIF) comunica a los usuarios que operan en el Sistema de Contrataciones Estatales (SICOES), Registro Único de Proveedores del Estado (RUPE) y el Mercado Virtual, que el servicio será suspendido el día 16 de mayo de 2026, a partir de las 08:00 a.m. hasta las 09:00 a.m., con el objeto de realizar actualizaciones para Registro de Productos en el Mercado Virtual y Registro de Propuestas Electrónicas."
+    - paragraph
+      - link "Ver Comunicado" [ref=e57]
+    - image
+    - heading "MEFP/VPCF/DGSGIF/N° 15/2026: REGISTRO DE DEPÓSITOS BANCARIOS" [level=4, ref=e51]
+    - paragraph
+      - StaticText "En el marco del inciso b) del numeral 13.2 del Manual de Operaciones del SICOES, aprobado mediante Resolución Ministerial N° 480 de 23 de octubre de 2023, la Dirección General de Sistemas de Gestión de Información Fiscal (DGSGIF), como administrador del sistema, comunica a sus usuarios que a partir de las 07:30 a las 10:39 horas del día 11 de mayo de 2026, se presentó una dificultad técnica, impidiendo el registro de depósitos por concepto de Garantía de Seriedad de Propuesta."
+    - paragraph
+      - StaticText "De acuerdo al numeral 14.1 del mismo manual “Cuando el periodo de inactividad afecte la presentación de propuestas/ofertas/propuestas de interés, la participación en la Subasta Electrónica o en la Subasta al Alza, las entidades públicas podrán realizar ampliaciones de plazo a través de la reprogramación las actividades afectadas, cuando el periodo de inactividad incluya la fecha y hora límite fijadas para los procesos señalados en el comunicado de inactividad. La ampliación deberá considerar únicamente el comunicado de inactividad publicado en el SICOES para respaldar la ampliación”."
+    - paragraph
+      - StaticText "De acuerdo con lo establecido en el inciso b) del numeral 26.1 del Manual de Operaciones del SICOES, el plazo máximo de registro es de tres (3) días hábiles computables a partir de la emisión del presente comunicado."
+    - paragraph
+      - StaticText "Se detallan los procesos de contratación posiblemente afectados en Anexo adjunto."
+    - paragraph
+      - StaticText "La Paz, 11 de mayo de 2026"
+    - link "Ver Comunicado" [ref=e52]
+  - generic
+    - paragraph
+      - StaticText ""
+      - strong
+        - StaticText "Dirección:"
+      - StaticText " Edif. Contraloría General del Estado, Piso 7, Calle Colón, esq. Indaburo, La Paz, Bolivia"
+    - paragraph
+      - StaticText ""
+      - strong
+        - StaticText "Línea Gratuita:"
+      - StaticText " 800-10-6337"
+    - paragraph
+      - StaticText ""
+      - strong
+        - StaticText " Teléfono:"
+      - StaticText " (591-2) 2177300"
+  - generic
+    - paragraph
+      - strong
+        - StaticText "HORARIOS DE ATENCIÓN"
+        - LineBreak "\n"
+        - StaticText "Lunes a Viernes"
+    - paragraph
+      - StaticText "De 8:30 a 16:30"
+  - generic
+    - paragraph
+      - strong
+        - StaticText "REDES SOCIALES"
+    - generic
+      - link [ref=e40]
+      - link [ref=e41]
+  - strong
+    - StaticText "SICOES 1.5.0.3.0.5"
+  - image "Portada Presidencia"
+- generic
+  - navigation
+    - list
+      - listitem [level=1]
+        - link "Inicio" [ref=e42]
+      - listitem [level=1]
+        - generic [ref=e43] clickable [cursor:pointer]
+          - StaticText "Contrataciones"
+      - listitem [level=1]
+        - link "Destino de Bienes" [ref=e44]
+      - listitem [level=1]
+        - link "RUPE" [ref=e45]
+      - listitem [level=1]
+        - generic [ref=e46] clickable [cursor:pointer]
+          - StaticText "Normativa"
+      - listitem [level=1]
+        - generic [ref=e47] clickable [cursor:pointer]
+          - StaticText "Incumplidos"
+      - listitem [level=1]
+        - generic [ref=e48] clickable [cursor:pointer]
+          - StaticText "Clasificadores"
+      - listitem [level=1]
+        - generic [ref=e49] clickable [cursor:pointer]
+          - StaticText "Compro Hecho en Bolivia"
+  - navigation
+    - StaticText "SISTEMA DE CONTRATACIONES ESTATALES"
+    - generic
+      - link "i" [ref=e16]
+        - StaticText "i"
+      - link "" [ref=e17]
+        - StaticText ""
+  - generic
+    - heading "Contrataciones" [level=6, ref=e1]
+    - link " Mercado Virtual Compro Hecho en Bolivia Productos Hechos en Bolivia" [ref=e2]
+      - generic
+        - generic
+          - StaticText ""
+        - image
+      - heading "Mercado Virtual" [level=4, ref=e18]
+      - heading "Compro Hecho en Bolivia" [level=4, ref=e19]
+      - paragraph
+        - StaticText "Productos Hechos en Bolivia"
+    - link " Mercado Virtual Conoce las ofertas de productos de los proveedores del Estado " [ref=e3]
+      - StaticText ""
+      - heading "Mercado Virtual" [level=4, ref=e20]
+      - paragraph
+        - StaticText "Conoce las ofertas de productos de los proveedores del Estado"
+      - LineBreak "\n"
+    - link " Convocatorias Búsqueda de Procesos de Contratación" [ref=e4]
+      - StaticText ""
+      - heading "Convocatorias" [level=4, ref=e21]
+      - paragraph
+        - StaticText "Búsqueda de Procesos de Contratación"
+    - link " Subasta Electrónica Búsqueda de Procesos a través de Subasta Electrónica" [ref=e5]
+      - StaticText ""
+      - heading "Subasta Electrónica" [level=4, ref=e22]
+      - paragraph
+        - StaticText "Búsqueda de Procesos a través de Subasta Electrónica"
+    - link "Guía de proveedores Vea quienes son los proveedores inscritos" [ref=e6]
+      - heading "Guía de proveedores" [level=4, ref=e23]
+      - paragraph
+        - StaticText "Vea quienes son los proveedores inscritos"
+    - link "Formularios Aquí encontrarás los formularios necesarios para interactuar con ..." [ref=e7]
+      - heading "Formularios" [level=4, ref=e24]
+      - paragraph
+        - StaticText "Aquí encontrarás los formularios necesarios para interactuar con ..."
+    - link "Decretos y Reglamentos Normas Básicas del Sistema de Administración de Bienes y Servicio ..." [ref=e8]
+      - heading "Decretos y Reglamentos" [level=4, ref=e25]
+      - paragraph
+        - StaticText "Normas Básicas del Sistema de Administración de Bienes y Servicio ..."
+    - LineBreak "\n"
+    - heading "Destino de Bienes" [level=6, ref=e9]
+    - link "Destino de Bienes dados de baja Conoce los bienes publicados por las Entidades." [ref=e10]
+      - heading "Destino de Bienes" [level=4, ref=e26]
+      - heading "dados de baja" [level=4, ref=e27]
+      - paragraph
+        - StaticText "Conoce los bienes publicados por las Entidades."
+    - generic
+      - heading "Comunicados" [level=6, ref=e28]
+      - LayoutTable
+        - LayoutTableRow
+          - LayoutTableCell "15/05/2026 Mefp/vpcf/dgsgif/n°16/2026: suspensión del rupe y mercado virtual..."
+            - generic [ref=e53] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "15/05/2026"
+              - heading "Mefp/vpcf/dgsgif/n°16/2026: suspensión del rupe y mercado virtual..." [level=5, ref=e58]
+        - LayoutTableRow
+          - LayoutTableCell "11/05/2026 Mefp/vpcf/dgsgif/n° 15/2026: registro de depósitos bancarios..."
+            - generic [ref=e54] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "11/05/2026"
+              - heading "Mefp/vpcf/dgsgif/n° 15/2026: registro de depósitos bancarios..." [level=5, ref=e59]
+        - LayoutTableRow
+          - LayoutTableCell "11/05/2026 Mefp/vpcf/dgsgif/n° 14/2026: registro de depósitos bancarios..."
+            - generic [ref=e55] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "11/05/2026"
+              - heading "Mefp/vpcf/dgsgif/n° 14/2026: registro de depósitos bancarios..." [level=5, ref=e60]
+        - LayoutTableRow
+          - LayoutTableCell "27/04/2026 Mefp/vpcf/dgngp/n° 003/2026: taller virtual de capacitación decreto supremo n°5597 de ajuste de precios de materiales..."
+            - generic [ref=e56] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "27/04/2026"
+              - heading "Mefp/vpcf/dgngp/n° 003/2026: taller virtual de capacitación decreto supremo n°5597 de ajuste de precios de materiales..." [level=5, ref=e61]
+      - link "Ver más »" [ref=e32]
+  - generic
+    - StaticText ""
+    - heading "RUPE" [level=4, ref=e29]
+      - generic [ref=e33] clickable [cursor:pointer]
+        - StaticText "RUPE"
+      - generic [ref=e34] clickable [cursor:pointer]
+    - StaticText "Ingreso al Registro Único de Proveedores del Estado"
+    - StaticText ""
+    - heading "ENTIDADES" [level=4, ref=e30]
+      - generic [ref=e35] clickable [cursor:pointer]
+        - StaticText "ENTIDADES"
+      - generic [ref=e36] clickable [cursor:pointer]
+    - StaticText "Registro de Usuario para el Ingreso a Entidades"
+    - link "BIBLIOTECA DIGITAL Material didáctico de consulta para los usuarios" [ref=e31]
+      - heading "BIBLIOTECA DIGITAL" [level=4, ref=e37]
+        - generic
+          - StaticText "BIBLIOTECA"
+          - LineBreak "\n"
+          - StaticText "DIGITAL"
+      - StaticText "Material didáctico de consulta para los usuarios"
+    - heading "Contrataciones Vigentes" [level=3, ref=e11]
+    - link "Bienes 1249" [ref=e12]
+      - generic
+        - StaticText "Bienes"
+        - LineBreak "\n"
+        - StaticText "1249"
+    - link "Obras 405" [ref=e13]
+      - generic
+        - StaticText "Obras"
+        - LineBreak "\n"
+        - StaticText "405"
+    - link "Servicios Generales 242" [ref=e14]
+      - generic
+        - StaticText "Servicios Generales"
+        - LineBreak "\n"
+        - StaticText "242"
+    - link "Servicios de Consultoría 159" [ref=e15]
+      - generic
+        - StaticText "Servicios de Consultoría"
+        - LineBreak "\n"
+        - StaticText "159"
+  - generic
+    - button "×" [ref=e38]
+    - heading "COMUNICADOS" [level=4, ref=e39]
+      - StaticText "COMUNICADOS"
+    - image
+    - heading "MEFP/VPCF/DGSGIF/N°16/2026: SUSPENSIÓN DEL RUPE Y MERCADO VIRTUAL" [level=4, ref=e50]
+    - paragraph
+      - StaticText "La Dirección General de Sistemas de Gestión de Información Fiscal (DGSGIF) comunica a los usuarios que operan en el Sistema de Contrataciones Estatales (SICOES), Registro Único de Proveedores del Estado (RUPE) y el Mercado Virtual, que el servicio será suspendido el día 16 de mayo de 2026, a partir de las 08:00 a.m. hasta las 09:00 a.m., con el objeto de realizar actualizaciones para Registro de Productos en el Mercado Virtual y Registro de Propuestas Electrónicas."
+    - paragraph
+      - link "Ver Comunicado" [ref=e57]
+    - image
+    - heading "MEFP/VPCF/DGSGIF/N° 15/2026: REGISTRO DE DEPÓSITOS BANCARIOS" [level=4, ref=e51]
+    - paragraph
+      - StaticText "En el marco del inciso b) del numeral 13.2 del Manual de Operaciones del SICOES, aprobado mediante Resolución Ministerial N° 480 de 23 de octubre de 2023, la Dirección General de Sistemas de Gestión de Información Fiscal (DGSGIF), como administrador del sistema, comunica a sus usuarios que a partir de las 07:30 a las 10:39 horas del día 11 de mayo de 2026, se presentó una dificultad técnica, impidiendo el registro de depósitos por concepto de Garantía de Seriedad de Propuesta."
+    - paragraph
+      - StaticText "De acuerdo al numeral 14.1 del mismo manual “Cuando el periodo de inactividad afecte la presentación de propuestas/ofertas/propuestas de interés, la participación en la Subasta Electrónica o en la Subasta al Alza, las entidades públicas podrán realizar ampliaciones de plazo a través de la reprogramación las actividades afectadas, cuando el periodo de inactividad incluya la fecha y hora límite fijadas para los procesos señalados en el comunicado de inactividad. La ampliación deberá considerar únicamente el comunicado de inactividad publicado en el SICOES para respaldar la ampliación”."
+    - paragraph
+      - StaticText "De acuerdo con lo establecido en el inciso b) del numeral 26.1 del Manual de Operaciones del SICOES, el plazo máximo de registro es de tres (3) días hábiles computables a partir de la emisión del presente comunicado."
+    - paragraph
+      - StaticText "Se detallan los procesos de contratación posiblemente afectados en Anexo adjunto."
+    - paragraph
+      - StaticText "La Paz, 11 de mayo de 2026"
+    - link "Ver Comunicado" [ref=e52]
+  - generic
+    - paragraph
+      - StaticText ""
+      - strong
+        - StaticText "Dirección:"
+      - StaticText " Edif. Contraloría General del Estado, Piso 7, Calle Colón, esq. Indaburo, La Paz, Bolivia"
+    - paragraph
+      - StaticText ""
+      - strong
+        - StaticText "Línea Gratuita:"
+      - StaticText " 800-10-6337"
+    - paragraph
+      - StaticText ""
+      - strong
+        - StaticText " Teléfono:"
+      - StaticText " (591-2) 2177300"
+  - generic
+    - paragraph
+      - strong
+        - StaticText "HORARIOS DE ATENCIÓN"
+        - LineBreak "\n"
+        - StaticText "Lunes a Viernes"
+    - paragraph
+      - StaticText "De 8:30 a 16:30"
+  - generic
+    - paragraph
+      - strong
+        - StaticText "REDES SOCIALES"
+    - generic
+      - link [ref=e40]
+      - link [ref=e41]
+  - strong
+    - StaticText "SICOES 1.5.0.3.0.5"
+  - image "Portada Presidencia"
+✓ Done
+- generic
+  - navigation
+    - list
+      - listitem [level=1]
+        - link "Inicio" [ref=e42]
+      - listitem [level=1]
+        - generic [ref=e43] clickable [cursor:pointer]
+          - StaticText "Contrataciones"
+      - listitem [level=1]
+        - link "Destino de Bienes" [ref=e44]
+      - listitem [level=1]
+        - link "RUPE" [ref=e45]
+      - listitem [level=1]
+        - generic [ref=e46] clickable [cursor:pointer]
+          - StaticText "Normativa"
+      - listitem [level=1]
+        - generic [ref=e47] clickable [cursor:pointer]
+          - StaticText "Incumplidos"
+      - listitem [level=1]
+        - generic [ref=e48] clickable [cursor:pointer]
+          - StaticText "Clasificadores"
+      - listitem [level=1]
+        - generic [ref=e49] clickable [cursor:pointer]
+          - StaticText "Compro Hecho en Bolivia"
+  - navigation
+    - StaticText "SISTEMA DE CONTRATACIONES ESTATALES"
+    - generic
+      - link "i" [ref=e16]
+        - StaticText "i"
+      - link "" [ref=e17]
+        - StaticText ""
+  - generic
+    - heading "Contrataciones" [level=6, ref=e1]
+    - link " Mercado Virtual Compro Hecho en Bolivia Productos Hechos en Bolivia" [ref=e2]
+      - generic
+        - generic
+          - StaticText ""
+        - image
+      - heading "Mercado Virtual" [level=4, ref=e18]
+      - heading "Compro Hecho en Bolivia" [level=4, ref=e19]
+      - paragraph
+        - StaticText "Productos Hechos en Bolivia"
+    - link " Mercado Virtual Conoce las ofertas de productos de los proveedores del Estado " [ref=e3]
+      - StaticText ""
+      - heading "Mercado Virtual" [level=4, ref=e20]
+      - paragraph
+        - StaticText "Conoce las ofertas de productos de los proveedores del Estado"
+      - LineBreak "\n"
+    - link " Convocatorias Búsqueda de Procesos de Contratación" [ref=e4]
+      - StaticText ""
+      - heading "Convocatorias" [level=4, ref=e21]
+      - paragraph
+        - StaticText "Búsqueda de Procesos de Contratación"
+    - link " Subasta Electrónica Búsqueda de Procesos a través de Subasta Electrónica" [ref=e5]
+      - StaticText ""
+      - heading "Subasta Electrónica" [level=4, ref=e22]
+      - paragraph
+        - StaticText "Búsqueda de Procesos a través de Subasta Electrónica"
+    - link "Guía de proveedores Vea quienes son los proveedores inscritos" [ref=e6]
+      - heading "Guía de proveedores" [level=4, ref=e23]
+      - paragraph
+        - StaticText "Vea quienes son los proveedores inscritos"
+    - link "Formularios Aquí encontrarás los formularios necesarios para interactuar con ..." [ref=e7]
+      - heading "Formularios" [level=4, ref=e24]
+      - paragraph
+        - StaticText "Aquí encontrarás los formularios necesarios para interactuar con ..."
+    - link "Decretos y Reglamentos Normas Básicas del Sistema de Administración de Bienes y Servicio ..." [ref=e8]
+      - heading "Decretos y Reglamentos" [level=4, ref=e25]
+      - paragraph
+        - StaticText "Normas Básicas del Sistema de Administración de Bienes y Servicio ..."
+    - LineBreak "\n"
+    - heading "Destino de Bienes" [level=6, ref=e9]
+    - link "Destino de Bienes dados de baja Conoce los bienes publicados por las Entidades." [ref=e10]
+      - heading "Destino de Bienes" [level=4, ref=e26]
+      - heading "dados de baja" [level=4, ref=e27]
+      - paragraph
+        - StaticText "Conoce los bienes publicados por las Entidades."
+    - generic
+      - heading "Comunicados" [level=6, ref=e28]
+      - LayoutTable
+        - LayoutTableRow
+          - LayoutTableCell "15/05/2026 Mefp/vpcf/dgsgif/n°16/2026: suspensión del rupe y mercado virtual..."
+            - generic [ref=e53] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "15/05/2026"
+              - heading "Mefp/vpcf/dgsgif/n°16/2026: suspensión del rupe y mercado virtual..." [level=5, ref=e58]
+        - LayoutTableRow
+          - LayoutTableCell "11/05/2026 Mefp/vpcf/dgsgif/n° 15/2026: registro de depósitos bancarios..."
+            - generic [ref=e54] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "11/05/2026"
+              - heading "Mefp/vpcf/dgsgif/n° 15/2026: registro de depósitos bancarios..." [level=5, ref=e59]
+        - LayoutTableRow
+          - LayoutTableCell "11/05/2026 Mefp/vpcf/dgsgif/n° 14/2026: registro de depósitos bancarios..."
+            - generic [ref=e55] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "11/05/2026"
+              - heading "Mefp/vpcf/dgsgif/n° 14/2026: registro de depósitos bancarios..." [level=5, ref=e60]
+        - LayoutTableRow
+          - LayoutTableCell "27/04/2026 Mefp/vpcf/dgngp/n° 003/2026: taller virtual de capacitación decreto supremo n°5597 de ajuste de precios de materiales..."
+            - generic [ref=e56] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "27/04/2026"
+              - heading "Mefp/vpcf/dgngp/n° 003/2026: taller virtual de capacitación decreto supremo n°5597 de ajuste de precios de materiales..." [level=5, ref=e61]
+      - link "Ver más »" [ref=e32]
+  - generic
+    - StaticText ""
+    - heading "RUPE" [level=4, ref=e29]
+      - generic [ref=e33] clickable [cursor:pointer]
+        - StaticText "RUPE"
+      - generic [ref=e34] clickable [cursor:pointer]
+    - StaticText "Ingreso al Registro Único de Proveedores del Estado"
+    - StaticText ""
+    - heading "ENTIDADES" [level=4, ref=e30]
+      - generic [ref=e35] clickable [cursor:pointer]
+        - StaticText "ENTIDADES"
+      - generic [ref=e36] clickable [cursor:pointer]
+    - StaticText "Registro de Usuario para el Ingreso a Entidades"
+    - link "BIBLIOTECA DIGITAL Material didáctico de consulta para los usuarios" [ref=e31]
+      - heading "BIBLIOTECA DIGITAL" [level=4, ref=e37]
+        - generic
+          - StaticText "BIBLIOTECA"
+          - LineBreak "\n"
+          - StaticText "DIGITAL"
+      - StaticText "Material didáctico de consulta para los usuarios"
+    - heading "Contrataciones Vigentes" [level=3, ref=e11]
+    - link "Bienes 1249" [ref=e12]
+      - generic
+        - StaticText "Bienes"
+        - LineBreak "\n"
+        - StaticText "1249"
+    - link "Obras 405" [ref=e13]
+      - generic
+        - StaticText "Obras"
+        - LineBreak "\n"
+        - StaticText "405"
+    - link "Servicios Generales 242" [ref=e14]
+      - generic
+        - StaticText "Servicios Generales"
+        - LineBreak "\n"
+        - StaticText "242"
+    - link "Servicios de Consultoría 159" [ref=e15]
+      - generic
+        - StaticText "Servicios de Consultoría"
+        - LineBreak "\n"
+        - StaticText "159"
+  - generic
+    - button "×" [ref=e38]
+    - heading "COMUNICADOS" [level=4, ref=e39]
+      - StaticText "COMUNICADOS"
+    - image
+    - heading "MEFP/VPCF/DGSGIF/N°16/2026: SUSPENSIÓN DEL RUPE Y MERCADO VIRTUAL" [level=4, ref=e50]
+    - paragraph
+      - StaticText "La Dirección General de Sistemas de Gestión de Información Fiscal (DGSGIF) comunica a los usuarios que operan en el Sistema de Contrataciones Estatales (SICOES), Registro Único de Proveedores del Estado (RUPE) y el Mercado Virtual, que el servicio será suspendido el día 16 de mayo de 2026, a partir de las 08:00 a.m. hasta las 09:00 a.m., con el objeto de realizar actualizaciones para Registro de Productos en el Mercado Virtual y Registro de Propuestas Electrónicas."
+    - paragraph
+      - link "Ver Comunicado" [ref=e57]
+    - image
+    - heading "MEFP/VPCF/DGSGIF/N° 15/2026: REGISTRO DE DEPÓSITOS BANCARIOS" [level=4, ref=e51]
+    - paragraph
+      - StaticText "En el marco del inciso b) del numeral 13.2 del Manual de Operaciones del SICOES, aprobado mediante Resolución Ministerial N° 480 de 23 de octubre de 2023, la Dirección General de Sistemas de Gestión de Información Fiscal (DGSGIF), como administrador del sistema, comunica a sus usuarios que a partir de las 07:30 a las 10:39 horas del día 11 de mayo de 2026, se presentó una dificultad técnica, impidiendo el registro de depósitos por concepto de Garantía de Seriedad de Propuesta."
+    - paragraph
+      - StaticText "De acuerdo al numeral 14.1 del mismo manual “Cuando el periodo de inactividad afecte la presentación de propuestas/ofertas/propuestas de interés, la participación en la Subasta Electrónica o en la Subasta al Alza, las entidades públicas podrán realizar ampliaciones de plazo a través de la reprogramación las actividades afectadas, cuando el periodo de inactividad incluya la fecha y hora límite fijadas para los procesos señalados en el comunicado de inactividad. La ampliación deberá considerar únicamente el comunicado de inactividad publicado en el SICOES para respaldar la ampliación”."
+    - paragraph
+      - StaticText "De acuerdo con lo establecido en el inciso b) del numeral 26.1 del Manual de Operaciones del SICOES, el plazo máximo de registro es de tres (3) días hábiles computables a partir de la emisión del presente comunicado."
+    - paragraph
+      - StaticText "Se detallan los procesos de contratación posiblemente afectados en Anexo adjunto."
+    - paragraph
+      - StaticText "La Paz, 11 de mayo de 2026"
+    - link "Ver Comunicado" [ref=e52]
+  - generic
+    - paragraph
+      - StaticText ""
+      - strong
+        - StaticText "Dirección:"
+      - StaticText " Edif. Contraloría General del Estado, Piso 7, Calle Colón, esq. Indaburo, La Paz, Bolivia"
+    - paragraph
+      - StaticText ""
+      - strong
+        - StaticText "Línea Gratuita:"
+      - StaticText " 800-10-6337"
+    - paragraph
+      - StaticText ""
+      - strong
+        - StaticText " Teléfono:"
+      - StaticText " (591-2) 2177300"
+  - generic
+    - paragraph
+      - strong
+        - StaticText "HORARIOS DE ATENCIÓN"
+        - LineBreak "\n"
+        - StaticText "Lunes a Viernes"
+    - paragraph
+      - StaticText "De 8:30 a 16:30"
+  - generic
+    - paragraph
+      - strong
+        - StaticText "REDES SOCIALES"
+    - generic
+      - link [ref=e40]
+      - link [ref=e41]
+  - strong
+    - StaticText "SICOES 1.5.0.3.0.5"
+  - image "Portada Presidencia"
+✓ Done
+- generic
+  - navigation
+    - list
+      - listitem [level=1]
+        - link "Inicio" [ref=e42]
+      - listitem [level=1]
+        - generic [ref=e43] clickable [cursor:pointer]
+          - StaticText "Contrataciones"
+      - listitem [level=1]
+        - link "Destino de Bienes" [ref=e44]
+      - listitem [level=1]
+        - link "RUPE" [ref=e45]
+      - listitem [level=1]
+        - generic [ref=e46] clickable [cursor:pointer]
+          - StaticText "Normativa"
+      - listitem [level=1]
+        - generic [ref=e47] clickable [cursor:pointer]
+          - StaticText "Incumplidos"
+      - listitem [level=1]
+        - generic [ref=e48] clickable [cursor:pointer]
+          - StaticText "Clasificadores"
+      - listitem [level=1]
+        - generic [ref=e49] clickable [cursor:pointer]
+          - StaticText "Compro Hecho en Bolivia"
+  - navigation
+    - StaticText "SISTEMA DE CONTRATACIONES ESTATALES"
+    - generic
+      - link "i" [ref=e16]
+        - StaticText "i"
+      - link "" [ref=e17]
+        - StaticText ""
+  - generic
+    - heading "Contrataciones" [level=6, ref=e1]
+    - link " Mercado Virtual Compro Hecho en Bolivia Productos Hechos en Bolivia" [ref=e2]
+      - generic
+        - generic
+          - StaticText ""
+        - image
+      - heading "Mercado Virtual" [level=4, ref=e18]
+      - heading "Compro Hecho en Bolivia" [level=4, ref=e19]
+      - paragraph
+        - StaticText "Productos Hechos en Bolivia"
+    - link " Mercado Virtual Conoce las ofertas de productos de los proveedores del Estado " [ref=e3]
+      - StaticText ""
+      - heading "Mercado Virtual" [level=4, ref=e20]
+      - paragraph
+        - StaticText "Conoce las ofertas de productos de los proveedores del Estado"
+      - LineBreak "\n"
+    - link " Convocatorias Búsqueda de Procesos de Contratación" [ref=e4]
+      - StaticText ""
+      - heading "Convocatorias" [level=4, ref=e21]
+      - paragraph
+        - StaticText "Búsqueda de Procesos de Contratación"
+    - link " Subasta Electrónica Búsqueda de Procesos a través de Subasta Electrónica" [ref=e5]
+      - StaticText ""
+      - heading "Subasta Electrónica" [level=4, ref=e22]
+      - paragraph
+        - StaticText "Búsqueda de Procesos a través de Subasta Electrónica"
+    - link "Guía de proveedores Vea quienes son los proveedores inscritos" [ref=e6]
+      - heading "Guía de proveedores" [level=4, ref=e23]
+      - paragraph
+        - StaticText "Vea quienes son los proveedores inscritos"
+    - link "Formularios Aquí encontrarás los formularios necesarios para interactuar con ..." [ref=e7]
+      - heading "Formularios" [level=4, ref=e24]
+      - paragraph
+        - StaticText "Aquí encontrarás los formularios necesarios para interactuar con ..."
+    - link "Decretos y Reglamentos Normas Básicas del Sistema de Administración de Bienes y Servicio ..." [ref=e8]
+      - heading "Decretos y Reglamentos" [level=4, ref=e25]
+      - paragraph
+        - StaticText "Normas Básicas del Sistema de Administración de Bienes y Servicio ..."
+    - LineBreak "\n"
+    - heading "Destino de Bienes" [level=6, ref=e9]
+    - link "Destino de Bienes dados de baja Conoce los bienes publicados por las Entidades." [ref=e10]
+      - heading "Destino de Bienes" [level=4, ref=e26]
+      - heading "dados de baja" [level=4, ref=e27]
+      - paragraph
+        - StaticText "Conoce los bienes publicados por las Entidades."
+    - generic
+      - heading "Comunicados" [level=6, ref=e28]
+      - LayoutTable
+        - LayoutTableRow
+          - LayoutTableCell "15/05/2026 Mefp/vpcf/dgsgif/n°16/2026: suspensión del rupe y mercado virtual..."
+            - generic [ref=e53] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "15/05/2026"
+              - heading "Mefp/vpcf/dgsgif/n°16/2026: suspensión del rupe y mercado virtual..." [level=5, ref=e58]
+        - LayoutTableRow
+          - LayoutTableCell "11/05/2026 Mefp/vpcf/dgsgif/n° 15/2026: registro de depósitos bancarios..."
+            - generic [ref=e54] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "11/05/2026"
+              - heading "Mefp/vpcf/dgsgif/n° 15/2026: registro de depósitos bancarios..." [level=5, ref=e59]
+        - LayoutTableRow
+          - LayoutTableCell "11/05/2026 Mefp/vpcf/dgsgif/n° 14/2026: registro de depósitos bancarios..."
+            - generic [ref=e55] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "11/05/2026"
+              - heading "Mefp/vpcf/dgsgif/n° 14/2026: registro de depósitos bancarios..." [level=5, ref=e60]
+        - LayoutTableRow
+          - LayoutTableCell "27/04/2026 Mefp/vpcf/dgngp/n° 003/2026: taller virtual de capacitación decreto supremo n°5597 de ajuste de precios de materiales..."
+            - generic [ref=e56] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "27/04/2026"
+              - heading "Mefp/vpcf/dgngp/n° 003/2026: taller virtual de capacitación decreto supremo n°5597 de ajuste de precios de materiales..." [level=5, ref=e61]
+      - link "Ver más »" [ref=e32]
+  - generic
+    - StaticText ""
+    - heading "RUPE" [level=4, ref=e29]
+      - generic [ref=e33] clickable [cursor:pointer]
+        - StaticText "RUPE"
+      - generic [ref=e34] clickable [cursor:pointer]
+    - StaticText "Ingreso al Registro Único de Proveedores del Estado"
+    - StaticText ""
+    - heading "ENTIDADES" [level=4, ref=e30]
+      - generic [ref=e35] clickable [cursor:pointer]
+        - StaticText "ENTIDADES"
+      - generic [ref=e36] clickable [cursor:pointer]
+    - StaticText "Registro de Usuario para el Ingreso a Entidades"
+    - link "BIBLIOTECA DIGITAL Material didáctico de consulta para los usuarios" [ref=e31]
+      - heading "BIBLIOTECA DIGITAL" [level=4, ref=e37]
+        - generic
+          - StaticText "BIBLIOTECA"
+          - LineBreak "\n"
+          - StaticText "DIGITAL"
+      - StaticText "Material didáctico de consulta para los usuarios"
+    - heading "Contrataciones Vigentes" [level=3, ref=e11]
+    - link "Bienes 1249" [ref=e12]
+      - generic
+        - StaticText "Bienes"
+        - LineBreak "\n"
+        - StaticText "1249"
+    - link "Obras 405" [ref=e13]
+      - generic
+        - StaticText "Obras"
+        - LineBreak "\n"
+        - StaticText "405"
+    - link "Servicios Generales 242" [ref=e14]
+      - generic
+        - StaticText "Servicios Generales"
+        - LineBreak "\n"
+        - StaticText "242"
+    - link "Servicios de Consultoría 159" [ref=e15]
+      - generic
+        - StaticText "Servicios de Consultoría"
+        - LineBreak "\n"
+        - StaticText "159"
+  - generic
+    - button "×" [ref=e38]
+    - heading "COMUNICADOS" [level=4, ref=e39]
+      - StaticText "COMUNICADOS"
+    - image
+    - heading "MEFP/VPCF/DGSGIF/N°16/2026: SUSPENSIÓN DEL RUPE Y MERCADO VIRTUAL" [level=4, ref=e50]
+    - paragraph
+      - StaticText "La Dirección General de Sistemas de Gestión de Información Fiscal (DGSGIF) comunica a los usuarios que operan en el Sistema de Contrataciones Estatales (SICOES), Registro Único de Proveedores del Estado (RUPE) y el Mercado Virtual, que el servicio será suspendido el día 16 de mayo de 2026, a partir de las 08:00 a.m. hasta las 09:00 a.m., con el objeto de realizar actualizaciones para Registro de Productos en el Mercado Virtual y Registro de Propuestas Electrónicas."
+    - paragraph
+      - link "Ver Comunicado" [ref=e57]
+    - image
+    - heading "MEFP/VPCF/DGSGIF/N° 15/2026: REGISTRO DE DEPÓSITOS BANCARIOS" [level=4, ref=e51]
+    - paragraph
+      - StaticText "En el marco del inciso b) del numeral 13.2 del Manual de Operaciones del SICOES, aprobado mediante Resolución Ministerial N° 480 de 23 de octubre de 2023, la Dirección General de Sistemas de Gestión de Información Fiscal (DGSGIF), como administrador del sistema, comunica a sus usuarios que a partir de las 07:30 a las 10:39 horas del día 11 de mayo de 2026, se presentó una dificultad técnica, impidiendo el registro de depósitos por concepto de Garantía de Seriedad de Propuesta."
+    - paragraph
+      - StaticText "De acuerdo al numeral 14.1 del mismo manual “Cuando el periodo de inactividad afecte la presentación de propuestas/ofertas/propuestas de interés, la participación en la Subasta Electrónica o en la Subasta al Alza, las entidades públicas podrán realizar ampliaciones de plazo a través de la reprogramación las actividades afectadas, cuando el periodo de inactividad incluya la fecha y hora límite fijadas para los procesos señalados en el comunicado de inactividad. La ampliación deberá considerar únicamente el comunicado de inactividad publicado en el SICOES para respaldar la ampliación”."
+    - paragraph
+      - StaticText "De acuerdo con lo establecido en el inciso b) del numeral 26.1 del Manual de Operaciones del SICOES, el plazo máximo de registro es de tres (3) días hábiles computables a partir de la emisión del presente comunicado."
+    - paragraph
+      - StaticText "Se detallan los procesos de contratación posiblemente afectados en Anexo adjunto."
+    - paragraph
+      - StaticText "La Paz, 11 de mayo de 2026"
+    - link "Ver Comunicado" [ref=e52]
+  - generic
+    - paragraph
+      - StaticText ""
+      - strong
+        - StaticText "Dirección:"
+      - StaticText " Edif. Contraloría General del Estado, Piso 7, Calle Colón, esq. Indaburo, La Paz, Bolivia"
+    - paragraph
+      - StaticText ""
+      - strong
+        - StaticText "Línea Gratuita:"
+      - StaticText " 800-10-6337"
+    - paragraph
+      - StaticText ""
+      - strong
+        - StaticText " Teléfono:"
+      - StaticText " (591-2) 2177300"
+  - generic
+    - paragraph
+      - strong
+        - StaticText "HORARIOS DE ATENCIÓN"
+        - LineBreak "\n"
+        - StaticText "Lunes a Viernes"
+    - paragraph
+      - StaticText "De 8:30 a 16:30"
+  - generic
+    - paragraph
+      - strong
+        - StaticText "REDES SOCIALES"
+    - generic
+      - link [ref=e40]
+      - link [ref=e41]
+  - strong
+    - StaticText "SICOES 1.5.0.3.0.5"
+  - image "Portada Presidencia"
+✓ Done
+- generic
+  - navigation
+    - list
+      - listitem [level=1]
+        - link "Inicio" [ref=e42]
+      - listitem [level=1]
+        - generic [ref=e43] clickable [cursor:pointer]
+          - StaticText "Contrataciones"
+      - listitem [level=1]
+        - link "Destino de Bienes" [ref=e44]
+      - listitem [level=1]
+        - link "RUPE" [ref=e45]
+      - listitem [level=1]
+        - generic [ref=e46] clickable [cursor:pointer]
+          - StaticText "Normativa"
+      - listitem [level=1]
+        - generic [ref=e47] clickable [cursor:pointer]
+          - StaticText "Incumplidos"
+      - listitem [level=1]
+        - generic [ref=e48] clickable [cursor:pointer]
+          - StaticText "Clasificadores"
+      - listitem [level=1]
+        - generic [ref=e49] clickable [cursor:pointer]
+          - StaticText "Compro Hecho en Bolivia"
+  - navigation
+    - StaticText "SISTEMA DE CONTRATACIONES ESTATALES"
+    - generic
+      - link "i" [ref=e16]
+        - StaticText "i"
+      - link "" [ref=e17]
+        - StaticText ""
+  - generic
+    - heading "Contrataciones" [level=6, ref=e1]
+    - link " Mercado Virtual Compro Hecho en Bolivia Productos Hechos en Bolivia" [ref=e2]
+      - generic
+        - generic
+          - StaticText ""
+        - image
+      - heading "Mercado Virtual" [level=4, ref=e18]
+      - heading "Compro Hecho en Bolivia" [level=4, ref=e19]
+      - paragraph
+        - StaticText "Productos Hechos en Bolivia"
+    - link " Mercado Virtual Conoce las ofertas de productos de los proveedores del Estado " [ref=e3]
+      - StaticText ""
+      - heading "Mercado Virtual" [level=4, ref=e20]
+      - paragraph
+        - StaticText "Conoce las ofertas de productos de los proveedores del Estado"
+      - LineBreak "\n"
+    - link " Convocatorias Búsqueda de Procesos de Contratación" [ref=e4]
+      - StaticText ""
+      - heading "Convocatorias" [level=4, ref=e21]
+      - paragraph
+        - StaticText "Búsqueda de Procesos de Contratación"
+    - link " Subasta Electrónica Búsqueda de Procesos a través de Subasta Electrónica" [ref=e5]
+      - StaticText ""
+      - heading "Subasta Electrónica" [level=4, ref=e22]
+      - paragraph
+        - StaticText "Búsqueda de Procesos a través de Subasta Electrónica"
+    - link "Guía de proveedores Vea quienes son los proveedores inscritos" [ref=e6]
+      - heading "Guía de proveedores" [level=4, ref=e23]
+      - paragraph
+        - StaticText "Vea quienes son los proveedores inscritos"
+    - link "Formularios Aquí encontrarás los formularios necesarios para interactuar con ..." [ref=e7]
+      - heading "Formularios" [level=4, ref=e24]
+      - paragraph
+        - StaticText "Aquí encontrarás los formularios necesarios para interactuar con ..."
+    - link "Decretos y Reglamentos Normas Básicas del Sistema de Administración de Bienes y Servicio ..." [ref=e8]
+      - heading "Decretos y Reglamentos" [level=4, ref=e25]
+      - paragraph
+        - StaticText "Normas Básicas del Sistema de Administración de Bienes y Servicio ..."
+    - LineBreak "\n"
+    - heading "Destino de Bienes" [level=6, ref=e9]
+    - link "Destino de Bienes dados de baja Conoce los bienes publicados por las Entidades." [ref=e10]
+      - heading "Destino de Bienes" [level=4, ref=e26]
+      - heading "dados de baja" [level=4, ref=e27]
+      - paragraph
+        - StaticText "Conoce los bienes publicados por las Entidades."
+    - generic
+      - heading "Comunicados" [level=6, ref=e28]
+      - LayoutTable
+        - LayoutTableRow
+          - LayoutTableCell "15/05/2026 Mefp/vpcf/dgsgif/n°16/2026: suspensión del rupe y mercado virtual..."
+            - generic [ref=e53] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "15/05/2026"
+              - heading "Mefp/vpcf/dgsgif/n°16/2026: suspensión del rupe y mercado virtual..." [level=5, ref=e58]
+        - LayoutTableRow
+          - LayoutTableCell "11/05/2026 Mefp/vpcf/dgsgif/n° 15/2026: registro de depósitos bancarios..."
+            - generic [ref=e54] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "11/05/2026"
+              - heading "Mefp/vpcf/dgsgif/n° 15/2026: registro de depósitos bancarios..." [level=5, ref=e59]
+        - LayoutTableRow
+          - LayoutTableCell "11/05/2026 Mefp/vpcf/dgsgif/n° 14/2026: registro de depósitos bancarios..."
+            - generic [ref=e55] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "11/05/2026"
+              - heading "Mefp/vpcf/dgsgif/n° 14/2026: registro de depósitos bancarios..." [level=5, ref=e60]
+        - LayoutTableRow
+          - LayoutTableCell "27/04/2026 Mefp/vpcf/dgngp/n° 003/2026: taller virtual de capacitación decreto supremo n°5597 de ajuste de precios de materiales..."
+            - generic [ref=e56] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "27/04/2026"
+              - heading "Mefp/vpcf/dgngp/n° 003/2026: taller virtual de capacitación decreto supremo n°5597 de ajuste de precios de materiales..." [level=5, ref=e61]
+      - link "Ver más »" [ref=e32]
+  - generic
+    - StaticText ""
+    - heading "RUPE" [level=4, ref=e29]
+      - generic [ref=e33] clickable [cursor:pointer]
+        - StaticText "RUPE"
+      - generic [ref=e34] clickable [cursor:pointer]
+    - StaticText "Ingreso al Registro Único de Proveedores del Estado"
+    - StaticText ""
+    - heading "ENTIDADES" [level=4, ref=e30]
+      - generic [ref=e35] clickable [cursor:pointer]
+        - StaticText "ENTIDADES"
+      - generic [ref=e36] clickable [cursor:pointer]
+    - StaticText "Registro de Usuario para el Ingreso a Entidades"
+    - link "BIBLIOTECA DIGITAL Material didáctico de consulta para los usuarios" [ref=e31]
+      - heading "BIBLIOTECA DIGITAL" [level=4, ref=e37]
+        - generic
+          - StaticText "BIBLIOTECA"
+          - LineBreak "\n"
+          - StaticText "DIGITAL"
+      - StaticText "Material didáctico de consulta para los usuarios"
+    - heading "Contrataciones Vigentes" [level=3, ref=e11]
+    - link "Bienes 1249" [ref=e12]
+      - generic
+        - StaticText "Bienes"
+        - LineBreak "\n"
+        - StaticText "1249"
+    - link "Obras 405" [ref=e13]
+      - generic
+        - StaticText "Obras"
+        - LineBreak "\n"
+        - StaticText "405"
+    - link "Servicios Generales 242" [ref=e14]
+      - generic
+        - StaticText "Servicios Generales"
+        - LineBreak "\n"
+        - StaticText "242"
+    - link "Servicios de Consultoría 159" [ref=e15]
+      - generic
+        - StaticText "Servicios de Consultoría"
+        - LineBreak "\n"
+        - StaticText "159"
+  - generic
+    - button "×" [ref=e38]
+    - heading "COMUNICADOS" [level=4, ref=e39]
+      - StaticText "COMUNICADOS"
+    - image
+    - heading "MEFP/VPCF/DGSGIF/N°16/2026: SUSPENSIÓN DEL RUPE Y MERCADO VIRTUAL" [level=4, ref=e50]
+    - paragraph
+      - StaticText "La Dirección General de Sistemas de Gestión de Información Fiscal (DGSGIF) comunica a los usuarios que operan en el Sistema de Contrataciones Estatales (SICOES), Registro Único de Proveedores del Estado (RUPE) y el Mercado Virtual, que el servicio será suspendido el día 16 de mayo de 2026, a partir de las 08:00 a.m. hasta las 09:00 a.m., con el objeto de realizar actualizaciones para Registro de Productos en el Mercado Virtual y Registro de Propuestas Electrónicas."
+    - paragraph
+      - link "Ver Comunicado" [ref=e57]
+    - image
+    - heading "MEFP/VPCF/DGSGIF/N° 15/2026: REGISTRO DE DEPÓSITOS BANCARIOS" [level=4, ref=e51]
+    - paragraph
+      - StaticText "En el marco del inciso b) del numeral 13.2 del Manual de Operaciones del SICOES, aprobado mediante Resolución Ministerial N° 480 de 23 de octubre de 2023, la Dirección General de Sistemas de Gestión de Información Fiscal (DGSGIF), como administrador del sistema, comunica a sus usuarios que a partir de las 07:30 a las 10:39 horas del día 11 de mayo de 2026, se presentó una dificultad técnica, impidiendo el registro de depósitos por concepto de Garantía de Seriedad de Propuesta."
+    - paragraph
+      - StaticText "De acuerdo al numeral 14.1 del mismo manual “Cuando el periodo de inactividad afecte la presentación de propuestas/ofertas/propuestas de interés, la participación en la Subasta Electrónica o en la Subasta al Alza, las entidades públicas podrán realizar ampliaciones de plazo a través de la reprogramación las actividades afectadas, cuando el periodo de inactividad incluya la fecha y hora límite fijadas para los procesos señalados en el comunicado de inactividad. La ampliación deberá considerar únicamente el comunicado de inactividad publicado en el SICOES para respaldar la ampliación”."
+    - paragraph
+      - StaticText "De acuerdo con lo establecido en el inciso b) del numeral 26.1 del Manual de Operaciones del SICOES, el plazo máximo de registro es de tres (3) días hábiles computables a partir de la emisión del presente comunicado."
+    - paragraph
+      - StaticText "Se detallan los procesos de contratación posiblemente afectados en Anexo adjunto."
+    - paragraph
+      - StaticText "La Paz, 11 de mayo de 2026"
+    - link "Ver Comunicado" [ref=e52]
+  - generic
+    - paragraph
+      - StaticText ""
+      - strong
+        - StaticText "Dirección:"
+      - StaticText " Edif. Contraloría General del Estado, Piso 7, Calle Colón, esq. Indaburo, La Paz, Bolivia"
+    - paragraph
+      - StaticText ""
+      - strong
+        - StaticText "Línea Gratuita:"
+      - StaticText " 800-10-6337"
+    - paragraph
+      - StaticText ""
+      - strong
+        - StaticText " Teléfono:"
+      - StaticText " (591-2) 2177300"
+  - generic
+    - paragraph
+      - strong
+        - StaticText "HORARIOS DE ATENCIÓN"
+        - LineBreak "\n"
+        - StaticText "Lunes a Viernes"
+    - paragraph
+      - StaticText "De 8:30 a 16:30"
+  - generic
+    - paragraph
+      - strong
+        - StaticText "REDES SOCIALES"
+    - generic
+      - link [ref=e40]
+      - link [ref=e41]
+  - strong
+    - StaticText "SICOES 1.5.0.3.0.5"
+  - image "Portada Presidencia"
+- generic
+  - navigation
+    - list
+      - listitem [level=1]
+        - link "Inicio" [ref=e42]
+      - listitem [level=1]
+        - generic [ref=e43] clickable [cursor:pointer]
+          - StaticText "Contrataciones"
+      - listitem [level=1]
+        - link "Destino de Bienes" [ref=e44]
+      - listitem [level=1]
+        - link "RUPE" [ref=e45]
+      - listitem [level=1]
+        - generic [ref=e46] clickable [cursor:pointer]
+          - StaticText "Normativa"
+      - listitem [level=1]
+        - generic [ref=e47] clickable [cursor:pointer]
+          - StaticText "Incumplidos"
+      - listitem [level=1]
+        - generic [ref=e48] clickable [cursor:pointer]
+          - StaticText "Clasificadores"
+      - listitem [level=1]
+        - generic [ref=e49] clickable [cursor:pointer]
+          - StaticText "Compro Hecho en Bolivia"
+  - navigation
+    - StaticText "SISTEMA DE CONTRATACIONES ESTATALES"
+    - generic
+      - link "i" [ref=e16]
+        - StaticText "i"
+      - link "" [ref=e17]
+        - StaticText ""
+  - generic
+    - heading "Contrataciones" [level=6, ref=e1]
+    - link " Mercado Virtual Compro Hecho en Bolivia Productos Hechos en Bolivia" [ref=e2]
+      - generic
+        - generic
+          - StaticText ""
+        - image
+      - heading "Mercado Virtual" [level=4, ref=e18]
+      - heading "Compro Hecho en Bolivia" [level=4, ref=e19]
+      - paragraph
+        - StaticText "Productos Hechos en Bolivia"
+    - link " Mercado Virtual Conoce las ofertas de productos de los proveedores del Estado " [ref=e3]
+      - StaticText ""
+      - heading "Mercado Virtual" [level=4, ref=e20]
+      - paragraph
+        - StaticText "Conoce las ofertas de productos de los proveedores del Estado"
+      - LineBreak "\n"
+    - link " Convocatorias Búsqueda de Procesos de Contratación" [ref=e4]
+      - StaticText ""
+      - heading "Convocatorias" [level=4, ref=e21]
+      - paragraph
+        - StaticText "Búsqueda de Procesos de Contratación"
+    - link " Subasta Electrónica Búsqueda de Procesos a través de Subasta Electrónica" [ref=e5]
+      - StaticText ""
+      - heading "Subasta Electrónica" [level=4, ref=e22]
+      - paragraph
+        - StaticText "Búsqueda de Procesos a través de Subasta Electrónica"
+    - link "Guía de proveedores Vea quienes son los proveedores inscritos" [ref=e6]
+      - heading "Guía de proveedores" [level=4, ref=e23]
+      - paragraph
+        - StaticText "Vea quienes son los proveedores inscritos"
+    - link "Formularios Aquí encontrarás los formularios necesarios para interactuar con ..." [ref=e7]
+      - heading "Formularios" [level=4, ref=e24]
+      - paragraph
+        - StaticText "Aquí encontrarás los formularios necesarios para interactuar con ..."
+    - link "Decretos y Reglamentos Normas Básicas del Sistema de Administración de Bienes y Servicio ..." [ref=e8]
+      - heading "Decretos y Reglamentos" [level=4, ref=e25]
+      - paragraph
+        - StaticText "Normas Básicas del Sistema de Administración de Bienes y Servicio ..."
+    - LineBreak "\n"
+    - heading "Destino de Bienes" [level=6, ref=e9]
+    - link "Destino de Bienes dados de baja Conoce los bienes publicados por las Entidades." [ref=e10]
+      - heading "Destino de Bienes" [level=4, ref=e26]
+      - heading "dados de baja" [level=4, ref=e27]
+      - paragraph
+        - StaticText "Conoce los bienes publicados por las Entidades."
+    - generic
+      - heading "Comunicados" [level=6, ref=e28]
+      - LayoutTable
+        - LayoutTableRow
+          - LayoutTableCell "15/05/2026 Mefp/vpcf/dgsgif/n°16/2026: suspensión del rupe y mercado virtual..."
+            - generic [ref=e53] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "15/05/2026"
+              - heading "Mefp/vpcf/dgsgif/n°16/2026: suspensión del rupe y mercado virtual..." [level=5, ref=e58]
+        - LayoutTableRow
+          - LayoutTableCell "11/05/2026 Mefp/vpcf/dgsgif/n° 15/2026: registro de depósitos bancarios..."
+            - generic [ref=e54] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "11/05/2026"
+              - heading "Mefp/vpcf/dgsgif/n° 15/2026: registro de depósitos bancarios..." [level=5, ref=e59]
+        - LayoutTableRow
+          - LayoutTableCell "11/05/2026 Mefp/vpcf/dgsgif/n° 14/2026: registro de depósitos bancarios..."
+            - generic [ref=e55] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "11/05/2026"
+              - heading "Mefp/vpcf/dgsgif/n° 14/2026: registro de depósitos bancarios..." [level=5, ref=e60]
+        - LayoutTableRow
+          - LayoutTableCell "27/04/2026 Mefp/vpcf/dgngp/n° 003/2026: taller virtual de capacitación decreto supremo n°5597 de ajuste de precios de materiales..."
+            - generic [ref=e56] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "27/04/2026"
+              - heading "Mefp/vpcf/dgngp/n° 003/2026: taller virtual de capacitación decreto supremo n°5597 de ajuste de precios de materiales..." [level=5, ref=e61]
+      - link "Ver más »" [ref=e32]
+  - generic
+    - StaticText ""
+    - heading "RUPE" [level=4, ref=e29]
+      - generic [ref=e33] clickable [cursor:pointer]
+        - StaticText "RUPE"
+      - generic [ref=e34] clickable [cursor:pointer]
+    - StaticText "Ingreso al Registro Único de Proveedores del Estado"
+    - StaticText ""
+    - heading "ENTIDADES" [level=4, ref=e30]
+      - generic [ref=e35] clickable [cursor:pointer]
+        - StaticText "ENTIDADES"
+      - generic [ref=e36] clickable [cursor:pointer]
+    - StaticText "Registro de Usuario para el Ingreso a Entidades"
+    - link "BIBLIOTECA DIGITAL Material didáctico de consulta para los usuarios" [ref=e31]
+      - heading "BIBLIOTECA DIGITAL" [level=4, ref=e37]
+        - generic
+          - StaticText "BIBLIOTECA"
+          - LineBreak "\n"
+          - StaticText "DIGITAL"
+      - StaticText "Material didáctico de consulta para los usuarios"
+    - heading "Contrataciones Vigentes" [level=3, ref=e11]
+    - link "Bienes 1249" [ref=e12]
+      - generic
+        - StaticText "Bienes"
+        - LineBreak "\n"
+        - StaticText "1249"
+    - link "Obras 405" [ref=e13]
+      - generic
+        - StaticText "Obras"
+        - LineBreak "\n"
+        - StaticText "405"
+    - link "Servicios Generales 242" [ref=e14]
+      - generic
+        - StaticText "Servicios Generales"
+        - LineBreak "\n"
+        - StaticText "242"
+    - link "Servicios de Consultoría 159" [ref=e15]
+      - generic
+        - StaticText "Servicios de Consultoría"
+        - LineBreak "\n"
+        - StaticText "159"
+  - generic
+    - button "×" [ref=e38]
+    - heading "COMUNICADOS" [level=4, ref=e39]
+      - StaticText "COMUNICADOS"
+    - image
+    - heading "MEFP/VPCF/DGSGIF/N°16/2026: SUSPENSIÓN DEL RUPE Y MERCADO VIRTUAL" [level=4, ref=e50]
+    - paragraph
+      - StaticText "La Dirección General de Sistemas de Gestión de Información Fiscal (DGSGIF) comunica a los usuarios que operan en el Sistema de Contrataciones Estatales (SICOES), Registro Único de Proveedores del Estado (RUPE) y el Mercado Virtual, que el servicio será suspendido el día 16 de mayo de 2026, a partir de las 08:00 a.m. hasta las 09:00 a.m., con el objeto de realizar actualizaciones para Registro de Productos en el Mercado Virtual y Registro de Propuestas Electrónicas."
+    - paragraph
+      - link "Ver Comunicado" [ref=e57]
+    - image
+    - heading "MEFP/VPCF/DGSGIF/N° 15/2026: REGISTRO DE DEPÓSITOS BANCARIOS" [level=4, ref=e51]
+    - paragraph
+      - StaticText "En el marco del inciso b) del numeral 13.2 del Manual de Operaciones del SICOES, aprobado mediante Resolución Ministerial N° 480 de 23 de octubre de 2023, la Dirección General de Sistemas de Gestión de Información Fiscal (DGSGIF), como administrador del sistema, comunica a sus usuarios que a partir de las 07:30 a las 10:39 horas del día 11 de mayo de 2026, se presentó una dificultad técnica, impidiendo el registro de depósitos por concepto de Garantía de Seriedad de Propuesta."
+    - paragraph
+      - StaticText "De acuerdo al numeral 14.1 del mismo manual “Cuando el periodo de inactividad afecte la presentación de propuestas/ofertas/propuestas de interés, la participación en la Subasta Electrónica o en la Subasta al Alza, las entidades públicas podrán realizar ampliaciones de plazo a través de la reprogramación las actividades afectadas, cuando el periodo de inactividad incluya la fecha y hora límite fijadas para los procesos señalados en el comunicado de inactividad. La ampliación deberá considerar únicamente el comunicado de inactividad publicado en el SICOES para respaldar la ampliación”."
+    - paragraph
+      - StaticText "De acuerdo con lo establecido en el inciso b) del numeral 26.1 del Manual de Operaciones del SICOES, el plazo máximo de registro es de tres (3) días hábiles computables a partir de la emisión del presente comunicado."
+    - paragraph
+      - StaticText "Se detallan los procesos de contratación posiblemente afectados en Anexo adjunto."
+    - paragraph
+      - StaticText "La Paz, 11 de mayo de 2026"
+    - link "Ver Comunicado" [ref=e52]
+  - generic
+    - paragraph
+      - StaticText ""
+      - strong
+        - StaticText "Dirección:"
+      - StaticText " Edif. Contraloría General del Estado, Piso 7, Calle Colón, esq. Indaburo, La Paz, Bolivia"
+    - paragraph
+      - StaticText ""
+      - strong
+        - StaticText "Línea Gratuita:"
+      - StaticText " 800-10-6337"
+    - paragraph
+      - StaticText ""
+      - strong
+        - StaticText " Teléfono:"
+      - StaticText " (591-2) 2177300"
+  - generic
+    - paragraph
+      - strong
+        - StaticText "HORARIOS DE ATENCIÓN"
+        - LineBreak "\n"
+        - StaticText "Lunes a Viernes"
+    - paragraph
+      - StaticText "De 8:30 a 16:30"
+  - generic
+    - paragraph
+      - strong
+        - StaticText "REDES SOCIALES"
+    - generic
+      - link [ref=e40]
+      - link [ref=e41]
+  - strong
+    - StaticText "SICOES 1.5.0.3.0.5"
+  - image "Portada Presidencia"
+✓ Done
+✓ Done
+- generic
+  - navigation
+    - list
+      - listitem [level=1]
+        - link "Inicio" [ref=e42]
+      - listitem [level=1]
+        - generic [ref=e43] clickable [cursor:pointer]
+          - StaticText "Contrataciones"
+      - listitem [level=1]
+        - link "Destino de Bienes" [ref=e44]
+      - listitem [level=1]
+        - link "RUPE" [ref=e45]
+      - listitem [level=1]
+        - generic [ref=e46] clickable [cursor:pointer]
+          - StaticText "Normativa"
+      - listitem [level=1]
+        - generic [ref=e47] clickable [cursor:pointer]
+          - StaticText "Incumplidos"
+      - listitem [level=1]
+        - generic [ref=e48] clickable [cursor:pointer]
+          - StaticText "Clasificadores"
+      - listitem [level=1]
+        - generic [ref=e49] clickable [cursor:pointer]
+          - StaticText "Compro Hecho en Bolivia"
+  - navigation
+    - StaticText "SISTEMA DE CONTRATACIONES ESTATALES"
+    - generic
+      - link "i" [ref=e16]
+        - StaticText "i"
+      - link "" [ref=e17]
+        - StaticText ""
+  - generic
+    - heading "Contrataciones" [level=6, ref=e1]
+    - link " Mercado Virtual Compro Hecho en Bolivia Productos Hechos en Bolivia" [ref=e2]
+      - generic
+        - generic
+          - StaticText ""
+        - image
+      - heading "Mercado Virtual" [level=4, ref=e18]
+      - heading "Compro Hecho en Bolivia" [level=4, ref=e19]
+      - paragraph
+        - StaticText "Productos Hechos en Bolivia"
+    - link " Mercado Virtual Conoce las ofertas de productos de los proveedores del Estado " [ref=e3]
+      - StaticText ""
+      - heading "Mercado Virtual" [level=4, ref=e20]
+      - paragraph
+        - StaticText "Conoce las ofertas de productos de los proveedores del Estado"
+      - LineBreak "\n"
+    - link " Convocatorias Búsqueda de Procesos de Contratación" [ref=e4]
+      - StaticText ""
+      - heading "Convocatorias" [level=4, ref=e21]
+      - paragraph
+        - StaticText "Búsqueda de Procesos de Contratación"
+    - link " Subasta Electrónica Búsqueda de Procesos a través de Subasta Electrónica" [ref=e5]
+      - StaticText ""
+      - heading "Subasta Electrónica" [level=4, ref=e22]
+      - paragraph
+        - StaticText "Búsqueda de Procesos a través de Subasta Electrónica"
+    - link "Guía de proveedores Vea quienes son los proveedores inscritos" [ref=e6]
+      - heading "Guía de proveedores" [level=4, ref=e23]
+      - paragraph
+        - StaticText "Vea quienes son los proveedores inscritos"
+    - link "Formularios Aquí encontrarás los formularios necesarios para interactuar con ..." [ref=e7]
+      - heading "Formularios" [level=4, ref=e24]
+      - paragraph
+        - StaticText "Aquí encontrarás los formularios necesarios para interactuar con ..."
+    - link "Decretos y Reglamentos Normas Básicas del Sistema de Administración de Bienes y Servicio ..." [ref=e8]
+      - heading "Decretos y Reglamentos" [level=4, ref=e25]
+      - paragraph
+        - StaticText "Normas Básicas del Sistema de Administración de Bienes y Servicio ..."
+    - LineBreak "\n"
+    - heading "Destino de Bienes" [level=6, ref=e9]
+    - link "Destino de Bienes dados de baja Conoce los bienes publicados por las Entidades." [ref=e10]
+      - heading "Destino de Bienes" [level=4, ref=e26]
+      - heading "dados de baja" [level=4, ref=e27]
+      - paragraph
+        - StaticText "Conoce los bienes publicados por las Entidades."
+    - generic
+      - heading "Comunicados" [level=6, ref=e28]
+      - LayoutTable
+        - LayoutTableRow
+          - LayoutTableCell "15/05/2026 Mefp/vpcf/dgsgif/n°16/2026: suspensión del rupe y mercado virtual..."
+            - generic [ref=e53] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "15/05/2026"
+              - heading "Mefp/vpcf/dgsgif/n°16/2026: suspensión del rupe y mercado virtual..." [level=5, ref=e58]
+        - LayoutTableRow
+          - LayoutTableCell "11/05/2026 Mefp/vpcf/dgsgif/n° 15/2026: registro de depósitos bancarios..."
+            - generic [ref=e54] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "11/05/2026"
+              - heading "Mefp/vpcf/dgsgif/n° 15/2026: registro de depósitos bancarios..." [level=5, ref=e59]
+        - LayoutTableRow
+          - LayoutTableCell "11/05/2026 Mefp/vpcf/dgsgif/n° 14/2026: registro de depósitos bancarios..."
+            - generic [ref=e55] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "11/05/2026"
+              - heading "Mefp/vpcf/dgsgif/n° 14/2026: registro de depósitos bancarios..." [level=5, ref=e60]
+        - LayoutTableRow
+          - LayoutTableCell "27/04/2026 Mefp/vpcf/dgngp/n° 003/2026: taller virtual de capacitación decreto supremo n°5597 de ajuste de precios de materiales..."
+            - generic [ref=e56] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "27/04/2026"
+              - heading "Mefp/vpcf/dgngp/n° 003/2026: taller virtual de capacitación decreto supremo n°5597 de ajuste de precios de materiales..." [level=5, ref=e61]
+      - link "Ver más »" [ref=e32]
+  - generic
+    - StaticText ""
+    - heading "RUPE" [level=4, ref=e29]
+      - generic [ref=e33] clickable [cursor:pointer]
+        - StaticText "RUPE"
+      - generic [ref=e34] clickable [cursor:pointer]
+    - StaticText "Ingreso al Registro Único de Proveedores del Estado"
+    - StaticText ""
+    - heading "ENTIDADES" [level=4, ref=e30]
+      - generic [ref=e35] clickable [cursor:pointer]
+        - StaticText "ENTIDADES"
+      - generic [ref=e36] clickable [cursor:pointer]
+    - StaticText "Registro de Usuario para el Ingreso a Entidades"
+    - link "BIBLIOTECA DIGITAL Material didáctico de consulta para los usuarios" [ref=e31]
+      - heading "BIBLIOTECA DIGITAL" [level=4, ref=e37]
+        - generic
+          - StaticText "BIBLIOTECA"
+          - LineBreak "\n"
+          - StaticText "DIGITAL"
+      - StaticText "Material didáctico de consulta para los usuarios"
+    - heading "Contrataciones Vigentes" [level=3, ref=e11]
+    - link "Bienes 1249" [ref=e12]
+      - generic
+        - StaticText "Bienes"
+        - LineBreak "\n"
+        - StaticText "1249"
+    - link "Obras 405" [ref=e13]
+      - generic
+        - StaticText "Obras"
+        - LineBreak "\n"
+        - StaticText "405"
+    - link "Servicios Generales 242" [ref=e14]
+      - generic
+        - StaticText "Servicios Generales"
+        - LineBreak "\n"
+        - StaticText "242"
+    - link "Servicios de Consultoría 159" [ref=e15]
+      - generic
+        - StaticText "Servicios de Consultoría"
+        - LineBreak "\n"
+        - StaticText "159"
+  - generic
+    - button "×" [ref=e38]
+    - heading "COMUNICADOS" [level=4, ref=e39]
+      - StaticText "COMUNICADOS"
+    - image
+    - heading "MEFP/VPCF/DGSGIF/N°16/2026: SUSPENSIÓN DEL RUPE Y MERCADO VIRTUAL" [level=4, ref=e50]
+    - paragraph
+      - StaticText "La Dirección General de Sistemas de Gestión de Información Fiscal (DGSGIF) comunica a los usuarios que operan en el Sistema de Contrataciones Estatales (SICOES), Registro Único de Proveedores del Estado (RUPE) y el Mercado Virtual, que el servicio será suspendido el día 16 de mayo de 2026, a partir de las 08:00 a.m. hasta las 09:00 a.m., con el objeto de realizar actualizaciones para Registro de Productos en el Mercado Virtual y Registro de Propuestas Electrónicas."
+    - paragraph
+      - link "Ver Comunicado" [ref=e57]
+    - image
+    - heading "MEFP/VPCF/DGSGIF/N° 15/2026: REGISTRO DE DEPÓSITOS BANCARIOS" [level=4, ref=e51]
+    - paragraph
+      - StaticText "En el marco del inciso b) del numeral 13.2 del Manual de Operaciones del SICOES, aprobado mediante Resolución Ministerial N° 480 de 23 de octubre de 2023, la Dirección General de Sistemas de Gestión de Información Fiscal (DGSGIF), como administrador del sistema, comunica a sus usuarios que a partir de las 07:30 a las 10:39 horas del día 11 de mayo de 2026, se presentó una dificultad técnica, impidiendo el registro de depósitos por concepto de Garantía de Seriedad de Propuesta."
+    - paragraph
+      - StaticText "De acuerdo al numeral 14.1 del mismo manual “Cuando el periodo de inactividad afecte la presentación de propuestas/ofertas/propuestas de interés, la participación en la Subasta Electrónica o en la Subasta al Alza, las entidades públicas podrán realizar ampliaciones de plazo a través de la reprogramación las actividades afectadas, cuando el periodo de inactividad incluya la fecha y hora límite fijadas para los procesos señalados en el comunicado de inactividad. La ampliación deberá considerar únicamente el comunicado de inactividad publicado en el SICOES para respaldar la ampliación”."
+    - paragraph
+      - StaticText "De acuerdo con lo establecido en el inciso b) del numeral 26.1 del Manual de Operaciones del SICOES, el plazo máximo de registro es de tres (3) días hábiles computables a partir de la emisión del presente comunicado."
+    - paragraph
+      - StaticText "Se detallan los procesos de contratación posiblemente afectados en Anexo adjunto."
+    - paragraph
+      - StaticText "La Paz, 11 de mayo de 2026"
+    - link "Ver Comunicado" [ref=e52]
+  - generic
+    - paragraph
+      - StaticText ""
+      - strong
+        - StaticText "Dirección:"
+      - StaticText " Edif. Contraloría General del Estado, Piso 7, Calle Colón, esq. Indaburo, La Paz, Bolivia"
+    - paragraph
+      - StaticText ""
+      - strong
+        - StaticText "Línea Gratuita:"
+      - StaticText " 800-10-6337"
+    - paragraph
+      - StaticText ""
+      - strong
+        - StaticText " Teléfono:"
+      - StaticText " (591-2) 2177300"
+  - generic
+    - paragraph
+      - strong
+        - StaticText "HORARIOS DE ATENCIÓN"
+        - LineBreak "\n"
+        - StaticText "Lunes a Viernes"
+    - paragraph
+      - StaticText "De 8:30 a 16:30"
+  - generic
+    - paragraph
+      - strong
+        - StaticText "REDES SOCIALES"
+    - generic
+      - link [ref=e40]
+      - link [ref=e41]
+  - strong
+    - StaticText "SICOES 1.5.0.3.0.5"
+  - image "Portada Presidencia"
+✓ Done
+- link "Inicio" [ref=e42]
+- generic "Contrataciones" [ref=e43] clickable [cursor:pointer]
+- link "Destino de Bienes" [ref=e44]
+- link "RUPE" [ref=e45]
+- generic "Normativa" [ref=e46] clickable [cursor:pointer]
+- generic "Incumplidos" [ref=e47] clickable [cursor:pointer]
+- generic "Clasificadores" [ref=e48] clickable [cursor:pointer]
+- generic "Compro Hecho en Bolivia" [ref=e49] clickable [cursor:pointer]
+- link "i" [ref=e16]
+- link "" [ref=e17]
+- heading "Contrataciones" [level=6, ref=e1]
+- link " Mercado Virtual Compro Hecho en Bolivia Productos Hechos en Bolivia" [ref=e2]
+  - heading "Mercado Virtual" [level=4, ref=e18]
+  - heading "Compro Hecho en Bolivia" [level=4, ref=e19]
+- link " Mercado Virtual Conoce las ofertas de productos de los proveedores del Estado " [ref=e3]
+  - heading "Mercado Virtual" [level=4, ref=e20]
+- link " Convocatorias Búsqueda de Procesos de Contratación" [ref=e4]
+  - heading "Convocatorias" [level=4, ref=e21]
+- link " Subasta Electrónica Búsqueda de Procesos a través de Subasta Electrónica" [ref=e5]
+  - heading "Subasta Electrónica" [level=4, ref=e22]
+- link "Guía de proveedores Vea quienes son los proveedores inscritos" [ref=e6]
+  - heading "Guía de proveedores" [level=4, ref=e23]
+- link "Formularios Aquí encontrarás los formularios necesarios para interactuar con ..." [ref=e7]
+  - heading "Formularios" [level=4, ref=e24]
+- link "Decretos y Reglamentos Normas Básicas del Sistema de Administración de Bienes y Servicio ..." [ref=e8]
+  - heading "Decretos y Reglamentos" [level=4, ref=e25]
+- heading "Destino de Bienes" [level=6, ref=e9]
+- link "Destino de Bienes dados de baja Conoce los bienes publicados por las Entidades." [ref=e10]
+  - heading "Destino de Bienes" [level=4, ref=e26]
+  - heading "dados de baja" [level=4, ref=e27]
+- heading "Comunicados" [level=6, ref=e28]
+- generic "15/05/2026Mefp/vpcf/dgsgif/n°16/2026: suspensión del rupe y mercado virtualMefp/vpcf/dgsgif/n°16/202" [ref=e53] clickable [cursor:pointer]
+  - heading "Mefp/vpcf/dgsgif/n°16/2026: suspensión del rupe y mercado virtual..." [level=5, ref=e58]
+- generic "11/05/2026Mefp/vpcf/dgsgif/n° 15/2026: registro de depósitos bancariosMefp/vpcf/dgsgif/n° 15/2026: r" [ref=e54] clickable [cursor:pointer]
+  - heading "Mefp/vpcf/dgsgif/n° 15/2026: registro de depósitos bancarios..." [level=5, ref=e59]
+- generic "11/05/2026Mefp/vpcf/dgsgif/n° 14/2026: registro de depósitos bancariosMefp/vpcf/dgsgif/n° 14/2026: r" [ref=e55] clickable [cursor:pointer]
+  - heading "Mefp/vpcf/dgsgif/n° 14/2026: registro de depósitos bancarios..." [level=5, ref=e60]
+- generic "27/04/2026Mefp/vpcf/dgngp/n° 003/2026: taller virtual de capacitación decreto supremo n°5597 de ajus" [ref=e56] clickable [cursor:pointer]
+  - heading "Mefp/vpcf/dgngp/n° 003/2026: taller virtual de capacitación decreto supremo n°5597 de ajuste de precios de materiales..." [level=5, ref=e61]
+- link "Ver más »" [ref=e32]
+- heading "RUPE" [level=4, ref=e29]
+  - generic "RUPE" [ref=e33] clickable [cursor:pointer]
+  - generic [ref=e34] clickable [cursor:pointer]
+- heading "ENTIDADES" [level=4, ref=e30]
+  - generic "ENTIDADES" [ref=e35] clickable [cursor:pointer]
+  - generic [ref=e36] clickable [cursor:pointer]
+- link "BIBLIOTECA DIGITAL Material didáctico de consulta para los usuarios" [ref=e31]
+  - heading "BIBLIOTECA DIGITAL" [level=4, ref=e37]
+- heading "Contrataciones Vigentes" [level=3, ref=e11]
+- link "Bienes 1249" [ref=e12]
+- link "Obras 405" [ref=e13]
+- link "Servicios Generales 242" [ref=e14]
+- link "Servicios de Consultoría 159" [ref=e15]
+- button "×" [ref=e38]
+- heading "COMUNICADOS" [level=4, ref=e39]
+- heading "MEFP/VPCF/DGSGIF/N°16/2026: SUSPENSIÓN DEL RUPE Y MERCADO VIRTUAL" [level=4, ref=e50]
+- link "Ver Comunicado" [ref=e57]
+- heading "MEFP/VPCF/DGSGIF/N° 15/2026: REGISTRO DE DEPÓSITOS BANCARIOS" [level=4, ref=e51]
+- link "Ver Comunicado" [ref=e52]
+- link [ref=e40]
+- link [ref=e41]
+✓ Done
+- generic
+  - navigation
+    - list
+      - listitem [level=1]
+        - link "Inicio" [ref=e42]
+      - listitem [level=1]
+        - generic [ref=e43] clickable [cursor:pointer]
+          - StaticText "Contrataciones"
+      - listitem [level=1]
+        - link "Destino de Bienes" [ref=e44]
+      - listitem [level=1]
+        - link "RUPE" [ref=e45]
+      - listitem [level=1]
+        - generic [ref=e46] clickable [cursor:pointer]
+          - StaticText "Normativa"
+      - listitem [level=1]
+        - generic [ref=e47] clickable [cursor:pointer]
+          - StaticText "Incumplidos"
+      - listitem [level=1]
+        - generic [ref=e48] clickable [cursor:pointer]
+          - StaticText "Clasificadores"
+      - listitem [level=1]
+        - generic [ref=e49] clickable [cursor:pointer]
+          - StaticText "Compro Hecho en Bolivia"
+  - navigation
+    - StaticText "SISTEMA DE CONTRATACIONES ESTATALES"
+    - generic
+      - link "i" [ref=e16]
+        - StaticText "i"
+      - link "" [ref=e17]
+        - StaticText ""
+  - generic
+    - heading "Contrataciones" [level=6, ref=e1]
+    - link " Mercado Virtual Compro Hecho en Bolivia Productos Hechos en Bolivia" [ref=e2]
+      - generic
+        - generic
+          - StaticText ""
+        - image
+      - heading "Mercado Virtual" [level=4, ref=e18]
+      - heading "Compro Hecho en Bolivia" [level=4, ref=e19]
+      - paragraph
+        - StaticText "Productos Hechos en Bolivia"
+    - link " Mercado Virtual Conoce las ofertas de productos de los proveedores del Estado " [ref=e3]
+      - StaticText ""
+      - heading "Mercado Virtual" [level=4, ref=e20]
+      - paragraph
+        - StaticText "Conoce las ofertas de productos de los proveedores del Estado"
+      - LineBreak "\n"
+    - link " Convocatorias Búsqueda de Procesos de Contratación" [ref=e4]
+      - StaticText ""
+      - heading "Convocatorias" [level=4, ref=e21]
+      - paragraph
+        - StaticText "Búsqueda de Procesos de Contratación"
+    - link " Subasta Electrónica Búsqueda de Procesos a través de Subasta Electrónica" [ref=e5]
+      - StaticText ""
+      - heading "Subasta Electrónica" [level=4, ref=e22]
+      - paragraph
+        - StaticText "Búsqueda de Procesos a través de Subasta Electrónica"
+    - link "Guía de proveedores Vea quienes son los proveedores inscritos" [ref=e6]
+      - heading "Guía de proveedores" [level=4, ref=e23]
+      - paragraph
+        - StaticText "Vea quienes son los proveedores inscritos"
+    - link "Formularios Aquí encontrarás los formularios necesarios para interactuar con ..." [ref=e7]
+      - heading "Formularios" [level=4, ref=e24]
+      - paragraph
+        - StaticText "Aquí encontrarás los formularios necesarios para interactuar con ..."
+    - link "Decretos y Reglamentos Normas Básicas del Sistema de Administración de Bienes y Servicio ..." [ref=e8]
+      - heading "Decretos y Reglamentos" [level=4, ref=e25]
+      - paragraph
+        - StaticText "Normas Básicas del Sistema de Administración de Bienes y Servicio ..."
+    - LineBreak "\n"
+    - heading "Destino de Bienes" [level=6, ref=e9]
+    - link "Destino de Bienes dados de baja Conoce los bienes publicados por las Entidades." [ref=e10]
+      - heading "Destino de Bienes" [level=4, ref=e26]
+      - heading "dados de baja" [level=4, ref=e27]
+      - paragraph
+        - StaticText "Conoce los bienes publicados por las Entidades."
+    - generic
+      - heading "Comunicados" [level=6, ref=e28]
+      - LayoutTable
+        - LayoutTableRow
+          - LayoutTableCell "15/05/2026 Mefp/vpcf/dgsgif/n°16/2026: suspensión del rupe y mercado virtual..."
+            - generic [ref=e53] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "15/05/2026"
+              - heading "Mefp/vpcf/dgsgif/n°16/2026: suspensión del rupe y mercado virtual..." [level=5, ref=e58]
+        - LayoutTableRow
+          - LayoutTableCell "11/05/2026 Mefp/vpcf/dgsgif/n° 15/2026: registro de depósitos bancarios..."
+            - generic [ref=e54] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "11/05/2026"
+              - heading "Mefp/vpcf/dgsgif/n° 15/2026: registro de depósitos bancarios..." [level=5, ref=e59]
+        - LayoutTableRow
+          - LayoutTableCell "11/05/2026 Mefp/vpcf/dgsgif/n° 14/2026: registro de depósitos bancarios..."
+            - generic [ref=e55] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "11/05/2026"
+              - heading "Mefp/vpcf/dgsgif/n° 14/2026: registro de depósitos bancarios..." [level=5, ref=e60]
+        - LayoutTableRow
+          - LayoutTableCell "27/04/2026 Mefp/vpcf/dgngp/n° 003/2026: taller virtual de capacitación decreto supremo n°5597 de ajuste de precios de materiales..."
+            - generic [ref=e56] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "27/04/2026"
+              - heading "Mefp/vpcf/dgngp/n° 003/2026: taller virtual de capacitación decreto supremo n°5597 de ajuste de precios de materiales..." [level=5, ref=e61]
+      - link "Ver más »" [ref=e32]
+  - generic
+    - StaticText ""
+    - heading "RUPE" [level=4, ref=e29]
+      - generic [ref=e33] clickable [cursor:pointer]
+        - StaticText "RUPE"
+      - generic [ref=e34] clickable [cursor:pointer]
+    - StaticText "Ingreso al Registro Único de Proveedores del Estado"
+    - StaticText ""
+    - heading "ENTIDADES" [level=4, ref=e30]
+      - generic [ref=e35] clickable [cursor:pointer]
+        - StaticText "ENTIDADES"
+      - generic [ref=e36] clickable [cursor:pointer]
+    - StaticText "Registro de Usuario para el Ingreso a Entidades"
+    - link "BIBLIOTECA DIGITAL Material didáctico de consulta para los usuarios" [ref=e31]
+      - heading "BIBLIOTECA DIGITAL" [level=4, ref=e37]
+        - generic
+          - StaticText "BIBLIOTECA"
+          - LineBreak "\n"
+          - StaticText "DIGITAL"
+      - StaticText "Material didáctico de consulta para los usuarios"
+    - heading "Contrataciones Vigentes" [level=3, ref=e11]
+    - link "Bienes 1249" [ref=e12]
+      - generic
+        - StaticText "Bienes"
+        - LineBreak "\n"
+        - StaticText "1249"
+    - link "Obras 405" [ref=e13]
+      - generic
+        - StaticText "Obras"
+        - LineBreak "\n"
+        - StaticText "405"
+    - link "Servicios Generales 242" [ref=e14]
+      - generic
+        - StaticText "Servicios Generales"
+        - LineBreak "\n"
+        - StaticText "242"
+    - link "Servicios de Consultoría 159" [ref=e15]
+      - generic
+        - StaticText "Servicios de Consultoría"
+        - LineBreak "\n"
+        - StaticText "159"
+  - generic
+    - button "×" [ref=e38]
+    - heading "COMUNICADOS" [level=4, ref=e39]
+      - StaticText "COMUNICADOS"
+    - image
+    - heading "MEFP/VPCF/DGSGIF/N°16/2026: SUSPENSIÓN DEL RUPE Y MERCADO VIRTUAL" [level=4, ref=e50]
+    - paragraph
+      - StaticText "La Dirección General de Sistemas de Gestión de Información Fiscal (DGSGIF) comunica a los usuarios que operan en el Sistema de Contrataciones Estatales (SICOES), Registro Único de Proveedores del Estado (RUPE) y el Mercado Virtual, que el servicio será suspendido el día 16 de mayo de 2026, a partir de las 08:00 a.m. hasta las 09:00 a.m., con el objeto de realizar actualizaciones para Registro de Productos en el Mercado Virtual y Registro de Propuestas Electrónicas."
+    - paragraph
+      - link "Ver Comunicado" [ref=e57]
+    - image
+    - heading "MEFP/VPCF/DGSGIF/N° 15/2026: REGISTRO DE DEPÓSITOS BANCARIOS" [level=4, ref=e51]
+    - paragraph
+      - StaticText "En el marco del inciso b) del numeral 13.2 del Manual de Operaciones del SICOES, aprobado mediante Resolución Ministerial N° 480 de 23 de octubre de 2023, la Dirección General de Sistemas de Gestión de Información Fiscal (DGSGIF), como administrador del sistema, comunica a sus usuarios que a partir de las 07:30 a las 10:39 horas del día 11 de mayo de 2026, se presentó una dificultad técnica, impidiendo el registro de depósitos por concepto de Garantía de Seriedad de Propuesta."
+    - paragraph
+      - StaticText "De acuerdo al numeral 14.1 del mismo manual “Cuando el periodo de inactividad afecte la presentación de propuestas/ofertas/propuestas de interés, la participación en la Subasta Electrónica o en la Subasta al Alza, las entidades públicas podrán realizar ampliaciones de plazo a través de la reprogramación las actividades afectadas, cuando el periodo de inactividad incluya la fecha y hora límite fijadas para los procesos señalados en el comunicado de inactividad. La ampliación deberá considerar únicamente el comunicado de inactividad publicado en el SICOES para respaldar la ampliación”."
+    - paragraph
+      - StaticText "De acuerdo con lo establecido en el inciso b) del numeral 26.1 del Manual de Operaciones del SICOES, el plazo máximo de registro es de tres (3) días hábiles computables a partir de la emisión del presente comunicado."
+    - paragraph
+      - StaticText "Se detallan los procesos de contratación posiblemente afectados en Anexo adjunto."
+    - paragraph
+      - StaticText "La Paz, 11 de mayo de 2026"
+    - link "Ver Comunicado" [ref=e52]
+  - generic
+    - paragraph
+      - StaticText ""
+      - strong
+        - StaticText "Dirección:"
+      - StaticText " Edif. Contraloría General del Estado, Piso 7, Calle Colón, esq. Indaburo, La Paz, Bolivia"
+    - paragraph
+      - StaticText ""
+      - strong
+        - StaticText "Línea Gratuita:"
+      - StaticText " 800-10-6337"
+    - paragraph
+      - StaticText ""
+      - strong
+        - StaticText " Teléfono:"
+      - StaticText " (591-2) 2177300"
+  - generic
+    - paragraph
+      - strong
+        - StaticText "HORARIOS DE ATENCIÓN"
+        - LineBreak "\n"
+        - StaticText "Lunes a Viernes"
+    - paragraph
+      - StaticText "De 8:30 a 16:30"
+  - generic
+    - paragraph
+      - strong
+        - StaticText "REDES SOCIALES"
+    - generic
+      - link [ref=e40]
+      - link [ref=e41]
+  - strong
+    - StaticText "SICOES 1.5.0.3.0.5"
+  - image "Portada Presidencia"
+✓ Done
+- link "Inicio" [ref=e42]
+- generic "Contrataciones" [ref=e43] clickable [cursor:pointer]
+- link "Destino de Bienes" [ref=e44]
+- link "RUPE" [ref=e45]
+- generic "Normativa" [ref=e46] clickable [cursor:pointer]
+- generic "Incumplidos" [ref=e47] clickable [cursor:pointer]
+- generic "Clasificadores" [ref=e48] clickable [cursor:pointer]
+- generic "Compro Hecho en Bolivia" [ref=e49] clickable [cursor:pointer]
+- link "i" [ref=e16]
+- link "" [ref=e17]
+- heading "Contrataciones" [level=6, ref=e1]
+- link " Mercado Virtual Compro Hecho en Bolivia Productos Hechos en Bolivia" [ref=e2]
+  - heading "Mercado Virtual" [level=4, ref=e18]
+  - heading "Compro Hecho en Bolivia" [level=4, ref=e19]
+- link " Mercado Virtual Conoce las ofertas de productos de los proveedores del Estado " [ref=e3]
+  - heading "Mercado Virtual" [level=4, ref=e20]
+- link " Convocatorias Búsqueda de Procesos de Contratación" [ref=e4]
+  - heading "Convocatorias" [level=4, ref=e21]
+- link " Subasta Electrónica Búsqueda de Procesos a través de Subasta Electrónica" [ref=e5]
+  - heading "Subasta Electrónica" [level=4, ref=e22]
+- link "Guía de proveedores Vea quienes son los proveedores inscritos" [ref=e6]
+  - heading "Guía de proveedores" [level=4, ref=e23]
+- link "Formularios Aquí encontrarás los formularios necesarios para interactuar con ..." [ref=e7]
+  - heading "Formularios" [level=4, ref=e24]
+- link "Decretos y Reglamentos Normas Básicas del Sistema de Administración de Bienes y Servicio ..." [ref=e8]
+  - heading "Decretos y Reglamentos" [level=4, ref=e25]
+- heading "Destino de Bienes" [level=6, ref=e9]
+- link "Destino de Bienes dados de baja Conoce los bienes publicados por las Entidades." [ref=e10]
+  - heading "Destino de Bienes" [level=4, ref=e26]
+  - heading "dados de baja" [level=4, ref=e27]
+- heading "Comunicados" [level=6, ref=e28]
+- generic "15/05/2026Mefp/vpcf/dgsgif/n°16/2026: suspensión del rupe y mercado virtualMefp/vpcf/dgsgif/n°16/202" [ref=e53] clickable [cursor:pointer]
+  - heading "Mefp/vpcf/dgsgif/n°16/2026: suspensión del rupe y mercado virtual..." [level=5, ref=e58]
+- generic "11/05/2026Mefp/vpcf/dgsgif/n° 15/2026: registro de depósitos bancariosMefp/vpcf/dgsgif/n° 15/2026: r" [ref=e54] clickable [cursor:pointer]
+  - heading "Mefp/vpcf/dgsgif/n° 15/2026: registro de depósitos bancarios..." [level=5, ref=e59]
+- generic "11/05/2026Mefp/vpcf/dgsgif/n° 14/2026: registro de depósitos bancariosMefp/vpcf/dgsgif/n° 14/2026: r" [ref=e55] clickable [cursor:pointer]
+  - heading "Mefp/vpcf/dgsgif/n° 14/2026: registro de depósitos bancarios..." [level=5, ref=e60]
+- generic "27/04/2026Mefp/vpcf/dgngp/n° 003/2026: taller virtual de capacitación decreto supremo n°5597 de ajus" [ref=e56] clickable [cursor:pointer]
+  - heading "Mefp/vpcf/dgngp/n° 003/2026: taller virtual de capacitación decreto supremo n°5597 de ajuste de precios de materiales..." [level=5, ref=e61]
+- link "Ver más »" [ref=e32]
+- heading "RUPE" [level=4, ref=e29]
+  - generic "RUPE" [ref=e33] clickable [cursor:pointer]
+  - generic [ref=e34] clickable [cursor:pointer]
+- heading "ENTIDADES" [level=4, ref=e30]
+  - generic "ENTIDADES" [ref=e35] clickable [cursor:pointer]
+  - generic [ref=e36] clickable [cursor:pointer]
+- link "BIBLIOTECA DIGITAL Material didáctico de consulta para los usuarios" [ref=e31]
+  - heading "BIBLIOTECA DIGITAL" [level=4, ref=e37]
+- heading "Contrataciones Vigentes" [level=3, ref=e11]
+- link "Bienes 1249" [ref=e12]
+- link "Obras 405" [ref=e13]
+- link "Servicios Generales 242" [ref=e14]
+- link "Servicios de Consultoría 159" [ref=e15]
+- button "×" [ref=e38]
+- heading "COMUNICADOS" [level=4, ref=e39]
+- heading "MEFP/VPCF/DGSGIF/N°16/2026: SUSPENSIÓN DEL RUPE Y MERCADO VIRTUAL" [level=4, ref=e50]
+- link "Ver Comunicado" [ref=e57]
+- heading "MEFP/VPCF/DGSGIF/N° 15/2026: REGISTRO DE DEPÓSITOS BANCARIOS" [level=4, ref=e51]
+- link "Ver Comunicado" [ref=e52]
+- link [ref=e40]
+- link [ref=e41]
+- generic
+  - navigation
+    - list
+      - listitem [level=1]
+        - link "Inicio" [ref=e42]
+      - listitem [level=1]
+        - generic [ref=e43] clickable [cursor:pointer]
+          - StaticText "Contrataciones"
+      - listitem [level=1]
+        - link "Destino de Bienes" [ref=e44]
+      - listitem [level=1]
+        - link "RUPE" [ref=e45]
+      - listitem [level=1]
+        - generic [ref=e46] clickable [cursor:pointer]
+          - StaticText "Normativa"
+      - listitem [level=1]
+        - generic [ref=e47] clickable [cursor:pointer]
+          - StaticText "Incumplidos"
+      - listitem [level=1]
+        - generic [ref=e48] clickable [cursor:pointer]
+          - StaticText "Clasificadores"
+      - listitem [level=1]
+        - generic [ref=e49] clickable [cursor:pointer]
+          - StaticText "Compro Hecho en Bolivia"
+  - navigation
+    - StaticText "SISTEMA DE CONTRATACIONES ESTATALES"
+    - generic
+      - link "i" [ref=e16]
+        - StaticText "i"
+      - link "" [ref=e17]
+        - StaticText ""
+  - generic
+    - heading "Contrataciones" [level=6, ref=e1]
+    - link " Mercado Virtual Compro Hecho en Bolivia Productos Hechos en Bolivia" [ref=e2]
+      - generic
+        - generic
+          - StaticText ""
+        - image
+      - heading "Mercado Virtual" [level=4, ref=e18]
+      - heading "Compro Hecho en Bolivia" [level=4, ref=e19]
+      - paragraph
+        - StaticText "Productos Hechos en Bolivia"
+    - link " Mercado Virtual Conoce las ofertas de productos de los proveedores del Estado " [ref=e3]
+      - StaticText ""
+      - heading "Mercado Virtual" [level=4, ref=e20]
+      - paragraph
+        - StaticText "Conoce las ofertas de productos de los proveedores del Estado"
+      - LineBreak "\n"
+    - link " Convocatorias Búsqueda de Procesos de Contratación" [ref=e4]
+      - StaticText ""
+      - heading "Convocatorias" [level=4, ref=e21]
+      - paragraph
+        - StaticText "Búsqueda de Procesos de Contratación"
+    - link " Subasta Electrónica Búsqueda de Procesos a través de Subasta Electrónica" [ref=e5]
+      - StaticText ""
+      - heading "Subasta Electrónica" [level=4, ref=e22]
+      - paragraph
+        - StaticText "Búsqueda de Procesos a través de Subasta Electrónica"
+    - link "Guía de proveedores Vea quienes son los proveedores inscritos" [ref=e6]
+      - heading "Guía de proveedores" [level=4, ref=e23]
+      - paragraph
+        - StaticText "Vea quienes son los proveedores inscritos"
+    - link "Formularios Aquí encontrarás los formularios necesarios para interactuar con ..." [ref=e7]
+      - heading "Formularios" [level=4, ref=e24]
+      - paragraph
+        - StaticText "Aquí encontrarás los formularios necesarios para interactuar con ..."
+    - link "Decretos y Reglamentos Normas Básicas del Sistema de Administración de Bienes y Servicio ..." [ref=e8]
+      - heading "Decretos y Reglamentos" [level=4, ref=e25]
+      - paragraph
+        - StaticText "Normas Básicas del Sistema de Administración de Bienes y Servicio ..."
+    - LineBreak "\n"
+    - heading "Destino de Bienes" [level=6, ref=e9]
+    - link "Destino de Bienes dados de baja Conoce los bienes publicados por las Entidades." [ref=e10]
+      - heading "Destino de Bienes" [level=4, ref=e26]
+      - heading "dados de baja" [level=4, ref=e27]
+      - paragraph
+        - StaticText "Conoce los bienes publicados por las Entidades."
+    - generic
+      - heading "Comunicados" [level=6, ref=e28]
+      - LayoutTable
+        - LayoutTableRow
+          - LayoutTableCell "15/05/2026 Mefp/vpcf/dgsgif/n°16/2026: suspensión del rupe y mercado virtual..."
+            - generic [ref=e53] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "15/05/2026"
+              - heading "Mefp/vpcf/dgsgif/n°16/2026: suspensión del rupe y mercado virtual..." [level=5, ref=e58]
+        - LayoutTableRow
+          - LayoutTableCell "11/05/2026 Mefp/vpcf/dgsgif/n° 15/2026: registro de depósitos bancarios..."
+            - generic [ref=e54] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "11/05/2026"
+              - heading "Mefp/vpcf/dgsgif/n° 15/2026: registro de depósitos bancarios..." [level=5, ref=e59]
+        - LayoutTableRow
+          - LayoutTableCell "11/05/2026 Mefp/vpcf/dgsgif/n° 14/2026: registro de depósitos bancarios..."
+            - generic [ref=e55] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "11/05/2026"
+              - heading "Mefp/vpcf/dgsgif/n° 14/2026: registro de depósitos bancarios..." [level=5, ref=e60]
+        - LayoutTableRow
+          - LayoutTableCell "27/04/2026 Mefp/vpcf/dgngp/n° 003/2026: taller virtual de capacitación decreto supremo n°5597 de ajuste de precios de materiales..."
+            - generic [ref=e56] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "27/04/2026"
+              - heading "Mefp/vpcf/dgngp/n° 003/2026: taller virtual de capacitación decreto supremo n°5597 de ajuste de precios de materiales..." [level=5, ref=e61]
+      - link "Ver más »" [ref=e32]
+  - generic
+    - StaticText ""
+    - heading "RUPE" [level=4, ref=e29]
+      - generic [ref=e33] clickable [cursor:pointer]
+        - StaticText "RUPE"
+      - generic [ref=e34] clickable [cursor:pointer]
+    - StaticText "Ingreso al Registro Único de Proveedores del Estado"
+    - StaticText ""
+    - heading "ENTIDADES" [level=4, ref=e30]
+      - generic [ref=e35] clickable [cursor:pointer]
+        - StaticText "ENTIDADES"
+      - generic [ref=e36] clickable [cursor:pointer]
+    - StaticText "Registro de Usuario para el Ingreso a Entidades"
+    - link "BIBLIOTECA DIGITAL Material didáctico de consulta para los usuarios" [ref=e31]
+      - heading "BIBLIOTECA DIGITAL" [level=4, ref=e37]
+        - generic
+          - StaticText "BIBLIOTECA"
+          - LineBreak "\n"
+          - StaticText "DIGITAL"
+      - StaticText "Material didáctico de consulta para los usuarios"
+    - heading "Contrataciones Vigentes" [level=3, ref=e11]
+    - link "Bienes 1249" [ref=e12]
+      - generic
+        - StaticText "Bienes"
+        - LineBreak "\n"
+        - StaticText "1249"
+    - link "Obras 405" [ref=e13]
+      - generic
+        - StaticText "Obras"
+        - LineBreak "\n"
+        - StaticText "405"
+    - link "Servicios Generales 242" [ref=e14]
+      - generic
+        - StaticText "Servicios Generales"
+        - LineBreak "\n"
+        - StaticText "242"
+    - link "Servicios de Consultoría 159" [ref=e15]
+      - generic
+        - StaticText "Servicios de Consultoría"
+        - LineBreak "\n"
+        - StaticText "159"
+  - generic
+    - button "×" [ref=e38]
+    - heading "COMUNICADOS" [level=4, ref=e39]
+      - StaticText "COMUNICADOS"
+    - image
+    - heading "MEFP/VPCF/DGSGIF/N°16/2026: SUSPENSIÓN DEL RUPE Y MERCADO VIRTUAL" [level=4, ref=e50]
+    - paragraph
+      - StaticText "La Dirección General de Sistemas de Gestión de Información Fiscal (DGSGIF) comunica a los usuarios que operan en el Sistema de Contrataciones Estatales (SICOES), Registro Único de Proveedores del Estado (RUPE) y el Mercado Virtual, que el servicio será suspendido el día 16 de mayo de 2026, a partir de las 08:00 a.m. hasta las 09:00 a.m., con el objeto de realizar actualizaciones para Registro de Productos en el Mercado Virtual y Registro de Propuestas Electrónicas."
+    - paragraph
+      - link "Ver Comunicado" [ref=e57]
+    - image
+    - heading "MEFP/VPCF/DGSGIF/N° 15/2026: REGISTRO DE DEPÓSITOS BANCARIOS" [level=4, ref=e51]
+    - paragraph
+      - StaticText "En el marco del inciso b) del numeral 13.2 del Manual de Operaciones del SICOES, aprobado mediante Resolución Ministerial N° 480 de 23 de octubre de 2023, la Dirección General de Sistemas de Gestión de Información Fiscal (DGSGIF), como administrador del sistema, comunica a sus usuarios que a partir de las 07:30 a las 10:39 horas del día 11 de mayo de 2026, se presentó una dificultad técnica, impidiendo el registro de depósitos por concepto de Garantía de Seriedad de Propuesta."
+    - paragraph
+      - StaticText "De acuerdo al numeral 14.1 del mismo manual “Cuando el periodo de inactividad afecte la presentación de propuestas/ofertas/propuestas de interés, la participación en la Subasta Electrónica o en la Subasta al Alza, las entidades públicas podrán realizar ampliaciones de plazo a través de la reprogramación las actividades afectadas, cuando el periodo de inactividad incluya la fecha y hora límite fijadas para los procesos señalados en el comunicado de inactividad. La ampliación deberá considerar únicamente el comunicado de inactividad publicado en el SICOES para respaldar la ampliación”."
+    - paragraph
+      - StaticText "De acuerdo con lo establecido en el inciso b) del numeral 26.1 del Manual de Operaciones del SICOES, el plazo máximo de registro es de tres (3) días hábiles computables a partir de la emisión del presente comunicado."
+    - paragraph
+      - StaticText "Se detallan los procesos de contratación posiblemente afectados en Anexo adjunto."
+    - paragraph
+      - StaticText "La Paz, 11 de mayo de 2026"
+    - link "Ver Comunicado" [ref=e52]
+  - generic
+    - paragraph
+      - StaticText ""
+      - strong
+        - StaticText "Dirección:"
+      - StaticText " Edif. Contraloría General del Estado, Piso 7, Calle Colón, esq. Indaburo, La Paz, Bolivia"
+    - paragraph
+      - StaticText ""
+      - strong
+        - StaticText "Línea Gratuita:"
+      - StaticText " 800-10-6337"
+    - paragraph
+      - StaticText ""
+      - strong
+        - StaticText " Teléfono:"
+      - StaticText " (591-2) 2177300"
+  - generic
+    - paragraph
+      - strong
+        - StaticText "HORARIOS DE ATENCIÓN"
+        - LineBreak "\n"
+        - StaticText "Lunes a Viernes"
+    - paragraph
+      - StaticText "De 8:30 a 16:30"
+  - generic
+    - paragraph
+      - strong
+        - StaticText "REDES SOCIALES"
+    - generic
+      - link [ref=e40]
+      - link [ref=e41]
+  - strong
+    - StaticText "SICOES 1.5.0.3.0.5"
+  - image "Portada Presidencia"
+✓ Done
+- link "Inicio" [ref=e42]
+- generic "Contrataciones" [ref=e43] clickable [cursor:pointer]
+- link "Destino de Bienes" [ref=e44]
+- link "RUPE" [ref=e45]
+- generic "Normativa" [ref=e46] clickable [cursor:pointer]
+- generic "Incumplidos" [ref=e47] clickable [cursor:pointer]
+- generic "Clasificadores" [ref=e48] clickable [cursor:pointer]
+- generic "Compro Hecho en Bolivia" [ref=e49] clickable [cursor:pointer]
+- link "i" [ref=e16]
+- link "" [ref=e17]
+- heading "Contrataciones" [level=6, ref=e1]
+- link " Mercado Virtual Compro Hecho en Bolivia Productos Hechos en Bolivia" [ref=e2]
+  - heading "Mercado Virtual" [level=4, ref=e18]
+  - heading "Compro Hecho en Bolivia" [level=4, ref=e19]
+- link " Mercado Virtual Conoce las ofertas de productos de los proveedores del Estado " [ref=e3]
+  - heading "Mercado Virtual" [level=4, ref=e20]
+- link " Convocatorias Búsqueda de Procesos de Contratación" [ref=e4]
+  - heading "Convocatorias" [level=4, ref=e21]
+- link " Subasta Electrónica Búsqueda de Procesos a través de Subasta Electrónica" [ref=e5]
+  - heading "Subasta Electrónica" [level=4, ref=e22]
+- link "Guía de proveedores Vea quienes son los proveedores inscritos" [ref=e6]
+  - heading "Guía de proveedores" [level=4, ref=e23]
+- link "Formularios Aquí encontrarás los formularios necesarios para interactuar con ..." [ref=e7]
+  - heading "Formularios" [level=4, ref=e24]
+- link "Decretos y Reglamentos Normas Básicas del Sistema de Administración de Bienes y Servicio ..." [ref=e8]
+  - heading "Decretos y Reglamentos" [level=4, ref=e25]
+- heading "Destino de Bienes" [level=6, ref=e9]
+- link "Destino de Bienes dados de baja Conoce los bienes publicados por las Entidades." [ref=e10]
+  - heading "Destino de Bienes" [level=4, ref=e26]
+  - heading "dados de baja" [level=4, ref=e27]
+- heading "Comunicados" [level=6, ref=e28]
+- generic "15/05/2026Mefp/vpcf/dgsgif/n°16/2026: suspensión del rupe y mercado virtualMefp/vpcf/dgsgif/n°16/202" [ref=e53] clickable [cursor:pointer]
+  - heading "Mefp/vpcf/dgsgif/n°16/2026: suspensión del rupe y mercado virtual..." [level=5, ref=e58]
+- generic "11/05/2026Mefp/vpcf/dgsgif/n° 15/2026: registro de depósitos bancariosMefp/vpcf/dgsgif/n° 15/2026: r" [ref=e54] clickable [cursor:pointer]
+  - heading "Mefp/vpcf/dgsgif/n° 15/2026: registro de depósitos bancarios..." [level=5, ref=e59]
+- generic "11/05/2026Mefp/vpcf/dgsgif/n° 14/2026: registro de depósitos bancariosMefp/vpcf/dgsgif/n° 14/2026: r" [ref=e55] clickable [cursor:pointer]
+  - heading "Mefp/vpcf/dgsgif/n° 14/2026: registro de depósitos bancarios..." [level=5, ref=e60]
+- generic "27/04/2026Mefp/vpcf/dgngp/n° 003/2026: taller virtual de capacitación decreto supremo n°5597 de ajus" [ref=e56] clickable [cursor:pointer]
+  - heading "Mefp/vpcf/dgngp/n° 003/2026: taller virtual de capacitación decreto supremo n°5597 de ajuste de precios de materiales..." [level=5, ref=e61]
+- link "Ver más »" [ref=e32]
+- heading "RUPE" [level=4, ref=e29]
+  - generic "RUPE" [ref=e33] clickable [cursor:pointer]
+  - generic [ref=e34] clickable [cursor:pointer]
+- heading "ENTIDADES" [level=4, ref=e30]
+  - generic "ENTIDADES" [ref=e35] clickable [cursor:pointer]
+  - generic [ref=e36] clickable [cursor:pointer]
+- link "BIBLIOTECA DIGITAL Material didáctico de consulta para los usuarios" [ref=e31]
+  - heading "BIBLIOTECA DIGITAL" [level=4, ref=e37]
+- heading "Contrataciones Vigentes" [level=3, ref=e11]
+- link "Bienes 1249" [ref=e12]
+- link "Obras 405" [ref=e13]
+- link "Servicios Generales 242" [ref=e14]
+- link "Servicios de Consultoría 159" [ref=e15]
+- button "×" [ref=e38]
+- heading "COMUNICADOS" [level=4, ref=e39]
+- heading "MEFP/VPCF/DGSGIF/N°16/2026: SUSPENSIÓN DEL RUPE Y MERCADO VIRTUAL" [level=4, ref=e50]
+- link "Ver Comunicado" [ref=e57]
+- heading "MEFP/VPCF/DGSGIF/N° 15/2026: REGISTRO DE DEPÓSITOS BANCARIOS" [level=4, ref=e51]
+- link "Ver Comunicado" [ref=e52]
+- link [ref=e40]
+- link [ref=e41]
+✓ Done
+✓ Done
+- generic
+  - navigation
+    - list
+      - listitem [level=1]
+        - link "Inicio" [ref=e42]
+      - listitem [level=1]
+        - generic [ref=e43] clickable [cursor:pointer]
+          - StaticText "Contrataciones"
+      - listitem [level=1]
+        - link "Destino de Bienes" [ref=e44]
+      - listitem [level=1]
+        - link "RUPE" [ref=e45]
+      - listitem [level=1]
+        - generic [ref=e46] clickable [cursor:pointer]
+          - StaticText "Normativa"
+      - listitem [level=1]
+        - generic [ref=e47] clickable [cursor:pointer]
+          - StaticText "Incumplidos"
+      - listitem [level=1]
+        - generic [ref=e48] clickable [cursor:pointer]
+          - StaticText "Clasificadores"
+      - listitem [level=1]
+        - generic [ref=e49] clickable [cursor:pointer]
+          - StaticText "Compro Hecho en Bolivia"
+  - navigation
+    - StaticText "SISTEMA DE CONTRATACIONES ESTATALES"
+    - generic
+      - link "i" [ref=e16]
+        - StaticText "i"
+      - link "" [ref=e17]
+        - StaticText ""
+  - generic
+    - heading "Contrataciones" [level=6, ref=e1]
+    - link " Mercado Virtual Compro Hecho en Bolivia Productos Hechos en Bolivia" [ref=e2]
+      - generic
+        - generic
+          - StaticText ""
+        - image
+      - heading "Mercado Virtual" [level=4, ref=e18]
+      - heading "Compro Hecho en Bolivia" [level=4, ref=e19]
+      - paragraph
+        - StaticText "Productos Hechos en Bolivia"
+    - link " Mercado Virtual Conoce las ofertas de productos de los proveedores del Estado " [ref=e3]
+      - StaticText ""
+      - heading "Mercado Virtual" [level=4, ref=e20]
+      - paragraph
+        - StaticText "Conoce las ofertas de productos de los proveedores del Estado"
+      - LineBreak "\n"
+    - link " Convocatorias Búsqueda de Procesos de Contratación" [ref=e4]
+      - StaticText ""
+      - heading "Convocatorias" [level=4, ref=e21]
+      - paragraph
+        - StaticText "Búsqueda de Procesos de Contratación"
+    - link " Subasta Electrónica Búsqueda de Procesos a través de Subasta Electrónica" [ref=e5]
+      - StaticText ""
+      - heading "Subasta Electrónica" [level=4, ref=e22]
+      - paragraph
+        - StaticText "Búsqueda de Procesos a través de Subasta Electrónica"
+    - link "Guía de proveedores Vea quienes son los proveedores inscritos" [ref=e6]
+      - heading "Guía de proveedores" [level=4, ref=e23]
+      - paragraph
+        - StaticText "Vea quienes son los proveedores inscritos"
+    - link "Formularios Aquí encontrarás los formularios necesarios para interactuar con ..." [ref=e7]
+      - heading "Formularios" [level=4, ref=e24]
+      - paragraph
+        - StaticText "Aquí encontrarás los formularios necesarios para interactuar con ..."
+    - link "Decretos y Reglamentos Normas Básicas del Sistema de Administración de Bienes y Servicio ..." [ref=e8]
+      - heading "Decretos y Reglamentos" [level=4, ref=e25]
+      - paragraph
+        - StaticText "Normas Básicas del Sistema de Administración de Bienes y Servicio ..."
+    - LineBreak "\n"
+    - heading "Destino de Bienes" [level=6, ref=e9]
+    - link "Destino de Bienes dados de baja Conoce los bienes publicados por las Entidades." [ref=e10]
+      - heading "Destino de Bienes" [level=4, ref=e26]
+      - heading "dados de baja" [level=4, ref=e27]
+      - paragraph
+        - StaticText "Conoce los bienes publicados por las Entidades."
+    - generic
+      - heading "Comunicados" [level=6, ref=e28]
+      - LayoutTable
+        - LayoutTableRow
+          - LayoutTableCell "15/05/2026 Mefp/vpcf/dgsgif/n°16/2026: suspensión del rupe y mercado virtual..."
+            - generic [ref=e53] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "15/05/2026"
+              - heading "Mefp/vpcf/dgsgif/n°16/2026: suspensión del rupe y mercado virtual..." [level=5, ref=e58]
+        - LayoutTableRow
+          - LayoutTableCell "11/05/2026 Mefp/vpcf/dgsgif/n° 15/2026: registro de depósitos bancarios..."
+            - generic [ref=e54] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "11/05/2026"
+              - heading "Mefp/vpcf/dgsgif/n° 15/2026: registro de depósitos bancarios..." [level=5, ref=e59]
+        - LayoutTableRow
+          - LayoutTableCell "11/05/2026 Mefp/vpcf/dgsgif/n° 14/2026: registro de depósitos bancarios..."
+            - generic [ref=e55] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "11/05/2026"
+              - heading "Mefp/vpcf/dgsgif/n° 14/2026: registro de depósitos bancarios..." [level=5, ref=e60]
+        - LayoutTableRow
+          - LayoutTableCell "27/04/2026 Mefp/vpcf/dgngp/n° 003/2026: taller virtual de capacitación decreto supremo n°5597 de ajuste de precios de materiales..."
+            - generic [ref=e56] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "27/04/2026"
+              - heading "Mefp/vpcf/dgngp/n° 003/2026: taller virtual de capacitación decreto supremo n°5597 de ajuste de precios de materiales..." [level=5, ref=e61]
+      - link "Ver más »" [ref=e32]
+  - generic
+    - StaticText ""
+    - heading "RUPE" [level=4, ref=e29]
+      - generic [ref=e33] clickable [cursor:pointer]
+        - StaticText "RUPE"
+      - generic [ref=e34] clickable [cursor:pointer]
+    - StaticText "Ingreso al Registro Único de Proveedores del Estado"
+    - StaticText ""
+    - heading "ENTIDADES" [level=4, ref=e30]
+      - generic [ref=e35] clickable [cursor:pointer]
+        - StaticText "ENTIDADES"
+      - generic [ref=e36] clickable [cursor:pointer]
+    - StaticText "Registro de Usuario para el Ingreso a Entidades"
+    - link "BIBLIOTECA DIGITAL Material didáctico de consulta para los usuarios" [ref=e31]
+      - heading "BIBLIOTECA DIGITAL" [level=4, ref=e37]
+        - generic
+          - StaticText "BIBLIOTECA"
+          - LineBreak "\n"
+          - StaticText "DIGITAL"
+      - StaticText "Material didáctico de consulta para los usuarios"
+    - heading "Contrataciones Vigentes" [level=3, ref=e11]
+    - link "Bienes 1249" [ref=e12]
+      - generic
+        - StaticText "Bienes"
+        - LineBreak "\n"
+        - StaticText "1249"
+    - link "Obras 405" [ref=e13]
+      - generic
+        - StaticText "Obras"
+        - LineBreak "\n"
+        - StaticText "405"
+    - link "Servicios Generales 242" [ref=e14]
+      - generic
+        - StaticText "Servicios Generales"
+        - LineBreak "\n"
+        - StaticText "242"
+    - link "Servicios de Consultoría 159" [ref=e15]
+      - generic
+        - StaticText "Servicios de Consultoría"
+        - LineBreak "\n"
+        - StaticText "159"
+  - generic
+    - button "×" [ref=e38]
+    - heading "COMUNICADOS" [level=4, ref=e39]
+      - StaticText "COMUNICADOS"
+    - image
+    - heading "MEFP/VPCF/DGSGIF/N°16/2026: SUSPENSIÓN DEL RUPE Y MERCADO VIRTUAL" [level=4, ref=e50]
+    - paragraph
+      - StaticText "La Dirección General de Sistemas de Gestión de Información Fiscal (DGSGIF) comunica a los usuarios que operan en el Sistema de Contrataciones Estatales (SICOES), Registro Único de Proveedores del Estado (RUPE) y el Mercado Virtual, que el servicio será suspendido el día 16 de mayo de 2026, a partir de las 08:00 a.m. hasta las 09:00 a.m., con el objeto de realizar actualizaciones para Registro de Productos en el Mercado Virtual y Registro de Propuestas Electrónicas."
+    - paragraph
+      - link "Ver Comunicado" [ref=e57]
+    - image
+    - heading "MEFP/VPCF/DGSGIF/N° 15/2026: REGISTRO DE DEPÓSITOS BANCARIOS" [level=4, ref=e51]
+    - paragraph
+      - StaticText "En el marco del inciso b) del numeral 13.2 del Manual de Operaciones del SICOES, aprobado mediante Resolución Ministerial N° 480 de 23 de octubre de 2023, la Dirección General de Sistemas de Gestión de Información Fiscal (DGSGIF), como administrador del sistema, comunica a sus usuarios que a partir de las 07:30 a las 10:39 horas del día 11 de mayo de 2026, se presentó una dificultad técnica, impidiendo el registro de depósitos por concepto de Garantía de Seriedad de Propuesta."
+    - paragraph
+      - StaticText "De acuerdo al numeral 14.1 del mismo manual “Cuando el periodo de inactividad afecte la presentación de propuestas/ofertas/propuestas de interés, la participación en la Subasta Electrónica o en la Subasta al Alza, las entidades públicas podrán realizar ampliaciones de plazo a través de la reprogramación las actividades afectadas, cuando el periodo de inactividad incluya la fecha y hora límite fijadas para los procesos señalados en el comunicado de inactividad. La ampliación deberá considerar únicamente el comunicado de inactividad publicado en el SICOES para respaldar la ampliación”."
+    - paragraph
+      - StaticText "De acuerdo con lo establecido en el inciso b) del numeral 26.1 del Manual de Operaciones del SICOES, el plazo máximo de registro es de tres (3) días hábiles computables a partir de la emisión del presente comunicado."
+    - paragraph
+      - StaticText "Se detallan los procesos de contratación posiblemente afectados en Anexo adjunto."
+    - paragraph
+      - StaticText "La Paz, 11 de mayo de 2026"
+    - link "Ver Comunicado" [ref=e52]
+  - generic
+    - paragraph
+      - StaticText ""
+      - strong
+        - StaticText "Dirección:"
+      - StaticText " Edif. Contraloría General del Estado, Piso 7, Calle Colón, esq. Indaburo, La Paz, Bolivia"
+    - paragraph
+      - StaticText ""
+      - strong
+        - StaticText "Línea Gratuita:"
+      - StaticText " 800-10-6337"
+    - paragraph
+      - StaticText ""
+      - strong
+        - StaticText " Teléfono:"
+      - StaticText " (591-2) 2177300"
+  - generic
+    - paragraph
+      - strong
+        - StaticText "HORARIOS DE ATENCIÓN"
+        - LineBreak "\n"
+        - StaticText "Lunes a Viernes"
+    - paragraph
+      - StaticText "De 8:30 a 16:30"
+  - generic
+    - paragraph
+      - strong
+        - StaticText "REDES SOCIALES"
+    - generic
+      - link [ref=e40]
+      - link [ref=e41]
+  - strong
+    - StaticText "SICOES 1.5.0.3.0.5"
+  - image "Portada Presidencia"
+✓ Done
+✓ Done
+✓ Done
+- generic
+  - navigation
+    - list
+      - listitem [level=1]
+        - link "Inicio" [ref=e42]
+      - listitem [level=1]
+        - generic [ref=e43] clickable [cursor:pointer]
+          - StaticText "Contrataciones"
+      - listitem [level=1]
+        - link "Destino de Bienes" [ref=e44]
+      - listitem [level=1]
+        - link "RUPE" [ref=e45]
+      - listitem [level=1]
+        - generic [ref=e46] clickable [cursor:pointer]
+          - StaticText "Normativa"
+      - listitem [level=1]
+        - generic [ref=e47] clickable [cursor:pointer]
+          - StaticText "Incumplidos"
+      - listitem [level=1]
+        - generic [ref=e48] clickable [cursor:pointer]
+          - StaticText "Clasificadores"
+      - listitem [level=1]
+        - generic [ref=e49] clickable [cursor:pointer]
+          - StaticText "Compro Hecho en Bolivia"
+  - navigation
+    - StaticText "SISTEMA DE CONTRATACIONES ESTATALES"
+    - generic
+      - link "i" [ref=e16]
+        - StaticText "i"
+      - link "" [ref=e17]
+        - StaticText ""
+  - generic
+    - heading "Contrataciones" [level=6, ref=e1]
+    - link " Mercado Virtual Compro Hecho en Bolivia Productos Hechos en Bolivia" [ref=e2]
+      - generic
+        - generic
+          - StaticText ""
+        - image
+      - heading "Mercado Virtual" [level=4, ref=e18]
+      - heading "Compro Hecho en Bolivia" [level=4, ref=e19]
+      - paragraph
+        - StaticText "Productos Hechos en Bolivia"
+    - link " Mercado Virtual Conoce las ofertas de productos de los proveedores del Estado " [ref=e3]
+      - StaticText ""
+      - heading "Mercado Virtual" [level=4, ref=e20]
+      - paragraph
+        - StaticText "Conoce las ofertas de productos de los proveedores del Estado"
+      - LineBreak "\n"
+    - link " Convocatorias Búsqueda de Procesos de Contratación" [ref=e4]
+      - StaticText ""
+      - heading "Convocatorias" [level=4, ref=e21]
+      - paragraph
+        - StaticText "Búsqueda de Procesos de Contratación"
+    - link " Subasta Electrónica Búsqueda de Procesos a través de Subasta Electrónica" [ref=e5]
+      - StaticText ""
+      - heading "Subasta Electrónica" [level=4, ref=e22]
+      - paragraph
+        - StaticText "Búsqueda de Procesos a través de Subasta Electrónica"
+    - link "Guía de proveedores Vea quienes son los proveedores inscritos" [ref=e6]
+      - heading "Guía de proveedores" [level=4, ref=e23]
+      - paragraph
+        - StaticText "Vea quienes son los proveedores inscritos"
+    - link "Formularios Aquí encontrarás los formularios necesarios para interactuar con ..." [ref=e7]
+      - heading "Formularios" [level=4, ref=e24]
+      - paragraph
+        - StaticText "Aquí encontrarás los formularios necesarios para interactuar con ..."
+    - link "Decretos y Reglamentos Normas Básicas del Sistema de Administración de Bienes y Servicio ..." [ref=e8]
+      - heading "Decretos y Reglamentos" [level=4, ref=e25]
+      - paragraph
+        - StaticText "Normas Básicas del Sistema de Administración de Bienes y Servicio ..."
+    - LineBreak "\n"
+    - heading "Destino de Bienes" [level=6, ref=e9]
+    - link "Destino de Bienes dados de baja Conoce los bienes publicados por las Entidades." [ref=e10]
+      - heading "Destino de Bienes" [level=4, ref=e26]
+      - heading "dados de baja" [level=4, ref=e27]
+      - paragraph
+        - StaticText "Conoce los bienes publicados por las Entidades."
+    - generic
+      - heading "Comunicados" [level=6, ref=e28]
+      - LayoutTable
+        - LayoutTableRow
+          - LayoutTableCell "15/05/2026 Mefp/vpcf/dgsgif/n°16/2026: suspensión del rupe y mercado virtual..."
+            - generic [ref=e53] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "15/05/2026"
+              - heading "Mefp/vpcf/dgsgif/n°16/2026: suspensión del rupe y mercado virtual..." [level=5, ref=e58]
+        - LayoutTableRow
+          - LayoutTableCell "11/05/2026 Mefp/vpcf/dgsgif/n° 15/2026: registro de depósitos bancarios..."
+            - generic [ref=e54] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "11/05/2026"
+              - heading "Mefp/vpcf/dgsgif/n° 15/2026: registro de depósitos bancarios..." [level=5, ref=e59]
+        - LayoutTableRow
+          - LayoutTableCell "11/05/2026 Mefp/vpcf/dgsgif/n° 14/2026: registro de depósitos bancarios..."
+            - generic [ref=e55] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "11/05/2026"
+              - heading "Mefp/vpcf/dgsgif/n° 14/2026: registro de depósitos bancarios..." [level=5, ref=e60]
+        - LayoutTableRow
+          - LayoutTableCell "27/04/2026 Mefp/vpcf/dgngp/n° 003/2026: taller virtual de capacitación decreto supremo n°5597 de ajuste de precios de materiales..."
+            - generic [ref=e56] clickable [cursor:pointer]
+              - paragraph
+                - StaticText "27/04/2026"
+              - heading "Mefp/vpcf/dgngp/n° 003/2026: taller virtual de capacitación decreto supremo n°5597 de ajuste de precios de materiales..." [level=5, ref=e61]
+      - link "Ver más »" [ref=e32]
+  - generic
+    - StaticText ""
+    - heading "RUPE" [level=4, ref=e29]
+      - generic [ref=e33] clickable [cursor:pointer]
+        - StaticText "RUPE"
+      - generic [ref=e34] clickable [cursor:pointer]
+    - StaticText "Ingreso al Registro Único de Proveedores del Estado"
+    - StaticText ""
+    - heading "ENTIDADES" [level=4, ref=e30]
+      - generic [ref=e35] clickable [cursor:pointer]
+        - StaticText "ENTIDADES"
+      - generic [ref=e36] clickable [cursor:pointer]
+    - StaticText "Registro de Usuario para el Ingreso a Entidades"
+    - link "BIBLIOTECA DIGITAL Material didáctico de consulta para los usuarios" [ref=e31]
+      - heading "BIBLIOTECA DIGITAL" [level=4, ref=e37]
+        - generic
+          - StaticText "BIBLIOTECA"
+          - LineBreak "\n"
+          - StaticText "DIGITAL"
+      - StaticText "Material didáctico de consulta para los usuarios"
+    - heading "Contrataciones Vigentes" [level=3, ref=e11]
+    - link "Bienes 1249" [ref=e12]
+      - generic
+        - StaticText "Bienes"
+        - LineBreak "\n"
+        - StaticText "1249"
+    - link "Obras 405" [ref=e13]
+      - generic
+        - StaticText "Obras"
+        - LineBreak "\n"
+        - StaticText "405"
+    - link "Servicios Generales 242" [ref=e14]
+      - generic
+        - StaticText "Servicios Generales"
+        - LineBreak "\n"
+        - StaticText "242"
+    - link "Servicios de Consultoría 159" [ref=e15]
+      - generic
+        - StaticText "Servicios de Consultoría"
+        - LineBreak "\n"
+        - StaticText "159"
+  - generic
+    - button "×" [ref=e38]
+    - heading "COMUNICADOS" [level=4, ref=e39]
+      - StaticText "COMUNICADOS"
+    - image
+    - heading "MEFP/VPCF/DGSGIF/N°16/2026: SUSPENSIÓN DEL RUPE Y MERCADO VIRTUAL" [level=4, ref=e50]
+    - paragraph
+      - StaticText "La Dirección General de Sistemas de Gestión de Información Fiscal (DGSGIF) comunica a los usuarios que operan en el Sistema de Contrataciones Estatales (SICOES), Registro Único de Proveedores del Estado (RUPE) y el Mercado Virtual, que el servicio será suspendido el día 16 de mayo de 2026, a partir de las 08:00 a.m. hasta las 09:00 a.m., con el objeto de realizar actualizaciones para Registro de Productos en el Mercado Virtual y Registro de Propuestas Electrónicas."
+    - paragraph
+      - link "Ver Comunicado" [ref=e57]
+    - image
+    - heading "MEFP/VPCF/DGSGIF/N° 15/2026: REGISTRO DE DEPÓSITOS BANCARIOS" [level=4, ref=e51]
+    - paragraph
+      - StaticText "En el marco del inciso b) del numeral 13.2 del Manual de Operaciones del SICOES, aprobado mediante Resolución Ministerial N° 480 de 23 de octubre de 2023, la Dirección General de Sistemas de Gestión de Información Fiscal (DGSGIF), como administrador del sistema, comunica a sus usuarios que a partir de las 07:30 a las 10:39 horas del día 11 de mayo de 2026, se presentó una dificultad técnica, impidiendo el registro de depósitos por concepto de Garantía de Seriedad de Propuesta."
+    - paragraph
+      - StaticText "De acuerdo al numeral 14.1 del mismo manual “Cuando el periodo de inactividad afecte la presentación de propuestas/ofertas/propuestas de interés, la participación en la Subasta Electrónica o en la Subasta al Alza, las entidades públicas podrán realizar ampliaciones de plazo a través de la reprogramación las actividades afectadas, cuando el periodo de inactividad incluya la fecha y hora límite fijadas para los procesos señalados en el comunicado de inactividad. La ampliación deberá considerar únicamente el comunicado de inactividad publicado en el SICOES para respaldar la ampliación”."
+    - paragraph
+      - StaticText "De acuerdo con lo establecido en el inciso b) del numeral 26.1 del Manual de Operaciones del SICOES, el plazo máximo de registro es de tres (3) días hábiles computables a partir de la emisión del presente comunicado."
+    - paragraph
+      - StaticText "Se detallan los procesos de contratación posiblemente afectados en Anexo adjunto."
+    - paragraph
+      - StaticText "La Paz, 11 de mayo de 2026"
+    - link "Ver Comunicado" [ref=e52]
+  - generic
+    - paragraph
+      - StaticText ""
+      - strong
+        - StaticText "Dirección:"
+      - StaticText " Edif. Contraloría General del Estado, Piso 7, Calle Colón, esq. Indaburo, La Paz, Bolivia"
+    - paragraph
+      - StaticText ""
+      - strong
+        - StaticText "Línea Gratuita:"
+      - StaticText " 800-10-6337"
+    - paragraph
+      - StaticText ""
+      - strong
+        - StaticText " Teléfono:"
+      - StaticText " (591-2) 2177300"
+  - generic
+    - paragraph
+      - strong
+        - StaticText "HORARIOS DE ATENCIÓN"
+        - LineBreak "\n"
+        - StaticText "Lunes a Viernes"
+    - paragraph
+      - StaticText "De 8:30 a 16:30"
+  - generic
+    - paragraph
+      - strong
+        - StaticText "REDES SOCIALES"
+    - generic
+      - link [ref=e40]
+      - link [ref=e41]
+  - strong
+    - StaticText "SICOES 1.5.0.3.0.5"
+  - image "Portada Presidencia"
+✓ Done
+- link "Inicio" [ref=e42]
+- generic "Contrataciones" [ref=e43] clickable [cursor:pointer]
+- link "Destino de Bienes" [ref=e44]
+- link "RUPE" [ref=e45]
+- generic "Normativa" [ref=e46] clickable [cursor:pointer]
+- generic "Incumplidos" [ref=e47] clickable [cursor:pointer]
+- generic "Clasificadores" [ref=e48] clickable [cursor:pointer]
+- generic "Compro Hecho en Bolivia" [ref=e49] clickable [cursor:pointer]
+- link "i" [ref=e16]
+- link "" [ref=e17]
+- heading "Contrataciones" [level=6, ref=e1]
+- link " Mercado Virtual Compro Hecho en Bolivia Productos Hechos en Bolivia" [ref=e2]
+  - heading "Mercado Virtual" [level=4, ref=e18]
+  - heading "Compro Hecho en Bolivia" [level=4, ref=e19]
+- link " Mercado Virtual Conoce las ofertas de productos de los proveedores del Estado " [ref=e3]
+  - heading "Mercado Virtual" [level=4, ref=e20]
+- link " Convocatorias Búsqueda de Procesos de Contratación" [ref=e4]
+  - heading "Convocatorias" [level=4, ref=e21]
+- link " Subasta Electrónica Búsqueda de Procesos a través de Subasta Electrónica" [ref=e5]
+  - heading "Subasta Electrónica" [level=4, ref=e22]
+- link "Guía de proveedores Vea quienes son los proveedores inscritos" [ref=e6]
+  - heading "Guía de proveedores" [level=4, ref=e23]
+- link "Formularios Aquí encontrarás los formularios necesarios para interactuar con ..." [ref=e7]
+  - heading "Formularios" [level=4, ref=e24]
+- link "Decretos y Reglamentos Normas Básicas del Sistema de Administración de Bienes y Servicio ..." [ref=e8]
+  - heading "Decretos y Reglamentos" [level=4, ref=e25]
+- heading "Destino de Bienes" [level=6, ref=e9]
+- link "Destino de Bienes dados de baja Conoce los bienes publicados por las Entidades." [ref=e10]
+  - heading "Destino de Bienes" [level=4, ref=e26]
+  - heading "dados de baja" [level=4, ref=e27]
+- heading "Comunicados" [level=6, ref=e28]
+- generic "15/05/2026Mefp/vpcf/dgsgif/n°16/2026: suspensión del rupe y mercado virtualMefp/vpcf/dgsgif/n°16/202" [ref=e53] clickable [cursor:pointer]
+  - heading "Mefp/vpcf/dgsgif/n°16/2026: suspensión del rupe y mercado virtual..." [level=5, ref=e58]
+- generic "11/05/2026Mefp/vpcf/dgsgif/n° 15/2026: registro de depósitos bancariosMefp/vpcf/dgsgif/n° 15/2026: r" [ref=e54] clickable [cursor:pointer]
+  - heading "Mefp/vpcf/dgsgif/n° 15/2026: registro de depósitos bancarios..." [level=5, ref=e59]
+- generic "11/05/2026Mefp/vpcf/dgsgif/n° 14/2026: registro de depósitos bancariosMefp/vpcf/dgsgif/n° 14/2026: r" [ref=e55] clickable [cursor:pointer]
+  - heading "Mefp/vpcf/dgsgif/n° 14/2026: registro de depósitos bancarios..." [level=5, ref=e60]
+- generic "27/04/2026Mefp/vpcf/dgngp/n° 003/2026: taller virtual de capacitación decreto supremo n°5597 de ajus" [ref=e56] clickable [cursor:pointer]
+  - heading "Mefp/vpcf/dgngp/n° 003/2026: taller virtual de capacitación decreto supremo n°5597 de ajuste de precios de materiales..." [level=5, ref=e61]
+- link "Ver más »" [ref=e32]
+- heading "RUPE" [level=4, ref=e29]
+  - generic "RUPE" [ref=e33] clickable [cursor:pointer]
+  - generic [ref=e34] clickable [cursor:pointer]
+- heading "ENTIDADES" [level=4, ref=e30]
+  - generic "ENTIDADES" [ref=e35] clickable [cursor:pointer]
+  - generic [ref=e36] clickable [cursor:pointer]
+- link "BIBLIOTECA DIGITAL Material didáctico de consulta para los usuarios" [ref=e31]
+  - heading "BIBLIOTECA DIGITAL" [level=4, ref=e37]
+- heading "Contrataciones Vigentes" [level=3, ref=e11]
+- link "Bienes 1249" [ref=e12]
+- link "Obras 405" [ref=e13]
+- link "Servicios Generales 242" [ref=e14]
+- link "Servicios de Consultoría 159" [ref=e15]
+- button "×" [ref=e38]
+- heading "COMUNICADOS" [level=4, ref=e39]
+- heading "MEFP/VPCF/DGSGIF/N°16/2026: SUSPENSIÓN DEL RUPE Y MERCADO VIRTUAL" [level=4, ref=e50]
+- link "Ver Comunicado" [ref=e57]
+- heading "MEFP/VPCF/DGSGIF/N° 15/2026: REGISTRO DE DEPÓSITOS BANCARIOS" [level=4, ref=e51]
+- link "Ver Comunicado" [ref=e52]
+- link [ref=e40]
+- link [ref=e41]
+✓ Done

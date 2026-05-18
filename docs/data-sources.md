@@ -81,9 +81,61 @@ Al crear un contacto desde Apollo:
 
 **Qué es:** Sistema de Contrataciones del Estado de Bolivia. Publica convocatorias, adjudicaciones y contratos de entidades públicas.
 
-**Estado actual:** Integración planificada (`src/infrastructure/sicoes/`). La señal `sicoes_participation` se activa manualmente o mediante scraping futuro.
+**Estado actual:** ✅ Implementado. El scraper consulta contratos resueltos y activa automáticamente la señal `sicoes_participation` en `CompanyService.sync_from_apollo()`.
 
-**Información relevante a extraer:**
+**Cliente implementado:** `src/infrastructure/sicoes/scraper.py`
+
+### Mecanismo de autenticación
+
+SICOES **no requiere CAPTCHA** para la búsqueda pública (el captcha solo aplica al login de proveedores/entidades). Sí requiere un flujo de 3 pasos para obtener el token correcto:
+
+```
+1. GET /portal/index.php
+   → extrae #token del HTML
+
+2. GET /portal/contrataciones/contResueltos.php?token=<token_index>
+   → extrae un NUEVO token del formulario de búsqueda
+     (el token cambia entre páginas — token_index ≠ token_busqueda)
+
+3. POST /portal/contrataciones/operacion.php
+   → body: operacion=contResueltos&empresa=<nombre>&r1=&token=<token_busqueda>
+   → respuesta: JSON DataTable { recordsTotal, recordsFiltered, data }
+```
+
+Si el token es incorrecto, el servidor devuelve HTML en lugar de JSON.
+
+### Método principal
+
+```python
+scraper = SicoesScraper()
+result = await scraper.check_company_participation("Empresa S.R.L.")
+# True si recordsFiltered > 0, False si no hay resultados
+```
+
+### Normalización de nombres
+
+Antes de buscar, `_normalize_name()` elimina sufijos legales comunes para mejorar el match:
+
+- S.R.L., S.A., S.A.M., S.C.R.L., E.I.R.L., S.A.S., LTDA.
+
+> **Gotcha:** El regex `\b(S\.R\.L\.)\b` falla porque `\b` después de punto no funciona correctamente.
+> La solución es anclar al final: `\s+(S\.R\.L\.|...)\s*$`
+
+### Integración con CompanyService
+
+```python
+# Se llama automáticamente por cada empresa nueva en sync_from_apollo()
+await company_service.enrich_sicoes(company_id)
+# Actualiza company.sicoes_participation = True/False
+```
+
+### Script de sync masivo
+
+`scripts/sync_sicoes.py` — corre sobre todas las empresas existentes en DB con delay de 1s entre requests para evitar sobrecarga al servidor. Hace `commit()` por empresa (no al final) para que un error a mitad del proceso no descarte el trabajo anterior.
+
+### Información relevante extraída
+
+Actualmente solo se verifica **presencia** (booleano). A futuro se puede extraer:
 - Nombre de la empresa adjudicataria
 - Monto del contrato
 - Tipo de bien/servicio

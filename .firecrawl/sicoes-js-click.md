@@ -1,0 +1,1 @@
+I am unable to complete the task because the browser automation service is currently unavailable. I am receiving "Failed to reach exec server" errors, which prevents me from interacting with the browser.

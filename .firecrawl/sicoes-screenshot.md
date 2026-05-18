@@ -1,0 +1,1 @@
+I have taken a screenshot of the current page.

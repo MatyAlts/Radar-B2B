@@ -26,7 +26,7 @@ src/
 │   │   └── session.py   ← AsyncSession factory
 │   ├── apollo/          ← Cliente HTTP para Apollo.io
 │   │   └── client.py
-│   ├── sicoes/          ← Integración SICOES (en desarrollo)
+│   ├── sicoes/          ← Scraper SICOES (scraper.py — check_company_participation)
 │   └── ai/              ← Cliente Gemini para justificaciones
 │       └── gemini_client.py
 │
